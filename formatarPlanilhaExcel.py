@@ -1332,7 +1332,32 @@ def formatarPlanilhaPagamentos(empresa):
     infoLogs().info("ETAPA FORMATAR PLANILHA PAGAMENTOS CAR PG - FINALIZADA")
 
 
+def formatar_datas_notas(empresa):
+    
+    caminho_arquivo = rf'{CAMINHO_DESTINO}\planilha_principal_{empresa}.xlsx'  # Substitua pelo caminho do seu arquivo
+    wb = load_workbook(caminho_arquivo)
+    ws = wb.active  # Seleciona a planilha ativa
 
+
+
+    # Definir um estilo para datas abreviadas
+    data_style = NamedStyle(name="data_abreviada", number_format="DD/MM/YY")
+
+
+    # Iterar por todas as abas na pasta
+    for ws in wb.worksheets:
+        # Aplicar o estilo às colunas específicas (exemplo: A e B)
+        for row in ws.iter_rows(min_row=2, max_row=ws.max_row, min_col=1, max_col=3):  # Colunas A e B
+            for cell in row:
+                cell.style = data_style
+                
+        # Aplicar o formato "Geral" à coluna C
+        for row in ws.iter_rows(min_row=2, max_row=ws.max_row, min_col=5, max_col=5):  # Apenas a coluna C
+            for cell in row:
+                cell.number_format = "General"  # Define o formato como Geral
+
+    # Salvar as alterações
+    wb.save(caminho_arquivo)
 
 
 
@@ -1590,6 +1615,8 @@ def formatacao_planilha_final():
         # reordenar_credito_debito(empresa)
 
         separar_datas(empresa)
+        
+        formatar_datas_notas(empresa)
 
         formatacaoFinal(empresa)
         
@@ -1597,4 +1624,3 @@ def formatacao_planilha_final():
 
 
 
-formatacao_planilha_final()
