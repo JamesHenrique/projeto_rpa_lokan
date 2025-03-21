@@ -1,0 +1,1062 @@
+[10:01:48] - 06-01-2025 - INFO - ETAPA LOGIN INICIADA
+[10:02:04] - 06-01-2025 - INFO - ETAPA LOGIN FINALIZADA
+[10:03:24] - 06-01-2025 - INFO - ETAPA LOGIN INICIADA
+[10:03:37] - 06-01-2025 - INFO - ETAPA LOGIN FINALIZADA
+[10:34:52] - 06-01-2025 - INFO - ETAPA LOGIN INICIADA
+[10:35:05] - 06-01-2025 - INFO - ETAPA LOGIN FINALIZADA
+[10:37:43] - 06-01-2025 - INFO - ETAPA LOGIN INICIADA
+[10:37:56] - 06-01-2025 - INFO - ETAPA LOGIN FINALIZADA
+[10:42:39] - 06-01-2025 - INFO - ETAPA LOGIN INICIADA
+[10:42:55] - 06-01-2025 - INFO - ETAPA LOGIN FINALIZADA
+[10:48:53] - 06-01-2025 - INFO - ETAPA LOGIN INICIADA
+[10:49:06] - 06-01-2025 - INFO - ETAPA LOGIN FINALIZADA
+[10:49:16] - 06-01-2025 - INFO - ETAPA GERAR RELATORIO FATURAMENTO - INICIADA
+[10:49:27] - 06-01-2025 - INFO - Numero da empresa consultada - 1
+[10:49:48] - 06-01-2025 - INFO - Pesquisar Relatorio de Faturamento Geral
+[10:49:54] - 06-01-2025 - INFO - Filtro para buscar notas de debito
+[10:50:08] - 06-01-2025 - INFO - Gerando o relatorio Faturamento Geral
+[10:50:47] - 06-01-2025 - INFO - ETAPA GERAR RELATORIO FATURAMENTO lokan - FINALIZADA
+[10:50:47] - 06-01-2025 - INFO - ETAPA FORMATAR PLANILHA NOTAS DEBITOS lokan- INICIADA
+[10:51:02] - 06-01-2025 - INFO - ETAPA GERAR RELATORIO NOTAS DEBITOS CANCELADAS lokan - INICIADA
+[10:51:05] - 06-01-2025 - INFO - Pesquisar Relatorio de NOTAS DEBITOS CANCELADAS
+[10:51:10] - 06-01-2025 - INFO - empresa em  notas canceladas lokan - 14
+[10:51:48] - 06-01-2025 - INFO - ETAPA GERAR RELATORIO NOTAS DEBITOS CANCELADAS  lokan - FINALIZADA
+[10:52:03] - 06-01-2025 - INFO - ETAPA GERAR RELATORIO CAP LOKAN  lokan - INICIADA
+[10:52:53] - 06-01-2025 - INFO - ETAPA GERAR RELATORIO CAP LOKAN lokan - FINALIZADA
+[10:52:53] - 06-01-2025 - INFO - ETAPA GERAR RELATORIO CAP EM ABERTO LOKAN lokan - INICIADA
+[10:53:41] - 06-01-2025 - INFO - ETAPA GERAR RELATORIO CAP LOKAN lokan - FINALIZADA
+[10:53:56] - 06-01-2025 - INFO - ETAPA GERAR RELATORIO CAR PG lokan - INICIADA
+[10:55:29] - 06-01-2025 - INFO - ETAPA GERAR RELATORIO CAR PG lokan- FINALIZADA
+[10:55:46] - 06-01-2025 - INFO - Numero da empresa consultada - 3
+[10:56:07] - 06-01-2025 - INFO - Pesquisar Relatorio de Faturamento Geral
+[10:56:13] - 06-01-2025 - INFO - Filtro para buscar notas de debito
+[10:56:27] - 06-01-2025 - INFO - Gerando o relatorio Faturamento Geral
+[10:57:05] - 06-01-2025 - INFO - ETAPA GERAR RELATORIO FATURAMENTO lokanfacil - FINALIZADA
+[10:57:05] - 06-01-2025 - INFO - ETAPA FORMATAR PLANILHA NOTAS DEBITOS lokanfacil- INICIADA
+[10:57:21] - 06-01-2025 - INFO - ETAPA GERAR RELATORIO NOTAS DEBITOS CANCELADAS lokanfacil - INICIADA
+[10:57:24] - 06-01-2025 - INFO - Pesquisar Relatorio de NOTAS DEBITOS CANCELADAS
+[10:57:28] - 06-01-2025 - INFO - empresa em  notas canceladas lokanfacil - 30
+[10:58:06] - 06-01-2025 - INFO - ETAPA GERAR RELATORIO NOTAS DEBITOS CANCELADAS  lokanfacil - FINALIZADA
+[10:58:22] - 06-01-2025 - INFO - ETAPA GERAR RELATORIO CAP LOKAN  lokanfacil - INICIADA
+[10:58:51] - 06-01-2025 - INFO - ETAPA GERAR RELATORIO CAP LOKAN lokanfacil - FINALIZADA
+[10:58:51] - 06-01-2025 - INFO - ETAPA GERAR RELATORIO CAP EM ABERTO LOKAN lokanfacil - INICIADA
+[10:59:44] - 06-01-2025 - INFO - ETAPA GERAR RELATORIO CAP LOKAN lokanfacil - FINALIZADA
+[10:59:59] - 06-01-2025 - INFO - ETAPA GERAR RELATORIO CAR PG lokanfacil - INICIADA
+[11:01:31] - 06-01-2025 - INFO - ETAPA GERAR RELATORIO CAR PG lokanfacil- FINALIZADA
+[11:01:52] - 06-01-2025 - INFO - planilha pagamentos formatada com sucesso | lokan
+[11:01:52] - 06-01-2025 - INFO - ETAPA FORMATAR PLANILHA PAGAMENTOS CAR PG - FINALIZADA
+[11:01:53] - 06-01-2025 - INFO - Planilha notas créditos formatada e salva com sucesso | lokan
+[11:01:53] - 06-01-2025 - INFO - ETAPA FORMATAR PLANILHA NOTAS DEBITOS - INICIADA
+[11:01:53] - 06-01-2025 - INFO - Planilha notas débitos formatada e ordenada com sucesso | lokan
+[11:01:53] - 06-01-2025 - INFO - ETAPA FORMATAR PLANILHA NOTAS DEBITOS - FINALIZADA
+[11:01:53] - 06-01-2025 - INFO - ETAPA FORMATAR PLANILHA NOTAS DEBITOS CANCELADAS - INICIADA
+[11:01:53] - 06-01-2025 - INFO - Planilha notas_canceladas_formatada | lokan
+[11:01:53] - 06-01-2025 - INFO - ETAPA FORMATAR PLANILHA NOTAS DEBITOS CANCELADAS - FINALIZADA
+[11:01:53] - 06-01-2025 - INFO - Planilha notas créditos formatada e ordenada com sucesso | lokan
+[11:01:53] - 06-01-2025 - INFO - ETAPA FORMATAR PLANILHA NOTAS CRÉDITOS EM ABERTO - FINALIZADA
+[11:01:53] - 06-01-2025 - INFO - ETAPA LIMPAR BOLETOS E EXCLUIR CABEÇALHOS - INICIADA | lokan
+[11:01:54] - 06-01-2025 - INFO - ETAPA LIMPAR BOLETOS E EXCLUIR CABEÇALHOS - FINALIZADA | lokan
+[11:01:54] - 06-01-2025 - INFO - Processo concluído! Dados copiados de notas_debitos para planilha_principal_lokan | lokan
+[11:01:55] - 06-01-2025 - INFO - Processo concluído! Dados copiados de notas_creditos_em_aberto para lokan.
+[11:01:56] - 06-01-2025 - INFO - Processo concluído! Dados copiados de notas_canceladas para lokan.
+[11:01:56] - 06-01-2025 - INFO - ETAPA DE ORDENAÇÃO DAS ABAS PELA COLUNA VENCTO - INICIADA
+[11:01:57] - 06-01-2025 - INFO - ETAPA DE ORDENAÇÃO DAS ABAS PELA COLUNA VENCTO PARA EMPRESA lokan- FINALIZADA COM SUCESSO
+[11:01:58] - 06-01-2025 - INFO - Planilha empresa lokan ordenada CREDITO e DEBITO
+[11:01:58] - 06-01-2025 - INFO - ETAPA VERIFICAR STATUS PG NA PLANILHA PRINCIPAL - INICIADA
+[11:02:00] - 06-01-2025 - INFO - Valores de PG, CREDITO e RECBO atualizados com sucesso em todas as abas | lokan
+[11:02:00] - 06-01-2025 - INFO - ETAPA VERIFICAR STATUS PG NA PLANILHA PRINCIPAL - FINALIZADA
+[11:02:00] - 06-01-2025 - INFO - ETAPA VERIFICAR STATUS PG NA PLANILHA PRINCIPAL NOTAS CREDITOS - INICIADA
+[11:02:02] - 06-01-2025 - INFO - Valores de PG, CREDITO e RECBO atualizados com sucesso em todas as abas | lokan
+[11:02:02] - 06-01-2025 - INFO - ETAPA VERIFICAR STATUS PG NA PLANILHA PRINCIPAL NOTAS CREDITOS - FINALIZADA
+[11:02:03] - 06-01-2025 - INFO - ETAPA FORMATAÇÃO FINAL - INICIADA
+[11:02:07] - 06-01-2025 - INFO - ETAPA FORMATAÇÃO FINAL - FINALIZADA
+[11:02:07] - 06-01-2025 - INFO - planilha pagamentos formatada com sucesso | lokanfacil
+[11:02:07] - 06-01-2025 - INFO - ETAPA FORMATAR PLANILHA PAGAMENTOS CAR PG - FINALIZADA
+[11:02:07] - 06-01-2025 - ERROR - Erro ao processar empresa: lokanfacil a planilha notas créditos pagos para formatação: 
+[Errno 2] No such file or directory: 'C:\\Users\\lokan\\OneDrive\\Documentos\\projeto_auto_Lokan -V2\\app\\Planilhas\\Notas_creditos\\notas_creditos_23-12-2024_31-12-2024_lokanfacil.xls'
+[11:02:07] - 06-01-2025 - INFO - ETAPA FORMATAR PLANILHA NOTAS DEBITOS - INICIADA
+[11:02:07] - 06-01-2025 - INFO - Planilha notas débitos formatada e ordenada com sucesso | lokanfacil
+[11:02:07] - 06-01-2025 - INFO - ETAPA FORMATAR PLANILHA NOTAS DEBITOS - FINALIZADA
+[11:02:07] - 06-01-2025 - INFO - ETAPA FORMATAR PLANILHA NOTAS DEBITOS CANCELADAS - INICIADA
+[11:02:07] - 06-01-2025 - INFO - Planilha notas_canceladas_formatada | lokanfacil
+[11:02:07] - 06-01-2025 - INFO - ETAPA FORMATAR PLANILHA NOTAS DEBITOS CANCELADAS - FINALIZADA
+[11:02:07] - 06-01-2025 - INFO - Planilha notas créditos formatada e ordenada com sucesso | lokanfacil
+[11:02:07] - 06-01-2025 - INFO - ETAPA FORMATAR PLANILHA NOTAS CRÉDITOS EM ABERTO - FINALIZADA
+[11:02:07] - 06-01-2025 - INFO - ETAPA LIMPAR BOLETOS E EXCLUIR CABEÇALHOS - INICIADA | lokanfacil
+[11:02:07] - 06-01-2025 - INFO - ETAPA LIMPAR BOLETOS E EXCLUIR CABEÇALHOS - FINALIZADA | lokanfacil
+[11:02:07] - 06-01-2025 - INFO - Processo concluído! Dados copiados de notas_debitos para planilha_principal_lokan | lokanfacil
+[11:02:07] - 06-01-2025 - INFO - Processo concluído! Dados copiados de notas_creditos_em_aberto para lokanfacil.
+[11:02:07] - 06-01-2025 - INFO - Processo concluído! Dados copiados de notas_canceladas para lokanfacil.
+[11:02:07] - 06-01-2025 - INFO - ETAPA DE ORDENAÇÃO DAS ABAS PELA COLUNA VENCTO - INICIADA
+[11:02:08] - 06-01-2025 - INFO - ETAPA DE ORDENAÇÃO DAS ABAS PELA COLUNA VENCTO PARA EMPRESA lokanfacil- FINALIZADA COM SUCESSO
+[11:02:08] - 06-01-2025 - INFO - Planilha empresa lokanfacil ordenada CREDITO e DEBITO
+[11:02:08] - 06-01-2025 - INFO - ETAPA VERIFICAR STATUS PG NA PLANILHA PRINCIPAL - INICIADA
+[11:02:08] - 06-01-2025 - INFO - Valores de PG, CREDITO e RECBO atualizados com sucesso em todas as abas | lokanfacil
+[11:02:08] - 06-01-2025 - INFO - ETAPA VERIFICAR STATUS PG NA PLANILHA PRINCIPAL - FINALIZADA
+[11:02:08] - 06-01-2025 - INFO - ETAPA VERIFICAR STATUS PG NA PLANILHA PRINCIPAL NOTAS CREDITOS - INICIADA
+[11:02:08] - 06-01-2025 - ERROR - Erro ao processar a planilha pagamentos_creditos na data ('23-12-2024', '31-12-2024') para empresa lokanfacil: 
+[Errno 2] No such file or directory: 'C:\\Users\\lokan\\OneDrive\\Documentos\\projeto_auto_Lokan -V2\\app\\Planilhas\\Notas_creditos/notas_creditos_23-12-2024_31-12-2024_pagos_lokanfacil.xlsx'
+[11:02:08] - 06-01-2025 - INFO - ETAPA VERIFICAR STATUS PG NA PLANILHA PRINCIPAL NOTAS CREDITOS - FINALIZADA
+[11:02:08] - 06-01-2025 - INFO - ETAPA FORMATAÇÃO FINAL - INICIADA
+[11:02:08] - 06-01-2025 - INFO - ETAPA FORMATAÇÃO FINAL - FINALIZADA
+[11:02:56] - 06-01-2025 - INFO - ETAPA LOGIN INICIADA
+[11:03:09] - 06-01-2025 - INFO - ETAPA LOGIN FINALIZADA
+[11:03:19] - 06-01-2025 - INFO - ETAPA GERAR RELATORIO FATURAMENTO - INICIADA
+[11:03:30] - 06-01-2025 - INFO - Numero da empresa consultada - 1
+[11:03:51] - 06-01-2025 - INFO - Pesquisar Relatorio de Faturamento Geral
+[11:03:57] - 06-01-2025 - INFO - Filtro para buscar notas de debito
+[11:04:11] - 06-01-2025 - INFO - Gerando o relatorio Faturamento Geral
+[11:04:25] - 06-01-2025 - INFO - ETAPA GERAR RELATORIO FATURAMENTO lokan- FINALIZADA
+[11:04:25] - 06-01-2025 - INFO - ETAPA GERAR RELATORIO NOTAS DEBITOS CANCELADAS lokan - INICIADA
+[11:04:28] - 06-01-2025 - INFO - Pesquisar Relatorio de NOTAS DEBITOS CANCELADAS
+[11:04:33] - 06-01-2025 - INFO - empresa em  notas canceladas lokan - 14
+[11:05:10] - 06-01-2025 - INFO - ETAPA GERAR RELATORIO NOTAS DEBITOS CANCELADAS  lokan - FINALIZADA
+[11:05:26] - 06-01-2025 - INFO - ETAPA GERAR RELATORIO CAP LOKAN  lokan - INICIADA
+[11:06:18] - 06-01-2025 - INFO - ETAPA GERAR RELATORIO CAP LOKAN lokan - FINALIZADA
+[11:06:18] - 06-01-2025 - INFO - ETAPA GERAR RELATORIO CAP EM ABERTO LOKAN lokan - INICIADA
+[11:07:05] - 06-01-2025 - INFO - ETAPA GERAR RELATORIO CAP LOKAN lokan - FINALIZADA
+[11:07:20] - 06-01-2025 - INFO - ETAPA GERAR RELATORIO CAR PG lokan - INICIADA
+[11:08:18] - 06-01-2025 - INFO - ETAPA GERAR RELATORIO CAR PG lokan- FINALIZADA
+[11:08:35] - 06-01-2025 - INFO - Numero da empresa consultada - 3
+[11:08:56] - 06-01-2025 - INFO - Pesquisar Relatorio de Faturamento Geral
+[11:09:02] - 06-01-2025 - INFO - Filtro para buscar notas de debito
+[11:09:16] - 06-01-2025 - INFO - Gerando o relatorio Faturamento Geral
+[11:09:33] - 06-01-2025 - INFO - ETAPA GERAR RELATORIO FATURAMENTO lokanfacil- FINALIZADA
+[11:09:33] - 06-01-2025 - INFO - ETAPA GERAR RELATORIO NOTAS DEBITOS CANCELADAS lokanfacil - INICIADA
+[11:09:36] - 06-01-2025 - INFO - Pesquisar Relatorio de NOTAS DEBITOS CANCELADAS
+[11:09:41] - 06-01-2025 - INFO - empresa em  notas canceladas lokanfacil - 30
+[11:10:18] - 06-01-2025 - INFO - ETAPA GERAR RELATORIO NOTAS DEBITOS CANCELADAS  lokanfacil - FINALIZADA
+[11:10:34] - 06-01-2025 - INFO - ETAPA GERAR RELATORIO CAP LOKAN  lokanfacil - INICIADA
+[11:11:20] - 06-01-2025 - INFO - ETAPA GERAR RELATORIO CAP LOKAN lokanfacil - FINALIZADA
+[11:11:20] - 06-01-2025 - INFO - ETAPA GERAR RELATORIO CAP EM ABERTO LOKAN lokanfacil - INICIADA
+[11:12:07] - 06-01-2025 - INFO - ETAPA GERAR RELATORIO CAP LOKAN lokanfacil - FINALIZADA
+[11:12:22] - 06-01-2025 - INFO - ETAPA GERAR RELATORIO CAR PG lokanfacil - INICIADA
+[11:13:50] - 06-01-2025 - INFO - ETAPA GERAR RELATORIO CAR PG lokanfacil- FINALIZADA
+[11:14:12] - 06-01-2025 - INFO - planilha pagamentos formatada com sucesso | lokan
+[11:14:12] - 06-01-2025 - INFO - ETAPA FORMATAR PLANILHA PAGAMENTOS CAR PG - FINALIZADA
+[11:14:12] - 06-01-2025 - INFO - Planilha notas créditos formatada e salva com sucesso | lokan
+[11:14:12] - 06-01-2025 - INFO - ETAPA FORMATAR PLANILHA NOTAS DEBITOS - INICIADA
+[11:14:12] - 06-01-2025 - INFO - Erro ao processar arquivo empresa lokan notas débitos para formataçaõ: 
+[Errno 2] No such file or directory: 'C:\\Users\\lokan\\OneDrive\\Documentos\\projeto_auto_Lokan -V2\\app\\Planilhas\\Notas_debitos\\notas_debitos_01-01-2025_06-01-2025_lokan.xls'
+[11:14:12] - 06-01-2025 - INFO - ETAPA FORMATAR PLANILHA NOTAS DEBITOS - FINALIZADA
+[11:14:12] - 06-01-2025 - INFO - ETAPA FORMATAR PLANILHA NOTAS DEBITOS CANCELADAS - INICIADA
+[11:14:12] - 06-01-2025 - INFO - Planilha notas_canceladas_formatada | lokan
+[11:14:12] - 06-01-2025 - INFO - ETAPA FORMATAR PLANILHA NOTAS DEBITOS CANCELADAS - FINALIZADA
+[11:14:12] - 06-01-2025 - INFO - Planilha notas créditos formatada e ordenada com sucesso | lokan
+[11:14:12] - 06-01-2025 - INFO - ETAPA FORMATAR PLANILHA NOTAS CRÉDITOS EM ABERTO - FINALIZADA
+[11:14:12] - 06-01-2025 - INFO - ETAPA LIMPAR BOLETOS E EXCLUIR CABEÇALHOS - INICIADA | lokan
+[11:14:13] - 06-01-2025 - INFO - ETAPA LIMPAR BOLETOS E EXCLUIR CABEÇALHOS - FINALIZADA | lokan
+[11:14:13] - 06-01-2025 - INFO - Não existem planilha notas_debitos da empresa lokan para o periodo informado - 
+[Errno 2] No such file or directory: 'C:\\Users\\lokan\\OneDrive\\Documentos\\projeto_auto_Lokan -V2\\app\\Planilhas\\Notas_debitos\\notas_debitos_01-01-2025_06-01-2025_lokan.xlsx'
+[11:14:14] - 06-01-2025 - INFO - Processo concluído! Dados copiados de notas_creditos_em_aberto para lokan.
+[11:14:14] - 06-01-2025 - INFO - Processo concluído! Dados copiados de notas_canceladas para lokan.
+[11:14:14] - 06-01-2025 - INFO - ETAPA DE ORDENAÇÃO DAS ABAS PELA COLUNA VENCTO - INICIADA
+[11:14:16] - 06-01-2025 - INFO - ETAPA DE ORDENAÇÃO DAS ABAS PELA COLUNA VENCTO PARA EMPRESA lokan- FINALIZADA COM SUCESSO
+[11:14:17] - 06-01-2025 - INFO - Planilha empresa lokan ordenada CREDITO e DEBITO
+[11:14:18] - 06-01-2025 - INFO - ETAPA VERIFICAR STATUS PG NA PLANILHA PRINCIPAL - INICIADA
+[11:14:20] - 06-01-2025 - INFO - Valores de PG, CREDITO e RECBO atualizados com sucesso em todas as abas | lokan
+[11:14:20] - 06-01-2025 - INFO - ETAPA VERIFICAR STATUS PG NA PLANILHA PRINCIPAL - FINALIZADA
+[11:14:20] - 06-01-2025 - INFO - ETAPA VERIFICAR STATUS PG NA PLANILHA PRINCIPAL NOTAS CREDITOS - INICIADA
+[11:14:21] - 06-01-2025 - INFO - Valores de PG, CREDITO e RECBO atualizados com sucesso em todas as abas | lokan
+[11:14:21] - 06-01-2025 - INFO - ETAPA VERIFICAR STATUS PG NA PLANILHA PRINCIPAL NOTAS CREDITOS - FINALIZADA
+[11:14:23] - 06-01-2025 - INFO - ETAPA FORMATAÇÃO FINAL - INICIADA
+[11:14:27] - 06-01-2025 - INFO - ETAPA FORMATAÇÃO FINAL - FINALIZADA
+[11:14:27] - 06-01-2025 - INFO - planilha pagamentos formatada com sucesso | lokanfacil
+[11:14:27] - 06-01-2025 - INFO - ETAPA FORMATAR PLANILHA PAGAMENTOS CAR PG - FINALIZADA
+[11:14:27] - 06-01-2025 - INFO - Planilha notas créditos formatada e salva com sucesso | lokanfacil
+[11:14:27] - 06-01-2025 - INFO - ETAPA FORMATAR PLANILHA NOTAS DEBITOS - INICIADA
+[11:14:27] - 06-01-2025 - INFO - Erro ao processar arquivo empresa lokanfacil notas débitos para formataçaõ: 
+[Errno 2] No such file or directory: 'C:\\Users\\lokan\\OneDrive\\Documentos\\projeto_auto_Lokan -V2\\app\\Planilhas\\Notas_debitos\\notas_debitos_01-01-2025_06-01-2025_lokanfacil.xls'
+[11:14:27] - 06-01-2025 - INFO - ETAPA FORMATAR PLANILHA NOTAS DEBITOS - FINALIZADA
+[11:14:27] - 06-01-2025 - INFO - ETAPA FORMATAR PLANILHA NOTAS DEBITOS CANCELADAS - INICIADA
+[11:14:27] - 06-01-2025 - ERROR - Erro ao tentar na empresa lokanfacil salvar planilha notas debitos canceladas para formatação: 
+Usecols do not match columns, columns expected but not found: ['Motivo', 'Emissão', 'Série/Número', 'Cancelamento', 'Destinatário / Remetente'] (sheet: 0)
+[11:14:27] - 06-01-2025 - INFO - ETAPA FORMATAR PLANILHA NOTAS DEBITOS CANCELADAS - FINALIZADA
+[11:14:27] - 06-01-2025 - INFO - Nao existem planilha notas_credito_aberto para empresa lokanfacil
+[11:14:27] - 06-01-2025 - INFO - Erro ao processar arquivo empresa lokanfacil notas créditos em aberto para formatação: 
+cannot access local variable 'df' where it is not associated with a value
+[11:14:27] - 06-01-2025 - INFO - ETAPA LIMPAR BOLETOS E EXCLUIR CABEÇALHOS - INICIADA | lokanfacil
+[11:14:27] - 06-01-2025 - INFO - ETAPA LIMPAR BOLETOS E EXCLUIR CABEÇALHOS - FINALIZADA | lokanfacil
+[11:14:27] - 06-01-2025 - INFO - Não existem planilha notas_debitos da empresa lokanfacil para o periodo informado - 
+[Errno 2] No such file or directory: 'C:\\Users\\lokan\\OneDrive\\Documentos\\projeto_auto_Lokan -V2\\app\\Planilhas\\Notas_debitos\\notas_debitos_01-01-2025_06-01-2025_lokanfacil.xlsx'
+[11:14:27] - 06-01-2025 - INFO - Não existem planilha notas_creditos_em_aberto para empresa lokanfacil no periodo informado - 
+[Errno 2] No such file or directory: 'C:\\Users\\lokan\\OneDrive\\Documentos\\projeto_auto_Lokan -V2\\app\\Planilhas\\Notas_creditos\\notas_creditos_01-01-2025_06-01-2025_aberto_lokanfacil.xlsx'
+[11:14:27] - 06-01-2025 - INFO - Não existem planilha notas_canceladas para empresa lokanfacil no periodo informado - 
+[Errno 2] No such file or directory: 'C:\\Users\\lokan\\OneDrive\\Documentos\\projeto_auto_Lokan -V2\\app\\Planilhas\\Notas_debitos_canceladas\\notas_canceladas_01-01-2025_06-01-2025_lokanfacil.xlsx'
+[11:14:27] - 06-01-2025 - INFO - ETAPA DE ORDENAÇÃO DAS ABAS PELA COLUNA VENCTO - INICIADA
+[11:14:27] - 06-01-2025 - INFO - ETAPA DE ORDENAÇÃO DAS ABAS PELA COLUNA VENCTO PARA EMPRESA lokanfacil- FINALIZADA COM SUCESSO
+[11:14:27] - 06-01-2025 - INFO - Planilha empresa lokanfacil ordenada CREDITO e DEBITO
+[11:14:27] - 06-01-2025 - INFO - ETAPA VERIFICAR STATUS PG NA PLANILHA PRINCIPAL - INICIADA
+[11:14:28] - 06-01-2025 - INFO - Valores de PG, CREDITO e RECBO atualizados com sucesso em todas as abas | lokanfacil
+[11:14:28] - 06-01-2025 - INFO - ETAPA VERIFICAR STATUS PG NA PLANILHA PRINCIPAL - FINALIZADA
+[11:14:28] - 06-01-2025 - INFO - ETAPA VERIFICAR STATUS PG NA PLANILHA PRINCIPAL NOTAS CREDITOS - INICIADA
+[11:14:28] - 06-01-2025 - INFO - Valores de PG, CREDITO e RECBO atualizados com sucesso em todas as abas | lokanfacil
+[11:14:28] - 06-01-2025 - INFO - ETAPA VERIFICAR STATUS PG NA PLANILHA PRINCIPAL NOTAS CREDITOS - FINALIZADA
+[11:14:28] - 06-01-2025 - INFO - ETAPA FORMATAÇÃO FINAL - INICIADA
+[11:14:28] - 06-01-2025 - INFO - ETAPA FORMATAÇÃO FINAL - FINALIZADA
+[11:46:58] - 06-01-2025 - INFO - Não foi encontrada nenhuma planilha de pagamentos CAR para periodo informado: 
+[Errno 2] No such file or directory: 'C:\\Users\\lokan\\OneDrive\\Documentos\\projeto_auto_Lokan -V2\\app\\Planilhas\\Pagamentos\\pagamentos_01-01-2025_06-01-2025_lokan.xls'
+[11:46:58] - 06-01-2025 - INFO - ETAPA FORMATAR PLANILHA PAGAMENTOS CAR PG - FINALIZADA
+[11:46:58] - 06-01-2025 - ERROR - Erro ao processar empresa: lokan a planilha notas créditos pagos para formatação: 
+[Errno 2] No such file or directory: 'C:\\Users\\lokan\\OneDrive\\Documentos\\projeto_auto_Lokan -V2\\app\\Planilhas\\Notas_creditos\\notas_creditos_01-01-2025_06-01-2025_lokan.xls'
+[11:46:58] - 06-01-2025 - INFO - ETAPA FORMATAR PLANILHA NOTAS DEBITOS - INICIADA
+[11:46:58] - 06-01-2025 - INFO - Erro ao processar arquivo empresa lokan notas débitos para formataçaõ: 
+[Errno 2] No such file or directory: 'C:\\Users\\lokan\\OneDrive\\Documentos\\projeto_auto_Lokan -V2\\app\\Planilhas\\Notas_debitos\\notas_debitos_01-01-2025_06-01-2025_lokan.xls'
+[11:46:58] - 06-01-2025 - INFO - ETAPA FORMATAR PLANILHA NOTAS DEBITOS - FINALIZADA
+[11:46:58] - 06-01-2025 - INFO - ETAPA FORMATAR PLANILHA NOTAS DEBITOS CANCELADAS - INICIADA
+[11:46:58] - 06-01-2025 - ERROR - Erro ao tentar na empresa lokan salvar planilha notas debitos canceladas para formatação: 
+[Errno 2] No such file or directory: 'C:\\Users\\lokan\\OneDrive\\Documentos\\projeto_auto_Lokan -V2\\app\\Planilhas\\Notas_debitos_canceladas\\notas_canceladas_01-01-2025_06-01-2025_lokan.xls'
+[11:46:58] - 06-01-2025 - INFO - ETAPA FORMATAR PLANILHA NOTAS DEBITOS CANCELADAS - FINALIZADA
+[11:46:58] - 06-01-2025 - INFO - Nao existem planilha notas_credito_aberto para empresa lokan
+[11:46:58] - 06-01-2025 - INFO - Erro ao processar arquivo empresa lokan notas créditos em aberto para formatação: 
+cannot access local variable 'df' where it is not associated with a value
+[11:46:58] - 06-01-2025 - INFO - ETAPA LIMPAR BOLETOS E EXCLUIR CABEÇALHOS - INICIADA | lokan
+[11:46:59] - 06-01-2025 - INFO - ETAPA LIMPAR BOLETOS E EXCLUIR CABEÇALHOS - FINALIZADA | lokan
+[11:46:59] - 06-01-2025 - INFO - Não existem planilha notas_debitos da empresa lokan para o periodo informado - 
+[Errno 2] No such file or directory: 'C:\\Users\\lokan\\OneDrive\\Documentos\\projeto_auto_Lokan -V2\\app\\Planilhas\\Notas_debitos\\notas_debitos_01-01-2025_06-01-2025_lokan.xlsx'
+[11:47:00] - 06-01-2025 - INFO - Processo concluído! Dados copiados de notas_creditos_em_aberto para lokan.
+[11:47:01] - 06-01-2025 - INFO - Processo concluído! Dados copiados de notas_canceladas para lokan.
+[11:47:01] - 06-01-2025 - INFO - ETAPA DE ORDENAÇÃO DAS ABAS PELA COLUNA VENCTO - INICIADA
+[11:47:04] - 06-01-2025 - INFO - ETAPA DE ORDENAÇÃO DAS ABAS PELA COLUNA VENCTO PARA EMPRESA lokan- FINALIZADA COM SUCESSO
+[11:47:05] - 06-01-2025 - INFO - Planilha empresa lokan ordenada CREDITO e DEBITO
+[11:47:05] - 06-01-2025 - INFO - ETAPA VERIFICAR STATUS PG NA PLANILHA PRINCIPAL - INICIADA
+[11:47:07] - 06-01-2025 - INFO - Valores de PG, CREDITO e RECBO atualizados com sucesso em todas as abas | lokan
+[11:47:07] - 06-01-2025 - INFO - ETAPA VERIFICAR STATUS PG NA PLANILHA PRINCIPAL - FINALIZADA
+[11:47:07] - 06-01-2025 - INFO - ETAPA VERIFICAR STATUS PG NA PLANILHA PRINCIPAL NOTAS CREDITOS - INICIADA
+[11:47:09] - 06-01-2025 - INFO - Valores de PG, CREDITO e RECBO atualizados com sucesso em todas as abas | lokan
+[11:47:09] - 06-01-2025 - INFO - ETAPA VERIFICAR STATUS PG NA PLANILHA PRINCIPAL NOTAS CREDITOS - FINALIZADA
+[11:47:11] - 06-01-2025 - INFO - ETAPA FORMATAÇÃO FINAL - INICIADA
+[11:47:14] - 06-01-2025 - INFO - ETAPA FORMATAÇÃO FINAL - FINALIZADA
+[11:47:15] - 06-01-2025 - INFO - Não foi encontrada nenhuma planilha de pagamentos CAR para periodo informado: 
+[Errno 2] No such file or directory: 'C:\\Users\\lokan\\OneDrive\\Documentos\\projeto_auto_Lokan -V2\\app\\Planilhas\\Pagamentos\\pagamentos_01-01-2025_06-01-2025_lokanfacil.xls'
+[11:47:15] - 06-01-2025 - INFO - ETAPA FORMATAR PLANILHA PAGAMENTOS CAR PG - FINALIZADA
+[11:47:15] - 06-01-2025 - INFO - Planilha notas créditos formatada e salva com sucesso | lokanfacil
+[11:47:15] - 06-01-2025 - INFO - ETAPA FORMATAR PLANILHA NOTAS DEBITOS - INICIADA
+[11:47:15] - 06-01-2025 - INFO - Erro ao processar arquivo empresa lokanfacil notas débitos para formataçaõ: 
+[Errno 2] No such file or directory: 'C:\\Users\\lokan\\OneDrive\\Documentos\\projeto_auto_Lokan -V2\\app\\Planilhas\\Notas_debitos\\notas_debitos_01-01-2025_06-01-2025_lokanfacil.xls'
+[11:47:15] - 06-01-2025 - INFO - ETAPA FORMATAR PLANILHA NOTAS DEBITOS - FINALIZADA
+[11:47:15] - 06-01-2025 - INFO - ETAPA FORMATAR PLANILHA NOTAS DEBITOS CANCELADAS - INICIADA
+[11:47:15] - 06-01-2025 - ERROR - Erro ao tentar na empresa lokanfacil salvar planilha notas debitos canceladas para formatação: 
+Usecols do not match columns, columns expected but not found: ['Cancelamento', 'Destinatário / Remetente', 'Série/Número', 'Emissão', 'Motivo'] (sheet: 0)
+[11:47:15] - 06-01-2025 - INFO - ETAPA FORMATAR PLANILHA NOTAS DEBITOS CANCELADAS - FINALIZADA
+[11:47:15] - 06-01-2025 - INFO - Nao existem planilha notas_credito_aberto para empresa lokanfacil
+[11:47:15] - 06-01-2025 - INFO - Erro ao processar arquivo empresa lokanfacil notas créditos em aberto para formatação: 
+cannot access local variable 'df' where it is not associated with a value
+[11:47:15] - 06-01-2025 - INFO - ETAPA LIMPAR BOLETOS E EXCLUIR CABEÇALHOS - INICIADA | lokanfacil
+[11:47:15] - 06-01-2025 - INFO - ETAPA LIMPAR BOLETOS E EXCLUIR CABEÇALHOS - FINALIZADA | lokanfacil
+[11:47:15] - 06-01-2025 - INFO - Não existem planilha notas_debitos da empresa lokanfacil para o periodo informado - 
+[Errno 2] No such file or directory: 'C:\\Users\\lokan\\OneDrive\\Documentos\\projeto_auto_Lokan -V2\\app\\Planilhas\\Notas_debitos\\notas_debitos_01-01-2025_06-01-2025_lokanfacil.xlsx'
+[11:47:15] - 06-01-2025 - INFO - Não existem planilha notas_creditos_em_aberto para empresa lokanfacil no periodo informado - 
+[Errno 2] No such file or directory: 'C:\\Users\\lokan\\OneDrive\\Documentos\\projeto_auto_Lokan -V2\\app\\Planilhas\\Notas_creditos\\notas_creditos_01-01-2025_06-01-2025_aberto_lokanfacil.xlsx'
+[11:47:15] - 06-01-2025 - INFO - Não existem planilha notas_canceladas para empresa lokanfacil no periodo informado - 
+[Errno 2] No such file or directory: 'C:\\Users\\lokan\\OneDrive\\Documentos\\projeto_auto_Lokan -V2\\app\\Planilhas\\Notas_debitos_canceladas\\notas_canceladas_01-01-2025_06-01-2025_lokanfacil.xlsx'
+[11:47:15] - 06-01-2025 - INFO - ETAPA DE ORDENAÇÃO DAS ABAS PELA COLUNA VENCTO - INICIADA
+[11:47:15] - 06-01-2025 - INFO - ETAPA DE ORDENAÇÃO DAS ABAS PELA COLUNA VENCTO PARA EMPRESA lokanfacil- FINALIZADA COM SUCESSO
+[11:47:15] - 06-01-2025 - INFO - Planilha empresa lokanfacil ordenada CREDITO e DEBITO
+[11:47:15] - 06-01-2025 - INFO - ETAPA VERIFICAR STATUS PG NA PLANILHA PRINCIPAL - INICIADA
+[11:47:15] - 06-01-2025 - INFO - Valores de PG, CREDITO e RECBO atualizados com sucesso em todas as abas | lokanfacil
+[11:47:15] - 06-01-2025 - INFO - ETAPA VERIFICAR STATUS PG NA PLANILHA PRINCIPAL - FINALIZADA
+[11:47:15] - 06-01-2025 - INFO - ETAPA VERIFICAR STATUS PG NA PLANILHA PRINCIPAL NOTAS CREDITOS - INICIADA
+[11:47:16] - 06-01-2025 - INFO - Valores de PG, CREDITO e RECBO atualizados com sucesso em todas as abas | lokanfacil
+[11:47:16] - 06-01-2025 - INFO - ETAPA VERIFICAR STATUS PG NA PLANILHA PRINCIPAL NOTAS CREDITOS - FINALIZADA
+[11:47:16] - 06-01-2025 - INFO - ETAPA FORMATAÇÃO FINAL - INICIADA
+[11:47:16] - 06-01-2025 - INFO - ETAPA FORMATAÇÃO FINAL - FINALIZADA
+[11:59:44] - 06-01-2025 - INFO - planilha pagamentos formatada com sucesso | lokan
+[11:59:44] - 06-01-2025 - INFO - ETAPA FORMATAR PLANILHA PAGAMENTOS CAR PG - FINALIZADA
+[11:59:44] - 06-01-2025 - INFO - Planilha notas créditos formatada e salva com sucesso | lokan
+[11:59:44] - 06-01-2025 - INFO - ETAPA FORMATAR PLANILHA NOTAS DEBITOS - INICIADA
+[11:59:44] - 06-01-2025 - INFO - Erro ao processar arquivo empresa lokan notas débitos para formataçaõ: 
+[Errno 2] No such file or directory: 'C:\\Users\\lokan\\OneDrive\\Documentos\\projeto_auto_Lokan -V2\\app\\Planilhas\\Notas_debitos\\notas_debitos_01-01-2025_06-01-2025_lokan.xls'
+[11:59:44] - 06-01-2025 - INFO - ETAPA FORMATAR PLANILHA NOTAS DEBITOS - FINALIZADA
+[11:59:44] - 06-01-2025 - INFO - ETAPA FORMATAR PLANILHA NOTAS DEBITOS CANCELADAS - INICIADA
+[11:59:44] - 06-01-2025 - INFO - Planilha notas_canceladas_formatada | lokan
+[11:59:44] - 06-01-2025 - INFO - ETAPA FORMATAR PLANILHA NOTAS DEBITOS CANCELADAS - FINALIZADA
+[11:59:44] - 06-01-2025 - INFO - Nao existem planilha notas_credito_aberto para empresa lokan
+[11:59:44] - 06-01-2025 - INFO - Erro ao processar arquivo empresa lokan notas créditos em aberto para formatação: 
+cannot access local variable 'df' where it is not associated with a value
+[11:59:44] - 06-01-2025 - INFO - ETAPA LIMPAR BOLETOS E EXCLUIR CABEÇALHOS - INICIADA | lokan
+[11:59:49] - 06-01-2025 - INFO - ETAPA LIMPAR BOLETOS E EXCLUIR CABEÇALHOS - FINALIZADA | lokan
+[11:59:49] - 06-01-2025 - INFO - Não existem planilha notas_debitos da empresa lokan para o periodo informado - 
+[Errno 2] No such file or directory: 'C:\\Users\\lokan\\OneDrive\\Documentos\\projeto_auto_Lokan -V2\\app\\Planilhas\\Notas_debitos\\notas_debitos_01-01-2025_06-01-2025_lokan.xlsx'
+[11:59:50] - 06-01-2025 - INFO - Processo concluído! Dados copiados de notas_creditos_em_aberto para lokan.
+[11:59:52] - 06-01-2025 - INFO - Processo concluído! Dados copiados de notas_canceladas para lokan.
+[11:59:52] - 06-01-2025 - INFO - ETAPA DE ORDENAÇÃO DAS ABAS PELA COLUNA VENCTO - INICIADA
+[11:59:57] - 06-01-2025 - INFO - ETAPA DE ORDENAÇÃO DAS ABAS PELA COLUNA VENCTO PARA EMPRESA lokan- FINALIZADA COM SUCESSO
+[11:59:59] - 06-01-2025 - INFO - Planilha empresa lokan ordenada CREDITO e DEBITO
+[12:00:01] - 06-01-2025 - INFO - ETAPA VERIFICAR STATUS PG NA PLANILHA PRINCIPAL - INICIADA
+[12:00:05] - 06-01-2025 - INFO - Valores de PG, CREDITO e RECBO atualizados com sucesso em todas as abas | lokan
+[12:00:05] - 06-01-2025 - INFO - ETAPA VERIFICAR STATUS PG NA PLANILHA PRINCIPAL - FINALIZADA
+[12:00:05] - 06-01-2025 - INFO - ETAPA VERIFICAR STATUS PG NA PLANILHA PRINCIPAL NOTAS CREDITOS - INICIADA
+[12:00:09] - 06-01-2025 - INFO - Valores de PG, CREDITO e RECBO atualizados com sucesso em todas as abas | lokan
+[12:00:09] - 06-01-2025 - INFO - ETAPA VERIFICAR STATUS PG NA PLANILHA PRINCIPAL NOTAS CREDITOS - FINALIZADA
+[12:00:12] - 06-01-2025 - INFO - ETAPA FORMATAÇÃO FINAL - INICIADA
+[12:00:21] - 06-01-2025 - INFO - ETAPA FORMATAÇÃO FINAL - FINALIZADA
+[12:00:22] - 06-01-2025 - INFO - Não foi encontrada nenhuma planilha de pagamentos CAR para periodo informado: 
+[Errno 2] No such file or directory: 'C:\\Users\\lokan\\OneDrive\\Documentos\\projeto_auto_Lokan -V2\\app\\Planilhas\\Pagamentos\\pagamentos_01-01-2025_06-01-2025_lokanfacil.xls'
+[12:00:22] - 06-01-2025 - INFO - ETAPA FORMATAR PLANILHA PAGAMENTOS CAR PG - FINALIZADA
+[12:00:22] - 06-01-2025 - INFO - Planilha notas créditos formatada e salva com sucesso | lokanfacil
+[12:00:22] - 06-01-2025 - INFO - ETAPA FORMATAR PLANILHA NOTAS DEBITOS - INICIADA
+[12:00:22] - 06-01-2025 - INFO - Erro ao processar arquivo empresa lokanfacil notas débitos para formataçaõ: 
+[Errno 2] No such file or directory: 'C:\\Users\\lokan\\OneDrive\\Documentos\\projeto_auto_Lokan -V2\\app\\Planilhas\\Notas_debitos\\notas_debitos_01-01-2025_06-01-2025_lokanfacil.xls'
+[12:00:22] - 06-01-2025 - INFO - ETAPA FORMATAR PLANILHA NOTAS DEBITOS - FINALIZADA
+[12:00:22] - 06-01-2025 - INFO - ETAPA FORMATAR PLANILHA NOTAS DEBITOS CANCELADAS - INICIADA
+[12:00:22] - 06-01-2025 - ERROR - Erro ao tentar na empresa lokanfacil salvar planilha notas debitos canceladas para formatação: 
+Usecols do not match columns, columns expected but not found: ['Série/Número', 'Cancelamento', 'Motivo', 'Destinatário / Remetente', 'Emissão'] (sheet: 0)
+[12:00:22] - 06-01-2025 - INFO - ETAPA FORMATAR PLANILHA NOTAS DEBITOS CANCELADAS - FINALIZADA
+[12:00:22] - 06-01-2025 - INFO - Nao existem planilha notas_credito_aberto para empresa lokanfacil
+[12:00:22] - 06-01-2025 - INFO - Erro ao processar arquivo empresa lokanfacil notas créditos em aberto para formatação: 
+cannot access local variable 'df' where it is not associated with a value
+[12:00:22] - 06-01-2025 - INFO - ETAPA LIMPAR BOLETOS E EXCLUIR CABEÇALHOS - INICIADA | lokanfacil
+[12:00:22] - 06-01-2025 - INFO - ETAPA LIMPAR BOLETOS E EXCLUIR CABEÇALHOS - FINALIZADA | lokanfacil
+[12:00:22] - 06-01-2025 - INFO - Não existem planilha notas_debitos da empresa lokanfacil para o periodo informado - 
+[Errno 2] No such file or directory: 'C:\\Users\\lokan\\OneDrive\\Documentos\\projeto_auto_Lokan -V2\\app\\Planilhas\\Notas_debitos\\notas_debitos_01-01-2025_06-01-2025_lokanfacil.xlsx'
+[12:00:22] - 06-01-2025 - INFO - Não existem planilha notas_creditos_em_aberto para empresa lokanfacil no periodo informado - 
+[Errno 2] No such file or directory: 'C:\\Users\\lokan\\OneDrive\\Documentos\\projeto_auto_Lokan -V2\\app\\Planilhas\\Notas_creditos\\notas_creditos_01-01-2025_06-01-2025_aberto_lokanfacil.xlsx'
+[12:00:22] - 06-01-2025 - INFO - Não existem planilha notas_canceladas para empresa lokanfacil no periodo informado - 
+[Errno 2] No such file or directory: 'C:\\Users\\lokan\\OneDrive\\Documentos\\projeto_auto_Lokan -V2\\app\\Planilhas\\Notas_debitos_canceladas\\notas_canceladas_01-01-2025_06-01-2025_lokanfacil.xlsx'
+[12:00:22] - 06-01-2025 - INFO - ETAPA DE ORDENAÇÃO DAS ABAS PELA COLUNA VENCTO - INICIADA
+[12:00:22] - 06-01-2025 - INFO - ETAPA DE ORDENAÇÃO DAS ABAS PELA COLUNA VENCTO PARA EMPRESA lokanfacil- FINALIZADA COM SUCESSO
+[12:00:22] - 06-01-2025 - INFO - Planilha empresa lokanfacil ordenada CREDITO e DEBITO
+[12:00:22] - 06-01-2025 - INFO - ETAPA VERIFICAR STATUS PG NA PLANILHA PRINCIPAL - INICIADA
+[12:00:22] - 06-01-2025 - INFO - Valores de PG, CREDITO e RECBO atualizados com sucesso em todas as abas | lokanfacil
+[12:00:22] - 06-01-2025 - INFO - ETAPA VERIFICAR STATUS PG NA PLANILHA PRINCIPAL - FINALIZADA
+[12:00:22] - 06-01-2025 - INFO - ETAPA VERIFICAR STATUS PG NA PLANILHA PRINCIPAL NOTAS CREDITOS - INICIADA
+[12:00:22] - 06-01-2025 - INFO - Valores de PG, CREDITO e RECBO atualizados com sucesso em todas as abas | lokanfacil
+[12:00:22] - 06-01-2025 - INFO - ETAPA VERIFICAR STATUS PG NA PLANILHA PRINCIPAL NOTAS CREDITOS - FINALIZADA
+[12:00:22] - 06-01-2025 - INFO - ETAPA FORMATAÇÃO FINAL - INICIADA
+[12:00:22] - 06-01-2025 - INFO - ETAPA FORMATAÇÃO FINAL - FINALIZADA
+[12:02:12] - 06-01-2025 - INFO - planilha pagamentos formatada com sucesso | lokan
+[12:02:12] - 06-01-2025 - INFO - ETAPA FORMATAR PLANILHA PAGAMENTOS CAR PG - FINALIZADA
+[12:02:12] - 06-01-2025 - INFO - Planilha notas créditos formatada e salva com sucesso | lokan
+[12:02:12] - 06-01-2025 - INFO - ETAPA FORMATAR PLANILHA NOTAS DEBITOS - INICIADA
+[12:02:12] - 06-01-2025 - INFO - Erro ao processar arquivo empresa lokan notas débitos para formataçaõ: 
+[Errno 2] No such file or directory: 'C:\\Users\\lokan\\OneDrive\\Documentos\\projeto_auto_Lokan -V2\\app\\Planilhas\\Notas_debitos\\notas_debitos_23-12-2024_31-12-2024_lokan.xls'
+[12:02:12] - 06-01-2025 - INFO - ETAPA FORMATAR PLANILHA NOTAS DEBITOS - FINALIZADA
+[12:02:12] - 06-01-2025 - INFO - ETAPA FORMATAR PLANILHA NOTAS DEBITOS CANCELADAS - INICIADA
+[12:02:12] - 06-01-2025 - INFO - Planilha notas_canceladas_formatada | lokan
+[12:02:12] - 06-01-2025 - INFO - ETAPA FORMATAR PLANILHA NOTAS DEBITOS CANCELADAS - FINALIZADA
+[12:02:12] - 06-01-2025 - INFO - Planilha notas créditos formatada e ordenada com sucesso | lokan
+[12:02:12] - 06-01-2025 - INFO - ETAPA FORMATAR PLANILHA NOTAS CRÉDITOS EM ABERTO - FINALIZADA
+[12:02:12] - 06-01-2025 - INFO - ETAPA LIMPAR BOLETOS E EXCLUIR CABEÇALHOS - INICIADA | lokan
+[12:02:16] - 06-01-2025 - INFO - ETAPA LIMPAR BOLETOS E EXCLUIR CABEÇALHOS - FINALIZADA | lokan
+[12:02:18] - 06-01-2025 - INFO - Processo concluído! Dados copiados de notas_debitos para planilha_principal_lokan | lokan
+[12:02:19] - 06-01-2025 - INFO - Processo concluído! Dados copiados de notas_creditos_em_aberto para lokan.
+[12:02:21] - 06-01-2025 - INFO - Processo concluído! Dados copiados de notas_canceladas para lokan.
+[12:02:21] - 06-01-2025 - INFO - ETAPA DE ORDENAÇÃO DAS ABAS PELA COLUNA VENCTO - INICIADA
+[12:02:26] - 06-01-2025 - INFO - ETAPA DE ORDENAÇÃO DAS ABAS PELA COLUNA VENCTO PARA EMPRESA lokan- FINALIZADA COM SUCESSO
+[12:02:27] - 06-01-2025 - INFO - Planilha empresa lokan ordenada CREDITO e DEBITO
+[12:02:29] - 06-01-2025 - INFO - ETAPA VERIFICAR STATUS PG NA PLANILHA PRINCIPAL - INICIADA
+[12:02:33] - 06-01-2025 - INFO - Valores de PG, CREDITO e RECBO atualizados com sucesso em todas as abas | lokan
+[12:02:33] - 06-01-2025 - INFO - ETAPA VERIFICAR STATUS PG NA PLANILHA PRINCIPAL - FINALIZADA
+[12:02:33] - 06-01-2025 - INFO - ETAPA VERIFICAR STATUS PG NA PLANILHA PRINCIPAL NOTAS CREDITOS - INICIADA
+[12:02:38] - 06-01-2025 - INFO - Valores de PG, CREDITO e RECBO atualizados com sucesso em todas as abas | lokan
+[12:02:38] - 06-01-2025 - INFO - ETAPA VERIFICAR STATUS PG NA PLANILHA PRINCIPAL NOTAS CREDITOS - FINALIZADA
+[12:02:41] - 06-01-2025 - INFO - ETAPA FORMATAÇÃO FINAL - INICIADA
+[12:02:49] - 06-01-2025 - INFO - ETAPA FORMATAÇÃO FINAL - FINALIZADA
+[12:02:50] - 06-01-2025 - INFO - Não foi encontrada nenhuma planilha de pagamentos CAR para periodo informado: 
+[Errno 2] No such file or directory: 'C:\\Users\\lokan\\OneDrive\\Documentos\\projeto_auto_Lokan -V2\\app\\Planilhas\\Pagamentos\\pagamentos_23-12-2024_31-12-2024_lokanfacil.xls'
+[12:02:50] - 06-01-2025 - INFO - ETAPA FORMATAR PLANILHA PAGAMENTOS CAR PG - FINALIZADA
+[12:02:50] - 06-01-2025 - ERROR - Erro ao processar empresa: lokanfacil a planilha notas créditos pagos para formatação: 
+[Errno 2] No such file or directory: 'C:\\Users\\lokan\\OneDrive\\Documentos\\projeto_auto_Lokan -V2\\app\\Planilhas\\Notas_creditos\\notas_creditos_23-12-2024_31-12-2024_lokanfacil.xls'
+[12:02:50] - 06-01-2025 - INFO - ETAPA FORMATAR PLANILHA NOTAS DEBITOS - INICIADA
+[12:02:50] - 06-01-2025 - INFO - Planilha notas débitos formatada e ordenada com sucesso | lokanfacil
+[12:02:50] - 06-01-2025 - INFO - ETAPA FORMATAR PLANILHA NOTAS DEBITOS - FINALIZADA
+[12:02:50] - 06-01-2025 - INFO - ETAPA FORMATAR PLANILHA NOTAS DEBITOS CANCELADAS - INICIADA
+[12:02:50] - 06-01-2025 - INFO - Planilha notas_canceladas_formatada | lokanfacil
+[12:02:50] - 06-01-2025 - INFO - ETAPA FORMATAR PLANILHA NOTAS DEBITOS CANCELADAS - FINALIZADA
+[12:02:50] - 06-01-2025 - INFO - Planilha notas créditos formatada e ordenada com sucesso | lokanfacil
+[12:02:50] - 06-01-2025 - INFO - ETAPA FORMATAR PLANILHA NOTAS CRÉDITOS EM ABERTO - FINALIZADA
+[12:02:50] - 06-01-2025 - INFO - ETAPA LIMPAR BOLETOS E EXCLUIR CABEÇALHOS - INICIADA | lokanfacil
+[12:02:50] - 06-01-2025 - INFO - Erro ao processar a planilha: "There is no item named '[Content_Types].xml' in the archive" | lokanfacil
+[12:02:50] - 06-01-2025 - INFO - Não existem planilha notas_debitos da empresa lokanfacil para o periodo informado - 
+"There is no item named '[Content_Types].xml' in the archive"
+[12:02:50] - 06-01-2025 - INFO - Não existem planilha notas_creditos_em_aberto para empresa lokanfacil no periodo informado - 
+"There is no item named '[Content_Types].xml' in the archive"
+[12:02:50] - 06-01-2025 - INFO - Não existem planilha notas_canceladas para empresa lokanfacil no periodo informado - 
+"There is no item named '[Content_Types].xml' in the archive"
+[12:02:50] - 06-01-2025 - INFO - ETAPA DE ORDENAÇÃO DAS ABAS PELA COLUNA VENCTO - INICIADA
+[12:02:50] - 06-01-2025 - ERROR - Erro ao ordenar as abas da empresa lokanfacil: 
+No such keys(s): 'io.excel.zip.reader'
+[12:02:50] - 06-01-2025 - INFO - Erro empresa lokanfacil para ordenar CREDITO e DEBITO | No such keys(s): 'io.excel.zip.reader'
+[12:04:53] - 06-01-2025 - INFO - planilha pagamentos formatada com sucesso | lokan
+[12:04:53] - 06-01-2025 - INFO - ETAPA FORMATAR PLANILHA PAGAMENTOS CAR PG - FINALIZADA
+[12:04:53] - 06-01-2025 - INFO - Planilha notas créditos formatada e salva com sucesso | lokan
+[12:04:53] - 06-01-2025 - INFO - ETAPA FORMATAR PLANILHA NOTAS DEBITOS - INICIADA
+[12:04:53] - 06-01-2025 - INFO - Planilha notas débitos formatada e ordenada com sucesso | lokan
+[12:04:53] - 06-01-2025 - INFO - ETAPA FORMATAR PLANILHA NOTAS DEBITOS - FINALIZADA
+[12:04:53] - 06-01-2025 - INFO - ETAPA FORMATAR PLANILHA NOTAS DEBITOS CANCELADAS - INICIADA
+[12:04:53] - 06-01-2025 - INFO - Planilha notas_canceladas_formatada | lokan
+[12:04:53] - 06-01-2025 - INFO - ETAPA FORMATAR PLANILHA NOTAS DEBITOS CANCELADAS - FINALIZADA
+[12:04:53] - 06-01-2025 - INFO - Planilha notas créditos formatada e ordenada com sucesso | lokan
+[12:04:53] - 06-01-2025 - INFO - ETAPA FORMATAR PLANILHA NOTAS CRÉDITOS EM ABERTO - FINALIZADA
+[12:04:53] - 06-01-2025 - INFO - ETAPA LIMPAR BOLETOS E EXCLUIR CABEÇALHOS - INICIADA | lokan
+[12:04:57] - 06-01-2025 - INFO - ETAPA LIMPAR BOLETOS E EXCLUIR CABEÇALHOS - FINALIZADA | lokan
+[12:04:59] - 06-01-2025 - INFO - Processo concluído! Dados copiados de notas_debitos para planilha_principal_lokan | lokan
+[12:05:00] - 06-01-2025 - INFO - Processo concluído! Dados copiados de notas_creditos_em_aberto para lokan.
+[12:05:02] - 06-01-2025 - INFO - Processo concluído! Dados copiados de notas_canceladas para lokan.
+[12:05:02] - 06-01-2025 - INFO - ETAPA DE ORDENAÇÃO DAS ABAS PELA COLUNA VENCTO - INICIADA
+[12:05:07] - 06-01-2025 - INFO - ETAPA DE ORDENAÇÃO DAS ABAS PELA COLUNA VENCTO PARA EMPRESA lokan- FINALIZADA COM SUCESSO
+[12:05:09] - 06-01-2025 - INFO - Planilha empresa lokan ordenada CREDITO e DEBITO
+[12:05:10] - 06-01-2025 - INFO - ETAPA VERIFICAR STATUS PG NA PLANILHA PRINCIPAL - INICIADA
+[12:05:15] - 06-01-2025 - INFO - Valores de PG, CREDITO e RECBO atualizados com sucesso em todas as abas | lokan
+[12:05:15] - 06-01-2025 - INFO - ETAPA VERIFICAR STATUS PG NA PLANILHA PRINCIPAL - FINALIZADA
+[12:05:15] - 06-01-2025 - INFO - ETAPA VERIFICAR STATUS PG NA PLANILHA PRINCIPAL NOTAS CREDITOS - INICIADA
+[12:05:19] - 06-01-2025 - INFO - Valores de PG, CREDITO e RECBO atualizados com sucesso em todas as abas | lokan
+[12:05:19] - 06-01-2025 - INFO - ETAPA VERIFICAR STATUS PG NA PLANILHA PRINCIPAL NOTAS CREDITOS - FINALIZADA
+[12:05:23] - 06-01-2025 - INFO - ETAPA FORMATAÇÃO FINAL - INICIADA
+[12:05:31] - 06-01-2025 - INFO - ETAPA FORMATAÇÃO FINAL - FINALIZADA
+[12:05:31] - 06-01-2025 - INFO - Não foi encontrada nenhuma planilha de pagamentos CAR para periodo informado: 
+[Errno 2] No such file or directory: 'C:\\Users\\lokan\\OneDrive\\Documentos\\projeto_auto_Lokan -V2\\app\\Planilhas\\Pagamentos\\pagamentos_23-12-2024_31-12-2024_lokanfacil.xls'
+[12:05:31] - 06-01-2025 - INFO - ETAPA FORMATAR PLANILHA PAGAMENTOS CAR PG - FINALIZADA
+[12:05:31] - 06-01-2025 - ERROR - Erro ao processar empresa: lokanfacil a planilha notas créditos pagos para formatação: 
+[Errno 2] No such file or directory: 'C:\\Users\\lokan\\OneDrive\\Documentos\\projeto_auto_Lokan -V2\\app\\Planilhas\\Notas_creditos\\notas_creditos_23-12-2024_31-12-2024_lokanfacil.xls'
+[12:05:31] - 06-01-2025 - INFO - ETAPA FORMATAR PLANILHA NOTAS DEBITOS - INICIADA
+[12:05:31] - 06-01-2025 - INFO - Planilha notas débitos formatada e ordenada com sucesso | lokanfacil
+[12:05:31] - 06-01-2025 - INFO - ETAPA FORMATAR PLANILHA NOTAS DEBITOS - FINALIZADA
+[12:05:31] - 06-01-2025 - INFO - ETAPA FORMATAR PLANILHA NOTAS DEBITOS CANCELADAS - INICIADA
+[12:05:31] - 06-01-2025 - INFO - Planilha notas_canceladas_formatada | lokanfacil
+[12:05:31] - 06-01-2025 - INFO - ETAPA FORMATAR PLANILHA NOTAS DEBITOS CANCELADAS - FINALIZADA
+[12:05:31] - 06-01-2025 - INFO - Planilha notas créditos formatada e ordenada com sucesso | lokanfacil
+[12:05:31] - 06-01-2025 - INFO - ETAPA FORMATAR PLANILHA NOTAS CRÉDITOS EM ABERTO - FINALIZADA
+[12:05:31] - 06-01-2025 - INFO - ETAPA LIMPAR BOLETOS E EXCLUIR CABEÇALHOS - INICIADA | lokanfacil
+[12:05:31] - 06-01-2025 - INFO - Erro ao processar a planilha: "There is no item named '[Content_Types].xml' in the archive" | lokanfacil
+[12:05:31] - 06-01-2025 - INFO - Não existem planilha notas_debitos da empresa lokanfacil para o periodo informado - 
+"There is no item named '[Content_Types].xml' in the archive"
+[12:05:31] - 06-01-2025 - INFO - Não existem planilha notas_creditos_em_aberto para empresa lokanfacil no periodo informado - 
+"There is no item named '[Content_Types].xml' in the archive"
+[12:05:31] - 06-01-2025 - INFO - Não existem planilha notas_canceladas para empresa lokanfacil no periodo informado - 
+"There is no item named '[Content_Types].xml' in the archive"
+[12:05:31] - 06-01-2025 - INFO - ETAPA DE ORDENAÇÃO DAS ABAS PELA COLUNA VENCTO - INICIADA
+[12:05:31] - 06-01-2025 - ERROR - Erro ao ordenar as abas da empresa lokanfacil: 
+No such keys(s): 'io.excel.zip.reader'
+[12:05:31] - 06-01-2025 - INFO - Erro empresa lokanfacil para ordenar CREDITO e DEBITO | No such keys(s): 'io.excel.zip.reader'
+[12:06:38] - 06-01-2025 - INFO - planilha pagamentos formatada com sucesso | lokan
+[12:06:38] - 06-01-2025 - INFO - ETAPA FORMATAR PLANILHA PAGAMENTOS CAR PG - FINALIZADA
+[12:06:38] - 06-01-2025 - INFO - Planilha notas créditos formatada e salva com sucesso | lokan
+[12:06:38] - 06-01-2025 - INFO - ETAPA FORMATAR PLANILHA NOTAS DEBITOS - INICIADA
+[12:06:38] - 06-01-2025 - INFO - Planilha notas débitos formatada e ordenada com sucesso | lokan
+[12:06:38] - 06-01-2025 - INFO - ETAPA FORMATAR PLANILHA NOTAS DEBITOS - FINALIZADA
+[12:06:38] - 06-01-2025 - INFO - ETAPA FORMATAR PLANILHA NOTAS DEBITOS CANCELADAS - INICIADA
+[12:06:38] - 06-01-2025 - INFO - Planilha notas_canceladas_formatada | lokan
+[12:06:38] - 06-01-2025 - INFO - ETAPA FORMATAR PLANILHA NOTAS DEBITOS CANCELADAS - FINALIZADA
+[12:06:38] - 06-01-2025 - INFO - Planilha notas créditos formatada e ordenada com sucesso | lokan
+[12:06:38] - 06-01-2025 - INFO - ETAPA FORMATAR PLANILHA NOTAS CRÉDITOS EM ABERTO - FINALIZADA
+[12:06:38] - 06-01-2025 - INFO - ETAPA LIMPAR BOLETOS E EXCLUIR CABEÇALHOS - INICIADA | lokan
+[12:06:43] - 06-01-2025 - INFO - ETAPA LIMPAR BOLETOS E EXCLUIR CABEÇALHOS - FINALIZADA | lokan
+[12:06:45] - 06-01-2025 - INFO - Processo concluído! Dados copiados de notas_debitos para planilha_principal_lokan | lokan
+[12:06:47] - 06-01-2025 - INFO - Processo concluído! Dados copiados de notas_creditos_em_aberto para lokan.
+[12:06:50] - 06-01-2025 - INFO - Processo concluído! Dados copiados de notas_canceladas para lokan.
+[12:06:50] - 06-01-2025 - INFO - ETAPA DE ORDENAÇÃO DAS ABAS PELA COLUNA VENCTO - INICIADA
+[12:06:56] - 06-01-2025 - INFO - ETAPA DE ORDENAÇÃO DAS ABAS PELA COLUNA VENCTO PARA EMPRESA lokan- FINALIZADA COM SUCESSO
+[12:06:58] - 06-01-2025 - INFO - Planilha empresa lokan ordenada CREDITO e DEBITO
+[12:07:00] - 06-01-2025 - INFO - ETAPA VERIFICAR STATUS PG NA PLANILHA PRINCIPAL - INICIADA
+[12:07:05] - 06-01-2025 - INFO - Valores de PG, CREDITO e RECBO atualizados com sucesso em todas as abas | lokan
+[12:07:05] - 06-01-2025 - INFO - ETAPA VERIFICAR STATUS PG NA PLANILHA PRINCIPAL - FINALIZADA
+[12:07:05] - 06-01-2025 - INFO - ETAPA VERIFICAR STATUS PG NA PLANILHA PRINCIPAL NOTAS CREDITOS - INICIADA
+[12:07:11] - 06-01-2025 - INFO - Valores de PG, CREDITO e RECBO atualizados com sucesso em todas as abas | lokan
+[12:07:11] - 06-01-2025 - INFO - ETAPA VERIFICAR STATUS PG NA PLANILHA PRINCIPAL NOTAS CREDITOS - FINALIZADA
+[12:07:16] - 06-01-2025 - INFO - ETAPA FORMATAÇÃO FINAL - INICIADA
+[12:07:26] - 06-01-2025 - INFO - ETAPA FORMATAÇÃO FINAL - FINALIZADA
+[12:07:27] - 06-01-2025 - INFO - Não foi encontrada nenhuma planilha de pagamentos CAR para periodo informado: 
+[Errno 2] No such file or directory: 'C:\\Users\\lokan\\OneDrive\\Documentos\\projeto_auto_Lokan -V2\\app\\Planilhas\\Pagamentos\\pagamentos_23-12-2024_31-12-2024_lokanfacil.xls'
+[12:07:27] - 06-01-2025 - INFO - ETAPA FORMATAR PLANILHA PAGAMENTOS CAR PG - FINALIZADA
+[12:07:27] - 06-01-2025 - ERROR - Erro ao processar empresa: lokanfacil a planilha notas créditos pagos para formatação: 
+[Errno 2] No such file or directory: 'C:\\Users\\lokan\\OneDrive\\Documentos\\projeto_auto_Lokan -V2\\app\\Planilhas\\Notas_creditos\\notas_creditos_23-12-2024_31-12-2024_lokanfacil.xls'
+[12:07:27] - 06-01-2025 - INFO - ETAPA FORMATAR PLANILHA NOTAS DEBITOS - INICIADA
+[12:07:27] - 06-01-2025 - INFO - Planilha notas débitos formatada e ordenada com sucesso | lokanfacil
+[12:07:27] - 06-01-2025 - INFO - ETAPA FORMATAR PLANILHA NOTAS DEBITOS - FINALIZADA
+[12:07:27] - 06-01-2025 - INFO - ETAPA FORMATAR PLANILHA NOTAS DEBITOS CANCELADAS - INICIADA
+[12:07:27] - 06-01-2025 - INFO - Planilha notas_canceladas_formatada | lokanfacil
+[12:07:27] - 06-01-2025 - INFO - ETAPA FORMATAR PLANILHA NOTAS DEBITOS CANCELADAS - FINALIZADA
+[12:07:27] - 06-01-2025 - INFO - Planilha notas créditos formatada e ordenada com sucesso | lokanfacil
+[12:07:27] - 06-01-2025 - INFO - ETAPA FORMATAR PLANILHA NOTAS CRÉDITOS EM ABERTO - FINALIZADA
+[12:07:27] - 06-01-2025 - INFO - ETAPA LIMPAR BOLETOS E EXCLUIR CABEÇALHOS - INICIADA | lokanfacil
+[12:07:27] - 06-01-2025 - INFO - Erro ao processar a planilha: "There is no item named '[Content_Types].xml' in the archive" | lokanfacil
+[12:07:27] - 06-01-2025 - INFO - Não existem planilha notas_debitos da empresa lokanfacil para o periodo informado - 
+"There is no item named '[Content_Types].xml' in the archive"
+[12:07:27] - 06-01-2025 - INFO - Não existem planilha notas_creditos_em_aberto para empresa lokanfacil no periodo informado - 
+"There is no item named '[Content_Types].xml' in the archive"
+[12:07:27] - 06-01-2025 - INFO - Não existem planilha notas_canceladas para empresa lokanfacil no periodo informado - 
+"There is no item named '[Content_Types].xml' in the archive"
+[12:07:27] - 06-01-2025 - INFO - ETAPA DE ORDENAÇÃO DAS ABAS PELA COLUNA VENCTO - INICIADA
+[12:07:27] - 06-01-2025 - ERROR - Erro ao ordenar as abas da empresa lokanfacil: 
+No such keys(s): 'io.excel.zip.reader'
+[12:07:27] - 06-01-2025 - INFO - Erro empresa lokanfacil para ordenar CREDITO e DEBITO | No such keys(s): 'io.excel.zip.reader'
+[12:07:58] - 06-01-2025 - INFO - planilha pagamentos formatada com sucesso | lokan
+[12:07:58] - 06-01-2025 - INFO - ETAPA FORMATAR PLANILHA PAGAMENTOS CAR PG - FINALIZADA
+[12:07:58] - 06-01-2025 - INFO - Planilha notas créditos formatada e salva com sucesso | lokan
+[12:07:58] - 06-01-2025 - INFO - ETAPA FORMATAR PLANILHA NOTAS DEBITOS - INICIADA
+[12:07:58] - 06-01-2025 - INFO - Planilha notas débitos formatada e ordenada com sucesso | lokan
+[12:07:58] - 06-01-2025 - INFO - ETAPA FORMATAR PLANILHA NOTAS DEBITOS - FINALIZADA
+[12:07:58] - 06-01-2025 - INFO - ETAPA FORMATAR PLANILHA NOTAS DEBITOS CANCELADAS - INICIADA
+[12:07:58] - 06-01-2025 - INFO - Planilha notas_canceladas_formatada | lokan
+[12:07:58] - 06-01-2025 - INFO - ETAPA FORMATAR PLANILHA NOTAS DEBITOS CANCELADAS - FINALIZADA
+[12:07:58] - 06-01-2025 - INFO - Planilha notas créditos formatada e ordenada com sucesso | lokan
+[12:07:58] - 06-01-2025 - INFO - ETAPA FORMATAR PLANILHA NOTAS CRÉDITOS EM ABERTO - FINALIZADA
+[12:07:58] - 06-01-2025 - INFO - ETAPA LIMPAR BOLETOS E EXCLUIR CABEÇALHOS - INICIADA | lokan
+[12:08:03] - 06-01-2025 - INFO - ETAPA LIMPAR BOLETOS E EXCLUIR CABEÇALHOS - FINALIZADA | lokan
+[12:08:05] - 06-01-2025 - INFO - Processo concluído! Dados copiados de notas_debitos para planilha_principal_lokan | lokan
+[12:08:07] - 06-01-2025 - INFO - Processo concluído! Dados copiados de notas_creditos_em_aberto para lokan.
+[12:08:09] - 06-01-2025 - INFO - Processo concluído! Dados copiados de notas_canceladas para lokan.
+[12:08:09] - 06-01-2025 - INFO - ETAPA DE ORDENAÇÃO DAS ABAS PELA COLUNA VENCTO - INICIADA
+[12:08:14] - 06-01-2025 - INFO - ETAPA DE ORDENAÇÃO DAS ABAS PELA COLUNA VENCTO PARA EMPRESA lokan- FINALIZADA COM SUCESSO
+[12:08:16] - 06-01-2025 - INFO - Planilha empresa lokan ordenada CREDITO e DEBITO
+[12:08:18] - 06-01-2025 - INFO - ETAPA VERIFICAR STATUS PG NA PLANILHA PRINCIPAL - INICIADA
+[12:08:23] - 06-01-2025 - INFO - Valores de PG, CREDITO e RECBO atualizados com sucesso em todas as abas | lokan
+[12:08:23] - 06-01-2025 - INFO - ETAPA VERIFICAR STATUS PG NA PLANILHA PRINCIPAL - FINALIZADA
+[12:08:23] - 06-01-2025 - INFO - ETAPA VERIFICAR STATUS PG NA PLANILHA PRINCIPAL NOTAS CREDITOS - INICIADA
+[12:08:28] - 06-01-2025 - INFO - Valores de PG, CREDITO e RECBO atualizados com sucesso em todas as abas | lokan
+[12:08:28] - 06-01-2025 - INFO - ETAPA VERIFICAR STATUS PG NA PLANILHA PRINCIPAL NOTAS CREDITOS - FINALIZADA
+[12:08:33] - 06-01-2025 - INFO - ETAPA FORMATAÇÃO FINAL - INICIADA
+[12:08:42] - 06-01-2025 - INFO - ETAPA FORMATAÇÃO FINAL - FINALIZADA
+[12:08:43] - 06-01-2025 - INFO - Não foi encontrada nenhuma planilha de pagamentos CAR para periodo informado: 
+[Errno 2] No such file or directory: 'C:\\Users\\lokan\\OneDrive\\Documentos\\projeto_auto_Lokan -V2\\app\\Planilhas\\Pagamentos\\pagamentos_23-12-2024_31-12-2024_lokanfacil.xls'
+[12:08:43] - 06-01-2025 - INFO - ETAPA FORMATAR PLANILHA PAGAMENTOS CAR PG - FINALIZADA
+[12:08:43] - 06-01-2025 - ERROR - Erro ao processar empresa: lokanfacil a planilha notas créditos pagos para formatação: 
+[Errno 2] No such file or directory: 'C:\\Users\\lokan\\OneDrive\\Documentos\\projeto_auto_Lokan -V2\\app\\Planilhas\\Notas_creditos\\notas_creditos_23-12-2024_31-12-2024_lokanfacil.xls'
+[12:08:43] - 06-01-2025 - INFO - ETAPA FORMATAR PLANILHA NOTAS DEBITOS - INICIADA
+[12:08:43] - 06-01-2025 - INFO - Planilha notas débitos formatada e ordenada com sucesso | lokanfacil
+[12:08:43] - 06-01-2025 - INFO - ETAPA FORMATAR PLANILHA NOTAS DEBITOS - FINALIZADA
+[12:08:43] - 06-01-2025 - INFO - ETAPA FORMATAR PLANILHA NOTAS DEBITOS CANCELADAS - INICIADA
+[12:08:43] - 06-01-2025 - INFO - Planilha notas_canceladas_formatada | lokanfacil
+[12:08:43] - 06-01-2025 - INFO - ETAPA FORMATAR PLANILHA NOTAS DEBITOS CANCELADAS - FINALIZADA
+[12:08:43] - 06-01-2025 - INFO - Planilha notas créditos formatada e ordenada com sucesso | lokanfacil
+[12:08:43] - 06-01-2025 - INFO - ETAPA FORMATAR PLANILHA NOTAS CRÉDITOS EM ABERTO - FINALIZADA
+[12:08:43] - 06-01-2025 - INFO - ETAPA LIMPAR BOLETOS E EXCLUIR CABEÇALHOS - INICIADA | lokanfacil
+[12:08:43] - 06-01-2025 - INFO - ETAPA LIMPAR BOLETOS E EXCLUIR CABEÇALHOS - FINALIZADA | lokanfacil
+[12:08:43] - 06-01-2025 - INFO - Processo concluído! Dados copiados de notas_debitos para planilha_principal_lokan | lokanfacil
+[12:08:43] - 06-01-2025 - INFO - Processo concluído! Dados copiados de notas_creditos_em_aberto para lokanfacil.
+[12:08:43] - 06-01-2025 - INFO - Processo concluído! Dados copiados de notas_canceladas para lokanfacil.
+[12:08:43] - 06-01-2025 - INFO - ETAPA DE ORDENAÇÃO DAS ABAS PELA COLUNA VENCTO - INICIADA
+[12:08:43] - 06-01-2025 - INFO - ETAPA DE ORDENAÇÃO DAS ABAS PELA COLUNA VENCTO PARA EMPRESA lokanfacil- FINALIZADA COM SUCESSO
+[12:08:43] - 06-01-2025 - INFO - Planilha empresa lokanfacil ordenada CREDITO e DEBITO
+[12:08:43] - 06-01-2025 - INFO - ETAPA VERIFICAR STATUS PG NA PLANILHA PRINCIPAL - INICIADA
+[12:08:43] - 06-01-2025 - INFO - Valores de PG, CREDITO e RECBO atualizados com sucesso em todas as abas | lokanfacil
+[12:08:43] - 06-01-2025 - INFO - ETAPA VERIFICAR STATUS PG NA PLANILHA PRINCIPAL - FINALIZADA
+[12:08:43] - 06-01-2025 - INFO - ETAPA VERIFICAR STATUS PG NA PLANILHA PRINCIPAL NOTAS CREDITOS - INICIADA
+[12:08:44] - 06-01-2025 - ERROR - Erro ao processar a planilha pagamentos_creditos na data ('23-12-2024', '31-12-2024') para empresa lokanfacil: 
+[Errno 2] No such file or directory: 'C:\\Users\\lokan\\OneDrive\\Documentos\\projeto_auto_Lokan -V2\\app\\Planilhas\\Notas_creditos/notas_creditos_23-12-2024_31-12-2024_pagos_lokanfacil.xlsx'
+[12:08:44] - 06-01-2025 - INFO - ETAPA VERIFICAR STATUS PG NA PLANILHA PRINCIPAL NOTAS CREDITOS - FINALIZADA
+[12:08:44] - 06-01-2025 - INFO - ETAPA FORMATAÇÃO FINAL - INICIADA
+[12:08:44] - 06-01-2025 - INFO - ETAPA FORMATAÇÃO FINAL - FINALIZADA
+[12:15:02] - 06-01-2025 - INFO - Não foi encontrada nenhuma planilha de pagamentos CAR para periodo informado: 
+[Errno 2] No such file or directory: 'C:\\Users\\lokan\\OneDrive\\Documentos\\projeto_auto_Lokan -V2\\app\\Planilhas\\Pagamentos\\pagamentos_01-06-2025_06-01-2025_lokan.xls'
+[12:15:02] - 06-01-2025 - INFO - ETAPA FORMATAR PLANILHA PAGAMENTOS CAR PG - FINALIZADA
+[12:15:02] - 06-01-2025 - ERROR - Erro ao processar empresa: lokan a planilha notas créditos pagos para formatação: 
+[Errno 2] No such file or directory: 'C:\\Users\\lokan\\OneDrive\\Documentos\\projeto_auto_Lokan -V2\\app\\Planilhas\\Notas_creditos\\notas_creditos_01-06-2025_06-01-2025_lokan.xls'
+[12:15:02] - 06-01-2025 - INFO - ETAPA FORMATAR PLANILHA NOTAS DEBITOS - INICIADA
+[12:15:02] - 06-01-2025 - INFO - Erro ao processar arquivo empresa lokan notas débitos para formataçaõ: 
+[Errno 2] No such file or directory: 'C:\\Users\\lokan\\OneDrive\\Documentos\\projeto_auto_Lokan -V2\\app\\Planilhas\\Notas_debitos\\notas_debitos_01-06-2025_06-01-2025_lokan.xls'
+[12:15:02] - 06-01-2025 - INFO - ETAPA FORMATAR PLANILHA NOTAS DEBITOS - FINALIZADA
+[12:15:02] - 06-01-2025 - INFO - ETAPA FORMATAR PLANILHA NOTAS DEBITOS CANCELADAS - INICIADA
+[12:15:02] - 06-01-2025 - ERROR - Erro ao tentar na empresa lokan salvar planilha notas debitos canceladas para formatação: 
+[Errno 2] No such file or directory: 'C:\\Users\\lokan\\OneDrive\\Documentos\\projeto_auto_Lokan -V2\\app\\Planilhas\\Notas_debitos_canceladas\\notas_canceladas_01-06-2025_06-01-2025_lokan.xls'
+[12:15:02] - 06-01-2025 - INFO - ETAPA FORMATAR PLANILHA NOTAS DEBITOS CANCELADAS - FINALIZADA
+[12:15:02] - 06-01-2025 - INFO - Nao existem planilha notas_credito_aberto para empresa lokan
+[12:15:02] - 06-01-2025 - INFO - Erro ao processar arquivo empresa lokan notas créditos em aberto para formatação: 
+cannot access local variable 'df' where it is not associated with a value
+[12:15:02] - 06-01-2025 - INFO - ETAPA LIMPAR BOLETOS E EXCLUIR CABEÇALHOS - INICIADA | lokan
+[12:15:06] - 06-01-2025 - INFO - ETAPA LIMPAR BOLETOS E EXCLUIR CABEÇALHOS - FINALIZADA | lokan
+[12:15:06] - 06-01-2025 - INFO - Não existem planilha notas_debitos da empresa lokan para o periodo informado - 
+[Errno 2] No such file or directory: 'C:\\Users\\lokan\\OneDrive\\Documentos\\projeto_auto_Lokan -V2\\app\\Planilhas\\Notas_debitos\\notas_debitos_01-06-2025_06-01-2025_lokan.xlsx'
+[12:15:06] - 06-01-2025 - INFO - Não existem planilha notas_creditos_em_aberto para empresa lokan no periodo informado - 
+[Errno 2] No such file or directory: 'C:\\Users\\lokan\\OneDrive\\Documentos\\projeto_auto_Lokan -V2\\app\\Planilhas\\Notas_creditos\\notas_creditos_01-06-2025_06-01-2025_aberto_lokan.xlsx'
+[12:15:07] - 06-01-2025 - INFO - Não existem planilha notas_canceladas para empresa lokan no periodo informado - 
+[Errno 2] No such file or directory: 'C:\\Users\\lokan\\OneDrive\\Documentos\\projeto_auto_Lokan -V2\\app\\Planilhas\\Notas_debitos_canceladas\\notas_canceladas_01-06-2025_06-01-2025_lokan.xlsx'
+[12:15:07] - 06-01-2025 - INFO - ETAPA DE ORDENAÇÃO DAS ABAS PELA COLUNA VENCTO - INICIADA
+[12:15:13] - 06-01-2025 - INFO - ETAPA DE ORDENAÇÃO DAS ABAS PELA COLUNA VENCTO PARA EMPRESA lokan- FINALIZADA COM SUCESSO
+[12:15:15] - 06-01-2025 - INFO - Planilha empresa lokan ordenada CREDITO e DEBITO
+[12:15:16] - 06-01-2025 - INFO - ETAPA VERIFICAR STATUS PG NA PLANILHA PRINCIPAL - INICIADA
+[12:15:16] - 06-01-2025 - ERROR - Erro ao processar a planilha pagamentos na data ('01-06-2025', '06-01-2025') para empresa lokan: 
+[Errno 2] No such file or directory: 'C:\\Users\\lokan\\OneDrive\\Documentos\\projeto_auto_Lokan -V2\\app\\Planilhas\\Pagamentos/pagamentos_01-06-2025_06-01-2025_lokan.xlsx'
+[12:15:16] - 06-01-2025 - INFO - ETAPA VERIFICAR STATUS PG NA PLANILHA PRINCIPAL - FINALIZADA
+[12:15:16] - 06-01-2025 - INFO - ETAPA VERIFICAR STATUS PG NA PLANILHA PRINCIPAL NOTAS CREDITOS - INICIADA
+[12:15:17] - 06-01-2025 - ERROR - Erro ao processar a planilha pagamentos_creditos na data ('01-06-2025', '06-01-2025') para empresa lokan: 
+[Errno 2] No such file or directory: 'C:\\Users\\lokan\\OneDrive\\Documentos\\projeto_auto_Lokan -V2\\app\\Planilhas\\Notas_creditos/notas_creditos_01-06-2025_06-01-2025_pagos_lokan.xlsx'
+[12:15:17] - 06-01-2025 - INFO - ETAPA VERIFICAR STATUS PG NA PLANILHA PRINCIPAL NOTAS CREDITOS - FINALIZADA
+[12:15:19] - 06-01-2025 - INFO - ETAPA FORMATAÇÃO FINAL - INICIADA
+[12:15:29] - 06-01-2025 - INFO - ETAPA FORMATAÇÃO FINAL - FINALIZADA
+[12:15:29] - 06-01-2025 - INFO - Não foi encontrada nenhuma planilha de pagamentos CAR para periodo informado: 
+[Errno 2] No such file or directory: 'C:\\Users\\lokan\\OneDrive\\Documentos\\projeto_auto_Lokan -V2\\app\\Planilhas\\Pagamentos\\pagamentos_01-06-2025_06-01-2025_lokanfacil.xls'
+[12:15:29] - 06-01-2025 - INFO - ETAPA FORMATAR PLANILHA PAGAMENTOS CAR PG - FINALIZADA
+[12:15:29] - 06-01-2025 - ERROR - Erro ao processar empresa: lokanfacil a planilha notas créditos pagos para formatação: 
+[Errno 2] No such file or directory: 'C:\\Users\\lokan\\OneDrive\\Documentos\\projeto_auto_Lokan -V2\\app\\Planilhas\\Notas_creditos\\notas_creditos_01-06-2025_06-01-2025_lokanfacil.xls'
+[12:15:29] - 06-01-2025 - INFO - ETAPA FORMATAR PLANILHA NOTAS DEBITOS - INICIADA
+[12:15:29] - 06-01-2025 - INFO - Erro ao processar arquivo empresa lokanfacil notas débitos para formataçaõ: 
+[Errno 2] No such file or directory: 'C:\\Users\\lokan\\OneDrive\\Documentos\\projeto_auto_Lokan -V2\\app\\Planilhas\\Notas_debitos\\notas_debitos_01-06-2025_06-01-2025_lokanfacil.xls'
+[12:15:29] - 06-01-2025 - INFO - ETAPA FORMATAR PLANILHA NOTAS DEBITOS - FINALIZADA
+[12:15:29] - 06-01-2025 - INFO - ETAPA FORMATAR PLANILHA NOTAS DEBITOS CANCELADAS - INICIADA
+[12:15:29] - 06-01-2025 - ERROR - Erro ao tentar na empresa lokanfacil salvar planilha notas debitos canceladas para formatação: 
+[Errno 2] No such file or directory: 'C:\\Users\\lokan\\OneDrive\\Documentos\\projeto_auto_Lokan -V2\\app\\Planilhas\\Notas_debitos_canceladas\\notas_canceladas_01-06-2025_06-01-2025_lokanfacil.xls'
+[12:15:29] - 06-01-2025 - INFO - ETAPA FORMATAR PLANILHA NOTAS DEBITOS CANCELADAS - FINALIZADA
+[12:15:29] - 06-01-2025 - INFO - Nao existem planilha notas_credito_aberto para empresa lokanfacil
+[12:15:29] - 06-01-2025 - INFO - Erro ao processar arquivo empresa lokanfacil notas créditos em aberto para formatação: 
+cannot access local variable 'df' where it is not associated with a value
+[12:15:29] - 06-01-2025 - INFO - ETAPA LIMPAR BOLETOS E EXCLUIR CABEÇALHOS - INICIADA | lokanfacil
+[12:15:30] - 06-01-2025 - INFO - ETAPA LIMPAR BOLETOS E EXCLUIR CABEÇALHOS - FINALIZADA | lokanfacil
+[12:15:30] - 06-01-2025 - INFO - Não existem planilha notas_debitos da empresa lokanfacil para o periodo informado - 
+[Errno 2] No such file or directory: 'C:\\Users\\lokan\\OneDrive\\Documentos\\projeto_auto_Lokan -V2\\app\\Planilhas\\Notas_debitos\\notas_debitos_01-06-2025_06-01-2025_lokanfacil.xlsx'
+[12:15:30] - 06-01-2025 - INFO - Não existem planilha notas_creditos_em_aberto para empresa lokanfacil no periodo informado - 
+[Errno 2] No such file or directory: 'C:\\Users\\lokan\\OneDrive\\Documentos\\projeto_auto_Lokan -V2\\app\\Planilhas\\Notas_creditos\\notas_creditos_01-06-2025_06-01-2025_aberto_lokanfacil.xlsx'
+[12:15:30] - 06-01-2025 - INFO - Não existem planilha notas_canceladas para empresa lokanfacil no periodo informado - 
+[Errno 2] No such file or directory: 'C:\\Users\\lokan\\OneDrive\\Documentos\\projeto_auto_Lokan -V2\\app\\Planilhas\\Notas_debitos_canceladas\\notas_canceladas_01-06-2025_06-01-2025_lokanfacil.xlsx'
+[12:15:30] - 06-01-2025 - INFO - ETAPA DE ORDENAÇÃO DAS ABAS PELA COLUNA VENCTO - INICIADA
+[12:15:30] - 06-01-2025 - INFO - ETAPA DE ORDENAÇÃO DAS ABAS PELA COLUNA VENCTO PARA EMPRESA lokanfacil- FINALIZADA COM SUCESSO
+[12:15:30] - 06-01-2025 - INFO - Planilha empresa lokanfacil ordenada CREDITO e DEBITO
+[12:15:30] - 06-01-2025 - INFO - ETAPA VERIFICAR STATUS PG NA PLANILHA PRINCIPAL - INICIADA
+[12:15:30] - 06-01-2025 - ERROR - Erro ao processar a planilha pagamentos na data ('01-06-2025', '06-01-2025') para empresa lokanfacil: 
+[Errno 2] No such file or directory: 'C:\\Users\\lokan\\OneDrive\\Documentos\\projeto_auto_Lokan -V2\\app\\Planilhas\\Pagamentos/pagamentos_01-06-2025_06-01-2025_lokanfacil.xlsx'
+[12:15:30] - 06-01-2025 - INFO - ETAPA VERIFICAR STATUS PG NA PLANILHA PRINCIPAL - FINALIZADA
+[12:15:30] - 06-01-2025 - INFO - ETAPA VERIFICAR STATUS PG NA PLANILHA PRINCIPAL NOTAS CREDITOS - INICIADA
+[12:15:30] - 06-01-2025 - ERROR - Erro ao processar a planilha pagamentos_creditos na data ('01-06-2025', '06-01-2025') para empresa lokanfacil: 
+[Errno 2] No such file or directory: 'C:\\Users\\lokan\\OneDrive\\Documentos\\projeto_auto_Lokan -V2\\app\\Planilhas\\Notas_creditos/notas_creditos_01-06-2025_06-01-2025_pagos_lokanfacil.xlsx'
+[12:15:30] - 06-01-2025 - INFO - ETAPA VERIFICAR STATUS PG NA PLANILHA PRINCIPAL NOTAS CREDITOS - FINALIZADA
+[12:15:30] - 06-01-2025 - INFO - ETAPA FORMATAÇÃO FINAL - INICIADA
+[12:15:30] - 06-01-2025 - INFO - ETAPA FORMATAÇÃO FINAL - FINALIZADA
+[12:18:23] - 06-01-2025 - INFO - ETAPA LOGIN INICIADA
+[12:18:39] - 06-01-2025 - INFO - ETAPA LOGIN FINALIZADA
+[12:18:50] - 06-01-2025 - INFO - ETAPA GERAR RELATORIO FATURAMENTO - INICIADA
+[12:19:01] - 06-01-2025 - INFO - Numero da empresa consultada - 1
+[12:19:21] - 06-01-2025 - INFO - Pesquisar Relatorio de Faturamento Geral
+[12:19:28] - 06-01-2025 - INFO - Filtro para buscar notas de debito
+[12:19:42] - 06-01-2025 - INFO - Gerando o relatorio Faturamento Geral
+[12:19:56] - 06-01-2025 - INFO - ETAPA GERAR RELATORIO FATURAMENTO lokan- FINALIZADA
+[12:19:56] - 06-01-2025 - INFO - ETAPA GERAR RELATORIO NOTAS DEBITOS CANCELADAS lokan - INICIADA
+[12:19:59] - 06-01-2025 - INFO - Pesquisar Relatorio de NOTAS DEBITOS CANCELADAS
+[12:20:04] - 06-01-2025 - INFO - empresa em  notas canceladas lokan - 14
+[12:20:41] - 06-01-2025 - INFO - ETAPA GERAR RELATORIO NOTAS DEBITOS CANCELADAS  lokan - FINALIZADA
+[12:20:57] - 06-01-2025 - INFO - ETAPA GERAR RELATORIO CAP LOKAN  lokan - INICIADA
+[12:21:43] - 06-01-2025 - INFO - ETAPA GERAR RELATORIO CAP LOKAN lokan - FINALIZADA
+[12:21:43] - 06-01-2025 - INFO - ETAPA GERAR RELATORIO CAP EM ABERTO LOKAN lokan - INICIADA
+[12:22:30] - 06-01-2025 - INFO - ETAPA GERAR RELATORIO CAP LOKAN lokan - FINALIZADA
+[12:22:46] - 06-01-2025 - INFO - ETAPA GERAR RELATORIO CAR PG lokan - INICIADA
+[12:23:50] - 06-01-2025 - INFO - ETAPA GERAR RELATORIO CAR PG lokan- FINALIZADA
+[12:24:07] - 06-01-2025 - INFO - Numero da empresa consultada - 3
+[12:24:28] - 06-01-2025 - INFO - Pesquisar Relatorio de Faturamento Geral
+[12:24:34] - 06-01-2025 - INFO - Filtro para buscar notas de debito
+[12:24:48] - 06-01-2025 - INFO - Gerando o relatorio Faturamento Geral
+[12:25:02] - 06-01-2025 - INFO - ETAPA GERAR RELATORIO FATURAMENTO lokanfacil- FINALIZADA
+[12:25:02] - 06-01-2025 - INFO - ETAPA GERAR RELATORIO NOTAS DEBITOS CANCELADAS lokanfacil - INICIADA
+[12:25:05] - 06-01-2025 - INFO - Pesquisar Relatorio de NOTAS DEBITOS CANCELADAS
+[12:25:10] - 06-01-2025 - INFO - empresa em  notas canceladas lokanfacil - 30
+[12:25:47] - 06-01-2025 - INFO - ETAPA GERAR RELATORIO NOTAS DEBITOS CANCELADAS  lokanfacil - FINALIZADA
+[12:26:03] - 06-01-2025 - INFO - ETAPA GERAR RELATORIO CAP LOKAN  lokanfacil - INICIADA
+[12:26:49] - 06-01-2025 - INFO - ETAPA GERAR RELATORIO CAP LOKAN lokanfacil - FINALIZADA
+[12:26:49] - 06-01-2025 - INFO - ETAPA GERAR RELATORIO CAP EM ABERTO LOKAN lokanfacil - INICIADA
+[12:27:35] - 06-01-2025 - INFO - ETAPA GERAR RELATORIO CAP LOKAN lokanfacil - FINALIZADA
+[12:27:51] - 06-01-2025 - INFO - ETAPA GERAR RELATORIO CAR PG lokanfacil - INICIADA
+[12:28:52] - 06-01-2025 - INFO - ETAPA GERAR RELATORIO CAR PG lokanfacil- FINALIZADA
+[12:29:14] - 06-01-2025 - INFO - planilha pagamentos formatada com sucesso | lokan
+[12:29:14] - 06-01-2025 - INFO - ETAPA FORMATAR PLANILHA PAGAMENTOS CAR PG - FINALIZADA
+[12:29:14] - 06-01-2025 - INFO - Planilha notas créditos formatada e salva com sucesso | lokan
+[12:29:14] - 06-01-2025 - INFO - ETAPA FORMATAR PLANILHA NOTAS DEBITOS - INICIADA
+[12:29:14] - 06-01-2025 - INFO - Erro ao processar arquivo empresa lokan notas débitos para formataçaõ: 
+[Errno 2] No such file or directory: 'C:\\Users\\lokan\\OneDrive\\Documentos\\projeto_auto_Lokan -V2\\app\\Planilhas\\Notas_debitos\\notas_debitos_31-12-2024_06-01-2025_lokan.xls'
+[12:29:14] - 06-01-2025 - INFO - ETAPA FORMATAR PLANILHA NOTAS DEBITOS - FINALIZADA
+[12:29:14] - 06-01-2025 - INFO - ETAPA FORMATAR PLANILHA NOTAS DEBITOS CANCELADAS - INICIADA
+[12:29:14] - 06-01-2025 - INFO - Planilha notas_canceladas_formatada | lokan
+[12:29:14] - 06-01-2025 - INFO - ETAPA FORMATAR PLANILHA NOTAS DEBITOS CANCELADAS - FINALIZADA
+[12:29:14] - 06-01-2025 - INFO - Planilha notas créditos formatada e ordenada com sucesso | lokan
+[12:29:14] - 06-01-2025 - INFO - ETAPA FORMATAR PLANILHA NOTAS CRÉDITOS EM ABERTO - FINALIZADA
+[12:29:14] - 06-01-2025 - INFO - ETAPA LIMPAR BOLETOS E EXCLUIR CABEÇALHOS - INICIADA | lokan
+[12:29:19] - 06-01-2025 - INFO - ETAPA LIMPAR BOLETOS E EXCLUIR CABEÇALHOS - FINALIZADA | lokan
+[12:29:19] - 06-01-2025 - INFO - Não existem planilha notas_debitos da empresa lokan para o periodo informado - 
+[Errno 2] No such file or directory: 'C:\\Users\\lokan\\OneDrive\\Documentos\\projeto_auto_Lokan -V2\\app\\Planilhas\\Notas_debitos\\notas_debitos_31-12-2024_06-01-2025_lokan.xlsx'
+[12:29:20] - 06-01-2025 - INFO - Processo concluído! Dados copiados de notas_creditos_em_aberto para lokan.
+[12:29:22] - 06-01-2025 - INFO - Processo concluído! Dados copiados de notas_canceladas para lokan.
+[12:29:22] - 06-01-2025 - INFO - ETAPA DE ORDENAÇÃO DAS ABAS PELA COLUNA VENCTO - INICIADA
+[12:29:28] - 06-01-2025 - INFO - ETAPA DE ORDENAÇÃO DAS ABAS PELA COLUNA VENCTO PARA EMPRESA lokan- FINALIZADA COM SUCESSO
+[12:29:30] - 06-01-2025 - INFO - Planilha empresa lokan ordenada CREDITO e DEBITO
+[12:29:32] - 06-01-2025 - INFO - ETAPA VERIFICAR STATUS PG NA PLANILHA PRINCIPAL - INICIADA
+[12:29:37] - 06-01-2025 - INFO - Valores de PG, CREDITO e RECBO atualizados com sucesso em todas as abas | lokan
+[12:29:37] - 06-01-2025 - INFO - ETAPA VERIFICAR STATUS PG NA PLANILHA PRINCIPAL - FINALIZADA
+[12:29:37] - 06-01-2025 - INFO - ETAPA VERIFICAR STATUS PG NA PLANILHA PRINCIPAL NOTAS CREDITOS - INICIADA
+[12:29:43] - 06-01-2025 - INFO - Valores de PG, CREDITO e RECBO atualizados com sucesso em todas as abas | lokan
+[12:29:43] - 06-01-2025 - INFO - ETAPA VERIFICAR STATUS PG NA PLANILHA PRINCIPAL NOTAS CREDITOS - FINALIZADA
+[12:29:46] - 06-01-2025 - INFO - ETAPA FORMATAÇÃO FINAL - INICIADA
+[12:29:56] - 06-01-2025 - INFO - ETAPA FORMATAÇÃO FINAL - FINALIZADA
+[12:29:57] - 06-01-2025 - INFO - planilha pagamentos formatada com sucesso | lokanfacil
+[12:29:57] - 06-01-2025 - INFO - ETAPA FORMATAR PLANILHA PAGAMENTOS CAR PG - FINALIZADA
+[12:29:57] - 06-01-2025 - INFO - Planilha notas créditos formatada e salva com sucesso | lokanfacil
+[12:29:57] - 06-01-2025 - INFO - ETAPA FORMATAR PLANILHA NOTAS DEBITOS - INICIADA
+[12:29:57] - 06-01-2025 - INFO - Erro ao processar arquivo empresa lokanfacil notas débitos para formataçaõ: 
+[Errno 2] No such file or directory: 'C:\\Users\\lokan\\OneDrive\\Documentos\\projeto_auto_Lokan -V2\\app\\Planilhas\\Notas_debitos\\notas_debitos_31-12-2024_06-01-2025_lokanfacil.xls'
+[12:29:57] - 06-01-2025 - INFO - ETAPA FORMATAR PLANILHA NOTAS DEBITOS - FINALIZADA
+[12:29:57] - 06-01-2025 - INFO - ETAPA FORMATAR PLANILHA NOTAS DEBITOS CANCELADAS - INICIADA
+[12:29:57] - 06-01-2025 - ERROR - Erro ao tentar na empresa lokanfacil salvar planilha notas debitos canceladas para formatação: 
+Usecols do not match columns, columns expected but not found: ['Motivo', 'Cancelamento', 'Destinatário / Remetente', 'Série/Número', 'Emissão'] (sheet: 0)
+[12:29:57] - 06-01-2025 - INFO - ETAPA FORMATAR PLANILHA NOTAS DEBITOS CANCELADAS - FINALIZADA
+[12:29:57] - 06-01-2025 - INFO - Nao existem planilha notas_credito_aberto para empresa lokanfacil
+[12:29:57] - 06-01-2025 - INFO - Erro ao processar arquivo empresa lokanfacil notas créditos em aberto para formatação: 
+cannot access local variable 'df' where it is not associated with a value
+[12:29:57] - 06-01-2025 - INFO - ETAPA LIMPAR BOLETOS E EXCLUIR CABEÇALHOS - INICIADA | lokanfacil
+[12:29:57] - 06-01-2025 - INFO - ETAPA LIMPAR BOLETOS E EXCLUIR CABEÇALHOS - FINALIZADA | lokanfacil
+[12:29:57] - 06-01-2025 - INFO - Não existem planilha notas_debitos da empresa lokanfacil para o periodo informado - 
+[Errno 2] No such file or directory: 'C:\\Users\\lokan\\OneDrive\\Documentos\\projeto_auto_Lokan -V2\\app\\Planilhas\\Notas_debitos\\notas_debitos_31-12-2024_06-01-2025_lokanfacil.xlsx'
+[12:29:57] - 06-01-2025 - INFO - Não existem planilha notas_creditos_em_aberto para empresa lokanfacil no periodo informado - 
+[Errno 2] No such file or directory: 'C:\\Users\\lokan\\OneDrive\\Documentos\\projeto_auto_Lokan -V2\\app\\Planilhas\\Notas_creditos\\notas_creditos_31-12-2024_06-01-2025_aberto_lokanfacil.xlsx'
+[12:29:57] - 06-01-2025 - INFO - Não existem planilha notas_canceladas para empresa lokanfacil no periodo informado - 
+[Errno 2] No such file or directory: 'C:\\Users\\lokan\\OneDrive\\Documentos\\projeto_auto_Lokan -V2\\app\\Planilhas\\Notas_debitos_canceladas\\notas_canceladas_31-12-2024_06-01-2025_lokanfacil.xlsx'
+[12:29:57] - 06-01-2025 - INFO - ETAPA DE ORDENAÇÃO DAS ABAS PELA COLUNA VENCTO - INICIADA
+[12:29:57] - 06-01-2025 - INFO - ETAPA DE ORDENAÇÃO DAS ABAS PELA COLUNA VENCTO PARA EMPRESA lokanfacil- FINALIZADA COM SUCESSO
+[12:29:57] - 06-01-2025 - INFO - Planilha empresa lokanfacil ordenada CREDITO e DEBITO
+[12:29:57] - 06-01-2025 - INFO - ETAPA VERIFICAR STATUS PG NA PLANILHA PRINCIPAL - INICIADA
+[12:29:57] - 06-01-2025 - INFO - Valores de PG, CREDITO e RECBO atualizados com sucesso em todas as abas | lokanfacil
+[12:29:57] - 06-01-2025 - INFO - ETAPA VERIFICAR STATUS PG NA PLANILHA PRINCIPAL - FINALIZADA
+[12:29:57] - 06-01-2025 - INFO - ETAPA VERIFICAR STATUS PG NA PLANILHA PRINCIPAL NOTAS CREDITOS - INICIADA
+[12:29:57] - 06-01-2025 - INFO - Valores de PG, CREDITO e RECBO atualizados com sucesso em todas as abas | lokanfacil
+[12:29:57] - 06-01-2025 - INFO - ETAPA VERIFICAR STATUS PG NA PLANILHA PRINCIPAL NOTAS CREDITOS - FINALIZADA
+[12:29:57] - 06-01-2025 - INFO - ETAPA FORMATAÇÃO FINAL - INICIADA
+[12:29:58] - 06-01-2025 - INFO - ETAPA FORMATAÇÃO FINAL - FINALIZADA
+[13:34:13] - 06-01-2025 - INFO - ETAPA LOGIN INICIADA
+[13:34:29] - 06-01-2025 - INFO - ETAPA LOGIN FINALIZADA
+[13:34:39] - 06-01-2025 - INFO - ETAPA GERAR RELATORIO FATURAMENTO - INICIADA
+[13:34:50] - 06-01-2025 - INFO - Numero da empresa consultada - 1
+[13:35:10] - 06-01-2025 - INFO - Pesquisar Relatorio de Faturamento Geral
+[13:35:17] - 06-01-2025 - INFO - Filtro para buscar notas de debito
+[13:35:31] - 06-01-2025 - INFO - Gerando o relatorio Faturamento Geral
+[13:35:45] - 06-01-2025 - INFO - ETAPA GERAR RELATORIO FATURAMENTO lokan- FINALIZADA
+[13:35:45] - 06-01-2025 - INFO - ETAPA GERAR RELATORIO NOTAS DEBITOS CANCELADAS lokan - INICIADA
+[13:35:48] - 06-01-2025 - INFO - Pesquisar Relatorio de NOTAS DEBITOS CANCELADAS
+[13:35:53] - 06-01-2025 - INFO - empresa em  notas canceladas lokan - 14
+[13:36:30] - 06-01-2025 - INFO - ETAPA GERAR RELATORIO NOTAS DEBITOS CANCELADAS  lokan - FINALIZADA
+[13:36:45] - 06-01-2025 - INFO - ETAPA GERAR RELATORIO CAP LOKAN  lokan - INICIADA
+[13:37:31] - 06-01-2025 - INFO - ETAPA GERAR RELATORIO CAP LOKAN lokan - FINALIZADA
+[13:37:31] - 06-01-2025 - INFO - ETAPA GERAR RELATORIO CAP EM ABERTO LOKAN lokan - INICIADA
+[13:38:19] - 06-01-2025 - INFO - ETAPA GERAR RELATORIO CAP LOKAN lokan - FINALIZADA
+[13:38:34] - 06-01-2025 - INFO - ETAPA GERAR RELATORIO CAR PG lokan - INICIADA
+[13:39:32] - 06-01-2025 - INFO - ETAPA GERAR RELATORIO CAR PG lokan- FINALIZADA
+[13:39:49] - 06-01-2025 - INFO - Numero da empresa consultada - 3
+[13:40:10] - 06-01-2025 - INFO - Pesquisar Relatorio de Faturamento Geral
+[13:40:16] - 06-01-2025 - INFO - Filtro para buscar notas de debito
+[13:40:30] - 06-01-2025 - INFO - Gerando o relatorio Faturamento Geral
+[13:40:44] - 06-01-2025 - INFO - ETAPA GERAR RELATORIO FATURAMENTO lokanfacil- FINALIZADA
+[13:40:44] - 06-01-2025 - INFO - ETAPA GERAR RELATORIO NOTAS DEBITOS CANCELADAS lokanfacil - INICIADA
+[13:40:47] - 06-01-2025 - INFO - Pesquisar Relatorio de NOTAS DEBITOS CANCELADAS
+[13:40:52] - 06-01-2025 - INFO - empresa em  notas canceladas lokanfacil - 30
+[13:41:29] - 06-01-2025 - INFO - ETAPA GERAR RELATORIO NOTAS DEBITOS CANCELADAS  lokanfacil - FINALIZADA
+[13:41:44] - 06-01-2025 - INFO - ETAPA GERAR RELATORIO CAP LOKAN  lokanfacil - INICIADA
+[13:42:30] - 06-01-2025 - INFO - ETAPA GERAR RELATORIO CAP LOKAN lokanfacil - FINALIZADA
+[13:42:30] - 06-01-2025 - INFO - ETAPA GERAR RELATORIO CAP EM ABERTO LOKAN lokanfacil - INICIADA
+[13:43:18] - 06-01-2025 - INFO - ETAPA GERAR RELATORIO CAP LOKAN lokanfacil - FINALIZADA
+[13:43:33] - 06-01-2025 - INFO - ETAPA GERAR RELATORIO CAR PG lokanfacil - INICIADA
+[13:44:31] - 06-01-2025 - INFO - ETAPA GERAR RELATORIO CAR PG lokanfacil- FINALIZADA
+[13:44:52] - 06-01-2025 - INFO - planilha pagamentos formatada com sucesso | lokan
+[13:44:52] - 06-01-2025 - INFO - ETAPA FORMATAR PLANILHA PAGAMENTOS CAR PG - FINALIZADA
+[13:44:52] - 06-01-2025 - INFO - Planilha notas créditos formatada e salva com sucesso | lokan
+[13:44:52] - 06-01-2025 - INFO - ETAPA FORMATAR PLANILHA NOTAS DEBITOS - INICIADA
+[13:44:52] - 06-01-2025 - INFO - Erro ao processar arquivo empresa lokan notas débitos para formataçaõ: 
+[Errno 2] No such file or directory: 'C:\\Users\\lokan\\OneDrive\\Documentos\\projeto_auto_Lokan -V2\\app\\Planilhas\\Notas_debitos\\notas_debitos_05-01-2025_06-01-2025_lokan.xls'
+[13:44:52] - 06-01-2025 - INFO - ETAPA FORMATAR PLANILHA NOTAS DEBITOS - FINALIZADA
+[13:44:52] - 06-01-2025 - INFO - ETAPA FORMATAR PLANILHA NOTAS DEBITOS CANCELADAS - INICIADA
+[13:44:52] - 06-01-2025 - INFO - Planilha notas_canceladas_formatada | lokan
+[13:44:52] - 06-01-2025 - INFO - ETAPA FORMATAR PLANILHA NOTAS DEBITOS CANCELADAS - FINALIZADA
+[13:44:52] - 06-01-2025 - INFO - Nao existem planilha notas_credito_aberto para empresa lokan
+[13:44:52] - 06-01-2025 - INFO - Erro ao processar arquivo empresa lokan notas créditos em aberto para formatação: 
+cannot access local variable 'df' where it is not associated with a value
+[13:44:52] - 06-01-2025 - INFO - ETAPA LIMPAR BOLETOS E EXCLUIR CABEÇALHOS - INICIADA | lokan
+[13:44:55] - 06-01-2025 - INFO - ETAPA LIMPAR BOLETOS E EXCLUIR CABEÇALHOS - FINALIZADA | lokan
+[13:44:55] - 06-01-2025 - INFO - Não existem planilha notas_debitos da empresa lokan para o periodo informado - 
+[Errno 2] No such file or directory: 'C:\\Users\\lokan\\OneDrive\\Documentos\\projeto_auto_Lokan -V2\\app\\Planilhas\\Notas_debitos\\notas_debitos_05-01-2025_06-01-2025_lokan.xlsx'
+[13:44:55] - 06-01-2025 - INFO - Não existem planilha notas_creditos_em_aberto para empresa lokan no periodo informado - 
+[Errno 2] No such file or directory: 'C:\\Users\\lokan\\OneDrive\\Documentos\\projeto_auto_Lokan -V2\\app\\Planilhas\\Notas_creditos\\notas_creditos_05-01-2025_06-01-2025_aberto_lokan.xlsx'
+[13:44:57] - 06-01-2025 - INFO - Processo concluído! Dados copiados de notas_canceladas para lokan.
+[13:44:57] - 06-01-2025 - INFO - ETAPA DE ORDENAÇÃO DAS ABAS PELA COLUNA VENCTO - INICIADA
+[13:45:01] - 06-01-2025 - INFO - ETAPA DE ORDENAÇÃO DAS ABAS PELA COLUNA VENCTO PARA EMPRESA lokan- FINALIZADA COM SUCESSO
+[13:45:03] - 06-01-2025 - INFO - Planilha empresa lokan ordenada CREDITO e DEBITO
+[13:45:04] - 06-01-2025 - INFO - ETAPA VERIFICAR STATUS PG NA PLANILHA PRINCIPAL - INICIADA
+[13:45:07] - 06-01-2025 - INFO - Valores de PG, CREDITO e RECBO atualizados com sucesso em todas as abas | lokan
+[13:45:07] - 06-01-2025 - INFO - ETAPA VERIFICAR STATUS PG NA PLANILHA PRINCIPAL - FINALIZADA
+[13:45:07] - 06-01-2025 - INFO - ETAPA VERIFICAR STATUS PG NA PLANILHA PRINCIPAL NOTAS CREDITOS - INICIADA
+[13:45:11] - 06-01-2025 - INFO - Valores de PG, CREDITO e RECBO atualizados com sucesso em todas as abas | lokan
+[13:45:11] - 06-01-2025 - INFO - ETAPA VERIFICAR STATUS PG NA PLANILHA PRINCIPAL NOTAS CREDITOS - FINALIZADA
+[13:45:13] - 06-01-2025 - INFO - ETAPA FORMATAÇÃO FINAL - INICIADA
+[13:45:20] - 06-01-2025 - INFO - ETAPA FORMATAÇÃO FINAL - FINALIZADA
+[13:45:21] - 06-01-2025 - INFO - planilha pagamentos formatada com sucesso | lokanfacil
+[13:45:21] - 06-01-2025 - INFO - ETAPA FORMATAR PLANILHA PAGAMENTOS CAR PG - FINALIZADA
+[13:45:21] - 06-01-2025 - ERROR - Erro ao processar empresa: lokanfacil a planilha notas créditos pagos para formatação: 
+Passed header=[11], len of 1, but only 10 lines in file (sheet: 0)
+[13:45:21] - 06-01-2025 - INFO - ETAPA FORMATAR PLANILHA NOTAS DEBITOS - INICIADA
+[13:45:21] - 06-01-2025 - INFO - Erro ao processar arquivo empresa lokanfacil notas débitos para formataçaõ: 
+[Errno 2] No such file or directory: 'C:\\Users\\lokan\\OneDrive\\Documentos\\projeto_auto_Lokan -V2\\app\\Planilhas\\Notas_debitos\\notas_debitos_05-01-2025_06-01-2025_lokanfacil.xls'
+[13:45:21] - 06-01-2025 - INFO - ETAPA FORMATAR PLANILHA NOTAS DEBITOS - FINALIZADA
+[13:45:21] - 06-01-2025 - INFO - ETAPA FORMATAR PLANILHA NOTAS DEBITOS CANCELADAS - INICIADA
+[13:45:21] - 06-01-2025 - ERROR - Erro ao tentar na empresa lokanfacil salvar planilha notas debitos canceladas para formatação: 
+Usecols do not match columns, columns expected but not found: ['Série/Número', 'Emissão', 'Destinatário / Remetente', 'Motivo', 'Cancelamento'] (sheet: 0)
+[13:45:21] - 06-01-2025 - INFO - ETAPA FORMATAR PLANILHA NOTAS DEBITOS CANCELADAS - FINALIZADA
+[13:45:21] - 06-01-2025 - INFO - Nao existem planilha notas_credito_aberto para empresa lokanfacil
+[13:45:21] - 06-01-2025 - INFO - Erro ao processar arquivo empresa lokanfacil notas créditos em aberto para formatação: 
+cannot access local variable 'df' where it is not associated with a value
+[13:45:21] - 06-01-2025 - INFO - ETAPA LIMPAR BOLETOS E EXCLUIR CABEÇALHOS - INICIADA | lokanfacil
+[13:45:21] - 06-01-2025 - INFO - ETAPA LIMPAR BOLETOS E EXCLUIR CABEÇALHOS - FINALIZADA | lokanfacil
+[13:45:21] - 06-01-2025 - INFO - Não existem planilha notas_debitos da empresa lokanfacil para o periodo informado - 
+[Errno 2] No such file or directory: 'C:\\Users\\lokan\\OneDrive\\Documentos\\projeto_auto_Lokan -V2\\app\\Planilhas\\Notas_debitos\\notas_debitos_05-01-2025_06-01-2025_lokanfacil.xlsx'
+[13:45:21] - 06-01-2025 - INFO - Não existem planilha notas_creditos_em_aberto para empresa lokanfacil no periodo informado - 
+[Errno 2] No such file or directory: 'C:\\Users\\lokan\\OneDrive\\Documentos\\projeto_auto_Lokan -V2\\app\\Planilhas\\Notas_creditos\\notas_creditos_05-01-2025_06-01-2025_aberto_lokanfacil.xlsx'
+[13:45:21] - 06-01-2025 - INFO - Não existem planilha notas_canceladas para empresa lokanfacil no periodo informado - 
+[Errno 2] No such file or directory: 'C:\\Users\\lokan\\OneDrive\\Documentos\\projeto_auto_Lokan -V2\\app\\Planilhas\\Notas_debitos_canceladas\\notas_canceladas_05-01-2025_06-01-2025_lokanfacil.xlsx'
+[13:45:21] - 06-01-2025 - INFO - ETAPA DE ORDENAÇÃO DAS ABAS PELA COLUNA VENCTO - INICIADA
+[13:45:21] - 06-01-2025 - INFO - ETAPA DE ORDENAÇÃO DAS ABAS PELA COLUNA VENCTO PARA EMPRESA lokanfacil- FINALIZADA COM SUCESSO
+[13:45:21] - 06-01-2025 - INFO - Planilha empresa lokanfacil ordenada CREDITO e DEBITO
+[13:45:21] - 06-01-2025 - INFO - ETAPA VERIFICAR STATUS PG NA PLANILHA PRINCIPAL - INICIADA
+[13:45:21] - 06-01-2025 - INFO - Valores de PG, CREDITO e RECBO atualizados com sucesso em todas as abas | lokanfacil
+[13:45:21] - 06-01-2025 - INFO - ETAPA VERIFICAR STATUS PG NA PLANILHA PRINCIPAL - FINALIZADA
+[13:45:21] - 06-01-2025 - INFO - ETAPA VERIFICAR STATUS PG NA PLANILHA PRINCIPAL NOTAS CREDITOS - INICIADA
+[13:45:21] - 06-01-2025 - ERROR - Erro ao processar a planilha pagamentos_creditos na data ('05-01-2025', '06-01-2025') para empresa lokanfacil: 
+[Errno 2] No such file or directory: 'C:\\Users\\lokan\\OneDrive\\Documentos\\projeto_auto_Lokan -V2\\app\\Planilhas\\Notas_creditos/notas_creditos_05-01-2025_06-01-2025_pagos_lokanfacil.xlsx'
+[13:45:21] - 06-01-2025 - INFO - ETAPA VERIFICAR STATUS PG NA PLANILHA PRINCIPAL NOTAS CREDITOS - FINALIZADA
+[13:45:21] - 06-01-2025 - INFO - ETAPA FORMATAÇÃO FINAL - INICIADA
+[13:45:21] - 06-01-2025 - INFO - ETAPA FORMATAÇÃO FINAL - FINALIZADA
+[20:33:05] - 06-01-2025 - INFO - ETAPA LOGIN INICIADA
+[20:58:41] - 06-01-2025 - INFO - ETAPA LOGIN INICIADA
+[20:59:39] - 06-01-2025 - INFO - ETAPA LOGIN INICIADA
+[22:29:18] - 06-01-2025 - INFO - ETAPA GERAR RELATORIO CAR PG lokan - INICIADA
+[22:32:42] - 06-01-2025 - INFO - ETAPA LOGIN INICIADA
+[22:33:21] - 06-01-2025 - INFO - ETAPA LOGIN INICIADA
+[22:33:37] - 06-01-2025 - INFO - ETAPA GERAR RELATORIO CAR PG lokan - INICIADA
+[22:38:19] - 06-01-2025 - INFO - ETAPA LOGIN INICIADA
+[22:38:32] - 06-01-2025 - INFO - ETAPA LOGIN FINALIZADA
+[22:38:42] - 06-01-2025 - INFO - ETAPA GERAR RELATORIO FATURAMENTO - INICIADA
+[22:38:53] - 06-01-2025 - INFO - Numero da empresa consultada - 1
+[22:39:13] - 06-01-2025 - INFO - Pesquisar Relatorio de Faturamento Geral
+[22:39:20] - 06-01-2025 - INFO - Filtro para buscar notas de debito
+[22:39:34] - 06-01-2025 - INFO - Gerando o relatorio Faturamento Geral
+[22:40:12] - 06-01-2025 - INFO - ETAPA GERAR RELATORIO FATURAMENTO lokan - FINALIZADA
+[22:40:12] - 06-01-2025 - INFO - ETAPA FORMATAR PLANILHA NOTAS DEBITOS lokan- INICIADA
+[22:40:27] - 06-01-2025 - INFO - ETAPA GERAR RELATORIO NOTAS DEBITOS CANCELADAS lokan - INICIADA
+[22:40:30] - 06-01-2025 - INFO - Pesquisar Relatorio de NOTAS DEBITOS CANCELADAS
+[22:40:35] - 06-01-2025 - INFO - empresa em  notas canceladas lokan - 14
+[22:41:12] - 06-01-2025 - INFO - ETAPA GERAR RELATORIO NOTAS DEBITOS CANCELADAS  lokan - FINALIZADA
+[22:41:27] - 06-01-2025 - INFO - ETAPA GERAR RELATORIO CAP LOKAN  lokan - INICIADA
+[22:42:16] - 06-01-2025 - INFO - ETAPA GERAR RELATORIO CAP LOKAN lokan - FINALIZADA
+[22:42:16] - 06-01-2025 - INFO - ETAPA GERAR RELATORIO CAP EM ABERTO LOKAN lokan - INICIADA
+[22:43:04] - 06-01-2025 - INFO - ETAPA GERAR RELATORIO CAP LOKAN lokan - FINALIZADA
+[22:43:19] - 06-01-2025 - INFO - ETAPA GERAR RELATORIO CAR PG lokan - INICIADA
+[22:44:20] - 06-01-2025 - INFO - ETAPA GERAR RELATORIO CAR PG lokan- FINALIZADA
+[22:44:37] - 06-01-2025 - INFO - Numero da empresa consultada - 3
+[22:44:58] - 06-01-2025 - INFO - Pesquisar Relatorio de Faturamento Geral
+[22:45:04] - 06-01-2025 - INFO - Filtro para buscar notas de debito
+[22:45:18] - 06-01-2025 - INFO - Gerando o relatorio Faturamento Geral
+[22:45:32] - 06-01-2025 - INFO - ETAPA GERAR RELATORIO FATURAMENTO lokanfacil- FINALIZADA
+[22:45:32] - 06-01-2025 - INFO - ETAPA GERAR RELATORIO NOTAS DEBITOS CANCELADAS lokanfacil - INICIADA
+[22:45:35] - 06-01-2025 - INFO - Pesquisar Relatorio de NOTAS DEBITOS CANCELADAS
+[22:45:40] - 06-01-2025 - INFO - empresa em  notas canceladas lokanfacil - 30
+[22:46:17] - 06-01-2025 - INFO - ETAPA GERAR RELATORIO NOTAS DEBITOS CANCELADAS  lokanfacil - FINALIZADA
+[22:46:32] - 06-01-2025 - INFO - ETAPA GERAR RELATORIO CAP LOKAN  lokanfacil - INICIADA
+[22:47:18] - 06-01-2025 - INFO - ETAPA GERAR RELATORIO CAP LOKAN lokanfacil - FINALIZADA
+[22:47:18] - 06-01-2025 - INFO - ETAPA GERAR RELATORIO CAP EM ABERTO LOKAN lokanfacil - INICIADA
+[22:48:04] - 06-01-2025 - INFO - ETAPA GERAR RELATORIO CAP LOKAN lokanfacil - FINALIZADA
+[22:48:20] - 06-01-2025 - INFO - ETAPA GERAR RELATORIO CAR PG lokanfacil - INICIADA
+[22:49:18] - 06-01-2025 - INFO - ETAPA GERAR RELATORIO CAR PG lokanfacil- FINALIZADA
+[22:49:39] - 06-01-2025 - INFO - Não foi encontrada nenhuma planilha de pagamentos CAR para periodo informado: 
+"None of [Index(['Unnamed: 1', 'Unnamed: 6', 'Unnamed: 9', 'Unnamed: 10', 'Unnamed: 13',\n       'Unnamed: 27'],\n      dtype='object')] are in the [columns]"
+[22:49:39] - 06-01-2025 - INFO - ETAPA FORMATAR PLANILHA PAGAMENTOS CAR PG - FINALIZADA
+[22:49:39] - 06-01-2025 - INFO - Planilha notas créditos formatada e salva com sucesso | lokan
+[22:49:39] - 06-01-2025 - INFO - ETAPA FORMATAR PLANILHA NOTAS DEBITOS - INICIADA
+[22:49:39] - 06-01-2025 - INFO - Planilha notas débitos formatada e ordenada com sucesso | lokan
+[22:49:39] - 06-01-2025 - INFO - ETAPA FORMATAR PLANILHA NOTAS DEBITOS - FINALIZADA
+[22:49:39] - 06-01-2025 - INFO - ETAPA FORMATAR PLANILHA NOTAS DEBITOS CANCELADAS - INICIADA
+[22:49:39] - 06-01-2025 - INFO - Planilha notas_canceladas_formatada | lokan
+[22:49:39] - 06-01-2025 - INFO - ETAPA FORMATAR PLANILHA NOTAS DEBITOS CANCELADAS - FINALIZADA
+[22:49:39] - 06-01-2025 - INFO - Planilha notas créditos formatada e ordenada com sucesso | lokan
+[22:49:39] - 06-01-2025 - INFO - ETAPA FORMATAR PLANILHA NOTAS CRÉDITOS EM ABERTO - FINALIZADA
+[22:49:39] - 06-01-2025 - INFO - ETAPA LIMPAR BOLETOS E EXCLUIR CABEÇALHOS - INICIADA | lokan
+[22:49:43] - 06-01-2025 - INFO - ETAPA LIMPAR BOLETOS E EXCLUIR CABEÇALHOS - FINALIZADA | lokan
+[22:49:44] - 06-01-2025 - INFO - Processo concluído! Dados copiados de notas_debitos para planilha_principal_lokan | lokan
+[22:49:45] - 06-01-2025 - INFO - Processo concluído! Dados copiados de notas_creditos_em_aberto para lokan.
+[22:49:46] - 06-01-2025 - INFO - Processo concluído! Dados copiados de notas_canceladas para lokan.
+[22:49:46] - 06-01-2025 - INFO - ETAPA DE ORDENAÇÃO DAS ABAS PELA COLUNA VENCTO - INICIADA
+[22:49:51] - 06-01-2025 - INFO - ETAPA DE ORDENAÇÃO DAS ABAS PELA COLUNA VENCTO PARA EMPRESA lokan- FINALIZADA COM SUCESSO
+[22:49:52] - 06-01-2025 - INFO - Planilha empresa lokan ordenada CREDITO e DEBITO
+[22:49:53] - 06-01-2025 - INFO - ETAPA VERIFICAR STATUS PG NA PLANILHA PRINCIPAL - INICIADA
+[22:49:53] - 06-01-2025 - ERROR - Erro ao processar a planilha pagamentos na data ('28-12-2024', '06-01-2025') para empresa lokan: 
+[Errno 2] No such file or directory: 'C:\\Users\\lokan\\OneDrive\\Documentos\\projeto_auto_Lokan -V2\\app\\Planilhas\\Pagamentos/pagamentos_28-12-2024_06-01-2025_lokan.xlsx'
+[22:49:53] - 06-01-2025 - INFO - ETAPA VERIFICAR STATUS PG NA PLANILHA PRINCIPAL - FINALIZADA
+[22:49:53] - 06-01-2025 - INFO - ETAPA VERIFICAR STATUS PG NA PLANILHA PRINCIPAL NOTAS CREDITOS - INICIADA
+[22:49:57] - 06-01-2025 - INFO - Valores de PG, CREDITO e RECBO atualizados com sucesso em todas as abas | lokan
+[22:49:57] - 06-01-2025 - INFO - ETAPA VERIFICAR STATUS PG NA PLANILHA PRINCIPAL NOTAS CREDITOS - FINALIZADA
+[22:49:59] - 06-01-2025 - INFO - ETAPA FORMATAÇÃO FINAL - INICIADA
+[22:50:06] - 06-01-2025 - INFO - ETAPA FORMATAÇÃO FINAL - FINALIZADA
+[22:50:07] - 06-01-2025 - INFO - Não foi encontrada nenhuma planilha de pagamentos CAR para periodo informado: 
+"None of [Index(['Unnamed: 1', 'Unnamed: 6', 'Unnamed: 9', 'Unnamed: 10', 'Unnamed: 13',\n       'Unnamed: 27'],\n      dtype='object')] are in the [columns]"
+[22:50:07] - 06-01-2025 - INFO - ETAPA FORMATAR PLANILHA PAGAMENTOS CAR PG - FINALIZADA
+[22:50:07] - 06-01-2025 - INFO - Planilha notas créditos formatada e salva com sucesso | lokanfacil
+[22:50:07] - 06-01-2025 - INFO - ETAPA FORMATAR PLANILHA NOTAS DEBITOS - INICIADA
+[22:50:07] - 06-01-2025 - INFO - Erro ao processar arquivo empresa lokanfacil notas débitos para formataçaõ: 
+[Errno 2] No such file or directory: 'C:\\Users\\lokan\\OneDrive\\Documentos\\projeto_auto_Lokan -V2\\app\\Planilhas\\Notas_debitos\\notas_debitos_28-12-2024_06-01-2025_lokanfacil.xls'
+[22:50:07] - 06-01-2025 - INFO - ETAPA FORMATAR PLANILHA NOTAS DEBITOS - FINALIZADA
+[22:50:07] - 06-01-2025 - INFO - ETAPA FORMATAR PLANILHA NOTAS DEBITOS CANCELADAS - INICIADA
+[22:50:07] - 06-01-2025 - ERROR - Erro ao tentar na empresa lokanfacil salvar planilha notas debitos canceladas para formatação: 
+Usecols do not match columns, columns expected but not found: ['Motivo', 'Destinatário / Remetente', 'Série/Número', 'Emissão', 'Cancelamento'] (sheet: 0)
+[22:50:07] - 06-01-2025 - INFO - ETAPA FORMATAR PLANILHA NOTAS DEBITOS CANCELADAS - FINALIZADA
+[22:50:07] - 06-01-2025 - INFO - Nao existem planilha notas_credito_aberto para empresa lokanfacil
+[22:50:07] - 06-01-2025 - INFO - Erro ao processar arquivo empresa lokanfacil notas créditos em aberto para formatação: 
+cannot access local variable 'df' where it is not associated with a value
+[22:50:07] - 06-01-2025 - INFO - ETAPA LIMPAR BOLETOS E EXCLUIR CABEÇALHOS - INICIADA | lokanfacil
+[22:50:07] - 06-01-2025 - INFO - ETAPA LIMPAR BOLETOS E EXCLUIR CABEÇALHOS - FINALIZADA | lokanfacil
+[22:50:07] - 06-01-2025 - INFO - Não existem planilha notas_debitos da empresa lokanfacil para o periodo informado - 
+[Errno 2] No such file or directory: 'C:\\Users\\lokan\\OneDrive\\Documentos\\projeto_auto_Lokan -V2\\app\\Planilhas\\Notas_debitos\\notas_debitos_28-12-2024_06-01-2025_lokanfacil.xlsx'
+[22:50:07] - 06-01-2025 - INFO - Não existem planilha notas_creditos_em_aberto para empresa lokanfacil no periodo informado - 
+[Errno 2] No such file or directory: 'C:\\Users\\lokan\\OneDrive\\Documentos\\projeto_auto_Lokan -V2\\app\\Planilhas\\Notas_creditos\\notas_creditos_28-12-2024_06-01-2025_aberto_lokanfacil.xlsx'
+[22:50:07] - 06-01-2025 - INFO - Não existem planilha notas_canceladas para empresa lokanfacil no periodo informado - 
+[Errno 2] No such file or directory: 'C:\\Users\\lokan\\OneDrive\\Documentos\\projeto_auto_Lokan -V2\\app\\Planilhas\\Notas_debitos_canceladas\\notas_canceladas_28-12-2024_06-01-2025_lokanfacil.xlsx'
+[22:50:07] - 06-01-2025 - INFO - ETAPA DE ORDENAÇÃO DAS ABAS PELA COLUNA VENCTO - INICIADA
+[22:50:07] - 06-01-2025 - INFO - ETAPA DE ORDENAÇÃO DAS ABAS PELA COLUNA VENCTO PARA EMPRESA lokanfacil- FINALIZADA COM SUCESSO
+[22:50:07] - 06-01-2025 - INFO - Planilha empresa lokanfacil ordenada CREDITO e DEBITO
+[22:50:07] - 06-01-2025 - INFO - ETAPA VERIFICAR STATUS PG NA PLANILHA PRINCIPAL - INICIADA
+[22:50:07] - 06-01-2025 - ERROR - Erro ao processar a planilha pagamentos na data ('28-12-2024', '06-01-2025') para empresa lokanfacil: 
+[Errno 2] No such file or directory: 'C:\\Users\\lokan\\OneDrive\\Documentos\\projeto_auto_Lokan -V2\\app\\Planilhas\\Pagamentos/pagamentos_28-12-2024_06-01-2025_lokanfacil.xlsx'
+[22:50:07] - 06-01-2025 - INFO - ETAPA VERIFICAR STATUS PG NA PLANILHA PRINCIPAL - FINALIZADA
+[22:50:07] - 06-01-2025 - INFO - ETAPA VERIFICAR STATUS PG NA PLANILHA PRINCIPAL NOTAS CREDITOS - INICIADA
+[22:50:07] - 06-01-2025 - INFO - Valores de PG, CREDITO e RECBO atualizados com sucesso em todas as abas | lokanfacil
+[22:50:07] - 06-01-2025 - INFO - ETAPA VERIFICAR STATUS PG NA PLANILHA PRINCIPAL NOTAS CREDITOS - FINALIZADA
+[22:50:07] - 06-01-2025 - INFO - ETAPA FORMATAÇÃO FINAL - INICIADA
+[22:50:07] - 06-01-2025 - INFO - ETAPA FORMATAÇÃO FINAL - FINALIZADA
+[22:53:46] - 06-01-2025 - INFO - ETAPA LOGIN INICIADA
+[22:53:59] - 06-01-2025 - INFO - ETAPA LOGIN FINALIZADA
+[22:54:09] - 06-01-2025 - INFO - ETAPA GERAR RELATORIO FATURAMENTO - INICIADA
+[22:54:20] - 06-01-2025 - INFO - Numero da empresa consultada - 1
+[22:54:41] - 06-01-2025 - INFO - Pesquisar Relatorio de Faturamento Geral
+[22:54:47] - 06-01-2025 - INFO - Filtro para buscar notas de debito
+[22:55:01] - 06-01-2025 - INFO - Gerando o relatorio Faturamento Geral
+[22:55:15] - 06-01-2025 - INFO - ETAPA GERAR RELATORIO FATURAMENTO lokan- FINALIZADA
+[22:55:15] - 06-01-2025 - INFO - ETAPA GERAR RELATORIO NOTAS DEBITOS CANCELADAS lokan - INICIADA
+[22:55:18] - 06-01-2025 - INFO - Pesquisar Relatorio de NOTAS DEBITOS CANCELADAS
+[22:55:23] - 06-01-2025 - INFO - empresa em  notas canceladas lokan - 14
+[22:56:00] - 06-01-2025 - INFO - ETAPA GERAR RELATORIO NOTAS DEBITOS CANCELADAS  lokan - FINALIZADA
+[22:56:16] - 06-01-2025 - INFO - ETAPA GERAR RELATORIO CAP LOKAN  lokan - INICIADA
+[22:57:01] - 06-01-2025 - INFO - ETAPA GERAR RELATORIO CAP LOKAN lokan - FINALIZADA
+[22:57:01] - 06-01-2025 - INFO - ETAPA GERAR RELATORIO CAP EM ABERTO LOKAN lokan - INICIADA
+[22:57:48] - 06-01-2025 - INFO - ETAPA GERAR RELATORIO CAP LOKAN lokan - FINALIZADA
+[22:58:03] - 06-01-2025 - INFO - ETAPA GERAR RELATORIO CAR PG lokan - INICIADA
+[22:58:23] - 06-01-2025 - INFO - Não tem dados disponiveis para o periodo informado RELATORIO CAR | lokan
+[22:58:28] - 06-01-2025 - INFO - ETAPA GERAR RELATORIO CAR PG lokan- FINALIZADA
+[22:58:44] - 06-01-2025 - INFO - Numero da empresa consultada - 3
+[22:59:05] - 06-01-2025 - INFO - Pesquisar Relatorio de Faturamento Geral
+[22:59:12] - 06-01-2025 - INFO - Filtro para buscar notas de debito
+[22:59:25] - 06-01-2025 - INFO - Gerando o relatorio Faturamento Geral
+[22:59:40] - 06-01-2025 - INFO - ETAPA GERAR RELATORIO FATURAMENTO lokanfacil- FINALIZADA
+[22:59:40] - 06-01-2025 - INFO - ETAPA GERAR RELATORIO NOTAS DEBITOS CANCELADAS lokanfacil - INICIADA
+[22:59:43] - 06-01-2025 - INFO - Pesquisar Relatorio de NOTAS DEBITOS CANCELADAS
+[22:59:47] - 06-01-2025 - INFO - empresa em  notas canceladas lokanfacil - 30
+[23:00:25] - 06-01-2025 - INFO - ETAPA GERAR RELATORIO NOTAS DEBITOS CANCELADAS  lokanfacil - FINALIZADA
+[23:00:40] - 06-01-2025 - INFO - ETAPA GERAR RELATORIO CAP LOKAN  lokanfacil - INICIADA
+[23:05:00] - 06-01-2025 - INFO - ETAPA GERAR RELATORIO CAP LOKAN  lokanfacil - INICIADA
+[23:05:35] - 06-01-2025 - INFO - ETAPA GERAR RELATORIO CAR PG lokanfacil - INICIADA
+[23:06:26] - 06-01-2025 - INFO - ETAPA GERAR RELATORIO CAR PG lokanfacil - INICIADA
+[23:08:21] - 06-01-2025 - INFO - planilha pagamentos formatada com sucesso | lokanfacil
+[23:08:21] - 06-01-2025 - INFO - ETAPA FORMATAR PLANILHA PAGAMENTOS CAR PG - FINALIZADA
+[23:08:47] - 06-01-2025 - INFO - planilha pagamentos formatada com sucesso | lokanfacil
+[23:08:47] - 06-01-2025 - INFO - ETAPA FORMATAR PLANILHA PAGAMENTOS CAR PG - FINALIZADA
+[23:09:39] - 06-01-2025 - INFO - planilha pagamentos formatada com sucesso | lokanfacil
+[23:09:39] - 06-01-2025 - INFO - ETAPA FORMATAR PLANILHA PAGAMENTOS CAR PG - FINALIZADA
+[23:10:36] - 06-01-2025 - INFO - planilha pagamentos formatada com sucesso | lokanfacil
+[23:10:36] - 06-01-2025 - INFO - ETAPA FORMATAR PLANILHA PAGAMENTOS CAR PG - FINALIZADA
+[23:12:41] - 06-01-2025 - INFO - Não foi encontrada nenhuma planilha de pagamentos CAR para periodo informado: 
+"['Unnamed: 1', 'Unnamed: 6', 'Unnamed: 9'] not in index"
+[23:12:41] - 06-01-2025 - INFO - ETAPA FORMATAR PLANILHA PAGAMENTOS CAR PG - FINALIZADA
+[23:13:57] - 06-01-2025 - INFO - planilha pagamentos formatada com sucesso | lokanfacil
+[23:13:57] - 06-01-2025 - INFO - ETAPA FORMATAR PLANILHA PAGAMENTOS CAR PG - FINALIZADA
+[23:14:11] - 06-01-2025 - INFO - planilha pagamentos formatada com sucesso | lokanfacil
+[23:14:11] - 06-01-2025 - INFO - ETAPA FORMATAR PLANILHA PAGAMENTOS CAR PG - FINALIZADA
+[23:14:49] - 06-01-2025 - INFO - planilha pagamentos formatada com sucesso | lokanfacil
+[23:14:49] - 06-01-2025 - INFO - ETAPA FORMATAR PLANILHA PAGAMENTOS CAR PG - FINALIZADA
+[23:15:19] - 06-01-2025 - INFO - planilha pagamentos formatada com sucesso | lokanfacil
+[23:15:19] - 06-01-2025 - INFO - ETAPA FORMATAR PLANILHA PAGAMENTOS CAR PG - FINALIZADA
+[23:15:34] - 06-01-2025 - INFO - planilha pagamentos formatada com sucesso | lokanfacil
+[23:15:34] - 06-01-2025 - INFO - ETAPA FORMATAR PLANILHA PAGAMENTOS CAR PG - FINALIZADA
+[23:16:11] - 06-01-2025 - INFO - planilha pagamentos formatada com sucesso | lokanfacil
+[23:16:11] - 06-01-2025 - INFO - ETAPA FORMATAR PLANILHA PAGAMENTOS CAR PG - FINALIZADA
+[23:19:44] - 06-01-2025 - INFO - planilha pagamentos formatada com sucesso | lokanfacil
+[23:19:44] - 06-01-2025 - INFO - ETAPA FORMATAR PLANILHA PAGAMENTOS CAR PG - FINALIZADA
+[23:24:08] - 06-01-2025 - INFO - planilha pagamentos formatada com sucesso | lokanfacil
+[23:24:08] - 06-01-2025 - INFO - ETAPA FORMATAR PLANILHA PAGAMENTOS CAR PG - FINALIZADA
+[23:24:21] - 06-01-2025 - INFO - ETAPA LOGIN INICIADA
+[23:24:34] - 06-01-2025 - INFO - ETAPA LOGIN FINALIZADA
+[23:24:44] - 06-01-2025 - INFO - ETAPA GERAR RELATORIO FATURAMENTO - INICIADA
+[23:24:55] - 06-01-2025 - INFO - Numero da empresa consultada - 1
+[23:25:16] - 06-01-2025 - INFO - Pesquisar Relatorio de Faturamento Geral
+[23:25:22] - 06-01-2025 - INFO - Filtro para buscar notas de debito
+[23:25:36] - 06-01-2025 - INFO - Gerando o relatorio Faturamento Geral
+[23:26:23] - 06-01-2025 - INFO - ETAPA GERAR RELATORIO FATURAMENTO lokan - FINALIZADA
+[23:26:23] - 06-01-2025 - INFO - ETAPA FORMATAR PLANILHA NOTAS DEBITOS lokan- INICIADA
+[23:26:39] - 06-01-2025 - INFO - ETAPA GERAR RELATORIO NOTAS DEBITOS CANCELADAS lokan - INICIADA
+[23:26:42] - 06-01-2025 - INFO - Pesquisar Relatorio de NOTAS DEBITOS CANCELADAS
+[23:26:46] - 06-01-2025 - INFO - empresa em  notas canceladas lokan - 14
+[23:27:24] - 06-01-2025 - INFO - ETAPA GERAR RELATORIO NOTAS DEBITOS CANCELADAS  lokan - FINALIZADA
+[23:27:39] - 06-01-2025 - INFO - ETAPA GERAR RELATORIO CAP LOKAN  lokan - INICIADA
+[23:28:37] - 06-01-2025 - INFO - ETAPA GERAR RELATORIO CAP LOKAN lokan - FINALIZADA
+[23:28:37] - 06-01-2025 - INFO - ETAPA GERAR RELATORIO CAP EM ABERTO LOKAN lokan - INICIADA
+[23:29:36] - 06-01-2025 - INFO - ETAPA GERAR RELATORIO CAP LOKAN lokan - FINALIZADA
+[23:29:52] - 06-01-2025 - INFO - ETAPA GERAR RELATORIO CAR PG lokan - INICIADA
+[23:31:43] - 06-01-2025 - INFO - ETAPA GERAR RELATORIO CAR PG lokan- FINALIZADA
+[23:31:59] - 06-01-2025 - INFO - Numero da empresa consultada - 3
+[23:32:20] - 06-01-2025 - INFO - Pesquisar Relatorio de Faturamento Geral
+[23:32:27] - 06-01-2025 - INFO - Filtro para buscar notas de debito
+[23:32:40] - 06-01-2025 - INFO - Gerando o relatorio Faturamento Geral
+[23:33:18] - 06-01-2025 - INFO - ETAPA GERAR RELATORIO FATURAMENTO lokanfacil - FINALIZADA
+[23:33:18] - 06-01-2025 - INFO - ETAPA FORMATAR PLANILHA NOTAS DEBITOS lokanfacil- INICIADA
+[23:33:34] - 06-01-2025 - INFO - ETAPA GERAR RELATORIO NOTAS DEBITOS CANCELADAS lokanfacil - INICIADA
+[23:33:37] - 06-01-2025 - INFO - Pesquisar Relatorio de NOTAS DEBITOS CANCELADAS
+[23:33:42] - 06-01-2025 - INFO - empresa em  notas canceladas lokanfacil - 30
+[23:34:19] - 06-01-2025 - INFO - ETAPA GERAR RELATORIO NOTAS DEBITOS CANCELADAS  lokanfacil - FINALIZADA
+[23:34:34] - 06-01-2025 - INFO - ETAPA GERAR RELATORIO CAP LOKAN  lokanfacil - INICIADA
+[23:35:20] - 06-01-2025 - INFO - ETAPA GERAR RELATORIO CAP LOKAN lokanfacil - FINALIZADA
+[23:35:20] - 06-01-2025 - INFO - ETAPA GERAR RELATORIO CAP EM ABERTO LOKAN lokanfacil - INICIADA
+[23:36:06] - 06-01-2025 - INFO - ETAPA GERAR RELATORIO CAP LOKAN lokanfacil - FINALIZADA
+[23:36:22] - 06-01-2025 - INFO - ETAPA GERAR RELATORIO CAR PG lokanfacil - INICIADA
+[23:37:19] - 06-01-2025 - INFO - ETAPA GERAR RELATORIO CAR PG lokanfacil- FINALIZADA
+[23:37:41] - 06-01-2025 - INFO - planilha pagamentos formatada com sucesso | lokan
+[23:37:41] - 06-01-2025 - INFO - ETAPA FORMATAR PLANILHA PAGAMENTOS CAR PG - FINALIZADA
+[23:37:41] - 06-01-2025 - INFO - Planilha notas créditos formatada e salva com sucesso | lokan
+[23:37:41] - 06-01-2025 - INFO - ETAPA FORMATAR PLANILHA NOTAS DEBITOS - INICIADA
+[23:37:41] - 06-01-2025 - INFO - Planilha notas débitos formatada e ordenada com sucesso | lokan
+[23:37:41] - 06-01-2025 - INFO - ETAPA FORMATAR PLANILHA NOTAS DEBITOS - FINALIZADA
+[23:37:41] - 06-01-2025 - INFO - ETAPA FORMATAR PLANILHA NOTAS DEBITOS CANCELADAS - INICIADA
+[23:37:41] - 06-01-2025 - INFO - Planilha notas_canceladas_formatada | lokan
+[23:37:41] - 06-01-2025 - INFO - ETAPA FORMATAR PLANILHA NOTAS DEBITOS CANCELADAS - FINALIZADA
+[23:37:41] - 06-01-2025 - INFO - Planilha notas créditos formatada e ordenada com sucesso | lokan
+[23:37:41] - 06-01-2025 - INFO - ETAPA FORMATAR PLANILHA NOTAS CRÉDITOS EM ABERTO - FINALIZADA
+[23:37:41] - 06-01-2025 - INFO - ETAPA LIMPAR BOLETOS E EXCLUIR CABEÇALHOS - INICIADA | lokan
+[23:37:45] - 06-01-2025 - INFO - ETAPA LIMPAR BOLETOS E EXCLUIR CABEÇALHOS - FINALIZADA | lokan
+[23:37:48] - 06-01-2025 - INFO - Processo concluído! Dados copiados de notas_debitos para planilha_principal_lokan | lokan
+[23:37:49] - 06-01-2025 - INFO - Processo concluído! Dados copiados de notas_creditos_em_aberto para lokan.
+[23:37:51] - 06-01-2025 - INFO - Processo concluído! Dados copiados de notas_canceladas para lokan.
+[23:37:51] - 06-01-2025 - INFO - ETAPA DE ORDENAÇÃO DAS ABAS PELA COLUNA VENCTO - INICIADA
+[23:37:55] - 06-01-2025 - INFO - ETAPA DE ORDENAÇÃO DAS ABAS PELA COLUNA VENCTO PARA EMPRESA lokan- FINALIZADA COM SUCESSO
+[23:37:57] - 06-01-2025 - INFO - Planilha empresa lokan ordenada CREDITO e DEBITO
+[23:37:58] - 06-01-2025 - INFO - ETAPA VERIFICAR STATUS PG NA PLANILHA PRINCIPAL - INICIADA
+[23:38:02] - 06-01-2025 - INFO - Valores de PG, CREDITO e RECBO atualizados com sucesso em todas as abas | lokan
+[23:38:02] - 06-01-2025 - INFO - ETAPA VERIFICAR STATUS PG NA PLANILHA PRINCIPAL - FINALIZADA
+[23:38:02] - 06-01-2025 - INFO - ETAPA VERIFICAR STATUS PG NA PLANILHA PRINCIPAL NOTAS CREDITOS - INICIADA
+[23:38:07] - 06-01-2025 - INFO - Valores de PG, CREDITO e RECBO atualizados com sucesso em todas as abas | lokan
+[23:38:07] - 06-01-2025 - INFO - ETAPA VERIFICAR STATUS PG NA PLANILHA PRINCIPAL NOTAS CREDITOS - FINALIZADA
+[23:38:16] - 06-01-2025 - INFO - ETAPA FORMATAÇÃO FINAL - INICIADA
+[23:38:24] - 06-01-2025 - INFO - ETAPA FORMATAÇÃO FINAL - FINALIZADA
+[23:38:24] - 06-01-2025 - INFO - planilha pagamentos formatada com sucesso | lokanfacil
+[23:38:24] - 06-01-2025 - INFO - ETAPA FORMATAR PLANILHA PAGAMENTOS CAR PG - FINALIZADA
+[23:38:24] - 06-01-2025 - INFO - Planilha notas créditos formatada e salva com sucesso | lokanfacil
+[23:38:24] - 06-01-2025 - INFO - ETAPA FORMATAR PLANILHA NOTAS DEBITOS - INICIADA
+[23:38:24] - 06-01-2025 - INFO - Planilha notas débitos formatada e ordenada com sucesso | lokanfacil
+[23:38:24] - 06-01-2025 - INFO - ETAPA FORMATAR PLANILHA NOTAS DEBITOS - FINALIZADA
+[23:38:24] - 06-01-2025 - INFO - ETAPA FORMATAR PLANILHA NOTAS DEBITOS CANCELADAS - INICIADA
+[23:38:24] - 06-01-2025 - INFO - Planilha notas_canceladas_formatada | lokanfacil
+[23:38:24] - 06-01-2025 - INFO - ETAPA FORMATAR PLANILHA NOTAS DEBITOS CANCELADAS - FINALIZADA
+[23:38:24] - 06-01-2025 - INFO - Planilha notas créditos formatada e ordenada com sucesso | lokanfacil
+[23:38:24] - 06-01-2025 - INFO - ETAPA FORMATAR PLANILHA NOTAS CRÉDITOS EM ABERTO - FINALIZADA
+[23:38:24] - 06-01-2025 - INFO - ETAPA LIMPAR BOLETOS E EXCLUIR CABEÇALHOS - INICIADA | lokanfacil
+[23:38:24] - 06-01-2025 - INFO - ETAPA LIMPAR BOLETOS E EXCLUIR CABEÇALHOS - FINALIZADA | lokanfacil
+[23:38:24] - 06-01-2025 - INFO - Processo concluído! Dados copiados de notas_debitos para planilha_principal_lokan | lokanfacil
+[23:38:24] - 06-01-2025 - INFO - Processo concluído! Dados copiados de notas_creditos_em_aberto para lokanfacil.
+[23:38:24] - 06-01-2025 - INFO - Processo concluído! Dados copiados de notas_canceladas para lokanfacil.
+[23:38:24] - 06-01-2025 - INFO - ETAPA DE ORDENAÇÃO DAS ABAS PELA COLUNA VENCTO - INICIADA
+[23:38:25] - 06-01-2025 - INFO - ETAPA DE ORDENAÇÃO DAS ABAS PELA COLUNA VENCTO PARA EMPRESA lokanfacil- FINALIZADA COM SUCESSO
+[23:38:25] - 06-01-2025 - INFO - Planilha empresa lokanfacil ordenada CREDITO e DEBITO
+[23:38:25] - 06-01-2025 - INFO - ETAPA VERIFICAR STATUS PG NA PLANILHA PRINCIPAL - INICIADA
+[23:38:25] - 06-01-2025 - INFO - Valores de PG, CREDITO e RECBO atualizados com sucesso em todas as abas | lokanfacil
+[23:38:25] - 06-01-2025 - INFO - ETAPA VERIFICAR STATUS PG NA PLANILHA PRINCIPAL - FINALIZADA
+[23:38:25] - 06-01-2025 - INFO - ETAPA VERIFICAR STATUS PG NA PLANILHA PRINCIPAL NOTAS CREDITOS - INICIADA
+[23:38:25] - 06-01-2025 - INFO - Valores de PG, CREDITO e RECBO atualizados com sucesso em todas as abas | lokanfacil
+[23:38:25] - 06-01-2025 - INFO - ETAPA VERIFICAR STATUS PG NA PLANILHA PRINCIPAL NOTAS CREDITOS - FINALIZADA
+[23:38:25] - 06-01-2025 - INFO - ETAPA FORMATAÇÃO FINAL - INICIADA
+[23:38:25] - 06-01-2025 - INFO - ETAPA FORMATAÇÃO FINAL - FINALIZADA

@@ -1,0 +1,335 @@
+[10:06:50] - 15-01-2025 - INFO - Arquivo C:\Users\lokan\OneDrive\Documentos\projeto_auto_Lokan -V2\app\Planilhas\Notas_creditos\NOTAS_CREDITOS_09-01-2025_13-01-2025_ABERTO_LOKAN.XLS excluído com sucesso.
+[10:06:50] - 15-01-2025 - INFO - Arquivo C:\Users\lokan\OneDrive\Documentos\projeto_auto_Lokan -V2\app\Planilhas\Notas_creditos\NOTAS_CREDITOS_09-01-2025_13-01-2025_ABERTO_LOKANFACIL.XLS excluído com sucesso.
+[10:06:50] - 15-01-2025 - INFO - Arquivo C:\Users\lokan\OneDrive\Documentos\projeto_auto_Lokan -V2\app\Planilhas\Notas_creditos\NOTAS_CREDITOS_09-01-2025_13-01-2025_LOKAN.XLS excluído com sucesso.
+[10:06:50] - 15-01-2025 - INFO - Arquivo C:\Users\lokan\OneDrive\Documentos\projeto_auto_Lokan -V2\app\Planilhas\Notas_creditos\NOTAS_CREDITOS_09-01-2025_13-01-2025_LOKANFACIL.XLS excluído com sucesso.
+[10:06:50] - 15-01-2025 - INFO - Arquivo C:\Users\lokan\OneDrive\Documentos\projeto_auto_Lokan -V2\app\Planilhas\Notas_debitos\NOTAS_DEBITOS_09-01-2025_13-01-2025_LOKAN.XLS excluído com sucesso.
+[10:06:50] - 15-01-2025 - INFO - Arquivo C:\Users\lokan\OneDrive\Documentos\projeto_auto_Lokan -V2\app\Planilhas\Notas_debitos\NOTAS_DEBITOS_09-01-2025_13-01-2025_LOKANFACIL.XLS excluído com sucesso.
+[10:06:50] - 15-01-2025 - INFO - Arquivo C:\Users\lokan\OneDrive\Documentos\projeto_auto_Lokan -V2\app\Planilhas\Notas_debitos_canceladas\NOTAS_CANCELADAS_09-01-2025_13-01-2025_LOKAN.XLS excluído com sucesso.
+[10:06:50] - 15-01-2025 - INFO - Arquivo C:\Users\lokan\OneDrive\Documentos\projeto_auto_Lokan -V2\app\Planilhas\Notas_debitos_canceladas\NOTAS_CANCELADAS_09-01-2025_13-01-2025_LOKANFACIL.XLS excluído com sucesso.
+[10:06:50] - 15-01-2025 - INFO - Arquivo C:\Users\lokan\OneDrive\Documentos\projeto_auto_Lokan -V2\app\Planilhas\Pagamentos\PAGAMENTOS_09-01-2025_13-01-2025_LOKAN.XLS excluído com sucesso.
+[10:06:50] - 15-01-2025 - INFO - Arquivo C:\Users\lokan\OneDrive\Documentos\projeto_auto_Lokan -V2\app\Planilhas\Pagamentos\PAGAMENTOS_09-01-2025_13-01-2025_LOKANFACIL.XLS excluído com sucesso.
+[10:07:25] - 15-01-2025 - INFO - ETAPA LOGIN INICIADA
+[10:07:40] - 15-01-2025 - INFO - ETAPA LOGIN FINALIZADA
+[10:07:50] - 15-01-2025 - INFO - ETAPA GERAR RELATORIO FATURAMENTO - INICIADA
+[10:08:01] - 15-01-2025 - INFO - Numero da empresa consultada - 1
+[10:08:22] - 15-01-2025 - INFO - Pesquisar Relatorio de Faturamento Geral
+[10:08:29] - 15-01-2025 - INFO - Filtro para buscar notas de debito
+[10:08:43] - 15-01-2025 - INFO - Gerando o relatorio Faturamento Geral
+[10:09:24] - 15-01-2025 - INFO - ETAPA GERAR RELATORIO FATURAMENTO lokan - FINALIZADA
+[10:09:24] - 15-01-2025 - INFO - ETAPA FORMATAR PLANILHA NOTAS DEBITOS lokan- INICIADA
+[10:09:39] - 15-01-2025 - INFO - ETAPA GERAR RELATORIO NOTAS DEBITOS CANCELADAS lokan - INICIADA
+[10:09:42] - 15-01-2025 - INFO - Pesquisar Relatorio de NOTAS DEBITOS CANCELADAS
+[10:09:47] - 15-01-2025 - INFO - empresa em  notas canceladas lokan - 14
+[10:10:24] - 15-01-2025 - INFO - ETAPA GERAR RELATORIO NOTAS DEBITOS CANCELADAS  lokan - FINALIZADA
+[10:10:39] - 15-01-2025 - INFO - ETAPA GERAR RELATORIO CAP LOKAN  lokan - INICIADA
+[10:11:25] - 15-01-2025 - INFO - ETAPA GERAR RELATORIO CAP LOKAN lokan - FINALIZADA
+[10:11:25] - 15-01-2025 - INFO - ETAPA GERAR RELATORIO CAP EM ABERTO LOKAN lokan - INICIADA
+[10:12:15] - 15-01-2025 - INFO - ETAPA GERAR RELATORIO CAP LOKAN lokan - FINALIZADA
+[10:12:31] - 15-01-2025 - INFO - ETAPA GERAR RELATORIO CAR PG lokan - INICIADA
+[10:13:49] - 15-01-2025 - INFO - ETAPA GERAR RELATORIO CAR PG lokan- FINALIZADA
+[10:14:05] - 15-01-2025 - INFO - Numero da empresa consultada - 3
+[10:14:26] - 15-01-2025 - INFO - Pesquisar Relatorio de Faturamento Geral
+[10:14:33] - 15-01-2025 - INFO - Filtro para buscar notas de debito
+[10:14:46] - 15-01-2025 - INFO - Gerando o relatorio Faturamento Geral
+[10:15:24] - 15-01-2025 - INFO - ETAPA GERAR RELATORIO FATURAMENTO lokanfacil - FINALIZADA
+[10:15:24] - 15-01-2025 - INFO - ETAPA FORMATAR PLANILHA NOTAS DEBITOS lokanfacil- INICIADA
+[10:15:40] - 15-01-2025 - INFO - ETAPA GERAR RELATORIO NOTAS DEBITOS CANCELADAS lokanfacil - INICIADA
+[10:15:43] - 15-01-2025 - INFO - Pesquisar Relatorio de NOTAS DEBITOS CANCELADAS
+[10:15:47] - 15-01-2025 - INFO - empresa em  notas canceladas lokanfacil - 30
+[10:16:24] - 15-01-2025 - INFO - ETAPA GERAR RELATORIO NOTAS DEBITOS CANCELADAS  lokanfacil - FINALIZADA
+[10:16:40] - 15-01-2025 - INFO - ETAPA GERAR RELATORIO CAP LOKAN  lokanfacil - INICIADA
+[10:17:26] - 15-01-2025 - INFO - ETAPA GERAR RELATORIO CAP LOKAN lokanfacil - FINALIZADA
+[10:17:26] - 15-01-2025 - INFO - ETAPA GERAR RELATORIO CAP EM ABERTO LOKAN lokanfacil - INICIADA
+[10:18:13] - 15-01-2025 - INFO - ETAPA GERAR RELATORIO CAP LOKAN lokanfacil - FINALIZADA
+[10:18:28] - 15-01-2025 - INFO - ETAPA GERAR RELATORIO CAR PG lokanfacil - INICIADA
+[10:19:26] - 15-01-2025 - INFO - ETAPA GERAR RELATORIO CAR PG lokanfacil- FINALIZADA
+[10:19:47] - 15-01-2025 - INFO - planilha pagamentos formatada com sucesso | lokan
+[10:19:47] - 15-01-2025 - INFO - ETAPA FORMATAR PLANILHA PAGAMENTOS CAR PG - FINALIZADA
+[10:19:47] - 15-01-2025 - INFO - Planilha notas créditos formatada e salva com sucesso | lokan
+[10:19:47] - 15-01-2025 - INFO - ETAPA FORMATAR PLANILHA NOTAS DEBITOS - INICIADA
+[10:19:47] - 15-01-2025 - INFO - Planilha notas débitos formatada e ordenada com sucesso | lokan
+[10:19:47] - 15-01-2025 - INFO - ETAPA FORMATAR PLANILHA NOTAS DEBITOS - FINALIZADA
+[10:19:47] - 15-01-2025 - INFO - ETAPA FORMATAR PLANILHA NOTAS DEBITOS CANCELADAS - INICIADA
+[10:19:47] - 15-01-2025 - INFO - Planilha notas_canceladas_formatada | lokan
+[10:19:47] - 15-01-2025 - INFO - ETAPA FORMATAR PLANILHA NOTAS DEBITOS CANCELADAS - FINALIZADA
+[10:19:47] - 15-01-2025 - INFO - Num de cabeçalho encontrados 11
+[10:19:47] - 15-01-2025 - INFO - Planilha notas créditos formatada e ordenada com sucesso | lokan
+[10:19:47] - 15-01-2025 - INFO - ETAPA FORMATAR PLANILHA NOTAS CRÉDITOS EM ABERTO - FINALIZADA
+[10:19:47] - 15-01-2025 - INFO - já existe planilha principal para empresa  lokan
+[10:19:47] - 15-01-2025 - INFO - ETAPA LIMPAR BOLETOS E EXCLUIR CABEÇALHOS - INICIADA | lokan
+[10:19:52] - 15-01-2025 - INFO - ETAPA LIMPAR BOLETOS E EXCLUIR CABEÇALHOS - FINALIZADA | lokan
+[10:19:52] - 15-01-2025 - INFO - Boletos e cabeçalhos foram processados com sucesso. | lokan
+[10:19:55] - 15-01-2025 - INFO - Processo concluído! Dados copiados de notas_debitos para planilha_principal_lokan | lokan
+[10:19:57] - 15-01-2025 - INFO - Processo concluído! Dados copiados de notas_creditos_em_aberto para lokan.
+[10:20:00] - 15-01-2025 - INFO - Processo concluído! Dados copiados de notas_canceladas para lokan.
+[10:20:00] - 15-01-2025 - INFO - ETAPA DE ORDENAÇÃO DAS ABAS PELA COLUNA VENCTO - INICIADA
+[10:20:06] - 15-01-2025 - INFO - ETAPA DE ORDENAÇÃO DAS ABAS PELA COLUNA VENCTO PARA EMPRESA lokan- FINALIZADA COM SUCESSO
+[10:20:08] - 15-01-2025 - INFO - Planilha empresa lokan ordenada CREDITO e DEBITO
+[10:20:10] - 15-01-2025 - INFO - Abas ordenadas por ano e mês da empresa 'lokan'.
+[10:20:10] - 15-01-2025 - INFO - ETAPA VERIFICAR STATUS PG NA PLANILHA PRINCIPAL - INICIADA
+[10:20:15] - 15-01-2025 - INFO - Valores de PG, CREDITO e RECBO atualizados com sucesso em todas as abas | lokan
+[10:20:15] - 15-01-2025 - INFO - ETAPA VERIFICAR STATUS PG NA PLANILHA PRINCIPAL - FINALIZADA
+[10:20:15] - 15-01-2025 - INFO - ETAPA VERIFICAR STATUS PG NA PLANILHA PRINCIPAL NOTAS CREDITOS - INICIADA
+[10:20:21] - 15-01-2025 - INFO - Valores de PG, CREDITO e RECBO atualizados com sucesso em todas as abas | lokan
+[10:20:21] - 15-01-2025 - INFO - ETAPA VERIFICAR STATUS PG NA PLANILHA PRINCIPAL NOTAS CREDITOS - FINALIZADA
+[10:20:21] - 15-01-2025 - INFO - Processando aba: Maio-2023
+[10:20:21] - 15-01-2025 - INFO - Linhas duplicadas removidas da aba: Maio-2023
+[10:20:21] - 15-01-2025 - INFO - Processando aba: Junho-2023
+[10:20:21] - 15-01-2025 - INFO - Linhas duplicadas removidas da aba: Junho-2023
+[10:20:21] - 15-01-2025 - INFO - Processando aba: Julho-2023
+[10:20:21] - 15-01-2025 - INFO - Linhas duplicadas removidas da aba: Julho-2023
+[10:20:21] - 15-01-2025 - INFO - Processando aba: Outubro-2023
+[10:20:21] - 15-01-2025 - INFO - Linhas duplicadas removidas da aba: Outubro-2023
+[10:20:21] - 15-01-2025 - INFO - Processando aba: Agosto-2024
+[10:20:21] - 15-01-2025 - INFO - Linhas duplicadas removidas da aba: Agosto-2024
+[10:20:21] - 15-01-2025 - INFO - Processando aba: Setembro-2024
+[10:20:21] - 15-01-2025 - INFO - Linhas duplicadas removidas da aba: Setembro-2024
+[10:20:21] - 15-01-2025 - INFO - Processando aba: Outubro-2024
+[10:20:21] - 15-01-2025 - INFO - Linhas duplicadas removidas da aba: Outubro-2024
+[10:20:21] - 15-01-2025 - INFO - Processando aba: Novembro-2024
+[10:20:21] - 15-01-2025 - INFO - Linhas duplicadas removidas da aba: Novembro-2024
+[10:20:21] - 15-01-2025 - INFO - Processando aba: Dezembro-2024
+[10:20:21] - 15-01-2025 - INFO - Linhas duplicadas removidas da aba: Dezembro-2024
+[10:20:21] - 15-01-2025 - INFO - Processando aba: Janeiro-2025
+[10:20:23] - 15-01-2025 - INFO - Linhas duplicadas removidas da aba: Janeiro-2025
+[10:20:23] - 15-01-2025 - INFO - Processando aba: Fevereiro-2025
+[10:20:23] - 15-01-2025 - INFO - Linhas duplicadas removidas da aba: Fevereiro-2025
+[10:20:23] - 15-01-2025 - INFO - Processando aba: Marco-2025
+[10:20:23] - 15-01-2025 - INFO - Linhas duplicadas removidas da aba: Marco-2025
+[10:20:23] - 15-01-2025 - INFO - Processando aba: Abril-2025
+[10:20:23] - 15-01-2025 - INFO - Linhas duplicadas removidas da aba: Abril-2025
+[10:20:23] - 15-01-2025 - INFO - Processando aba: Maio-2025
+[10:20:23] - 15-01-2025 - INFO - Linhas duplicadas removidas da aba: Maio-2025
+[10:20:23] - 15-01-2025 - INFO - Processando aba: Junho-2025
+[10:20:23] - 15-01-2025 - INFO - Linhas duplicadas removidas da aba: Junho-2025
+[10:20:23] - 15-01-2025 - INFO - Processando aba: Julho-2025
+[10:20:23] - 15-01-2025 - INFO - Linhas duplicadas removidas da aba: Julho-2025
+[10:20:23] - 15-01-2025 - INFO - Processando aba: Agosto-2025
+[10:20:23] - 15-01-2025 - INFO - Linhas duplicadas removidas da aba: Agosto-2025
+[10:20:23] - 15-01-2025 - INFO - Processando aba: Setembro-2025
+[10:20:23] - 15-01-2025 - INFO - Linhas duplicadas removidas da aba: Setembro-2025
+[10:20:23] - 15-01-2025 - INFO - Processando aba: Outubro-2025
+[10:20:23] - 15-01-2025 - INFO - Linhas duplicadas removidas da aba: Outubro-2025
+[10:20:23] - 15-01-2025 - INFO - Processando aba: Novembro-2025
+[10:20:23] - 15-01-2025 - INFO - Linhas duplicadas removidas da aba: Novembro-2025
+[10:20:23] - 15-01-2025 - INFO - Processando aba: Dezembro-2025
+[10:20:23] - 15-01-2025 - INFO - Linhas duplicadas removidas da aba: Dezembro-2025
+[10:20:23] - 15-01-2025 - INFO - Processando aba: Janeiro-2026
+[10:20:23] - 15-01-2025 - INFO - Linhas duplicadas removidas da aba: Janeiro-2026
+[10:20:23] - 15-01-2025 - INFO - Processando aba: Fevereiro-2026
+[10:20:23] - 15-01-2025 - INFO - Linhas duplicadas removidas da aba: Fevereiro-2026
+[10:20:23] - 15-01-2025 - INFO - Processando aba: Marco-2026
+[10:20:23] - 15-01-2025 - INFO - Linhas duplicadas removidas da aba: Marco-2026
+[10:20:23] - 15-01-2025 - INFO - Processando aba: Abril-2026
+[10:20:23] - 15-01-2025 - INFO - Linhas duplicadas removidas da aba: Abril-2026
+[10:20:23] - 15-01-2025 - INFO - Processando aba: Maio-2026
+[10:20:23] - 15-01-2025 - INFO - Linhas duplicadas removidas da aba: Maio-2026
+[10:20:23] - 15-01-2025 - INFO - Processando aba: Junho-2026
+[10:20:23] - 15-01-2025 - INFO - Linhas duplicadas removidas da aba: Junho-2026
+[10:20:23] - 15-01-2025 - INFO - Processando aba: Julho-2026
+[10:20:23] - 15-01-2025 - INFO - Linhas duplicadas removidas da aba: Julho-2026
+[10:20:23] - 15-01-2025 - INFO - Processando aba: Agosto-2026
+[10:20:23] - 15-01-2025 - INFO - Linhas duplicadas removidas da aba: Agosto-2026
+[10:20:23] - 15-01-2025 - INFO - Processando aba: Setembro-2026
+[10:20:23] - 15-01-2025 - INFO - Linhas duplicadas removidas da aba: Setembro-2026
+[10:20:23] - 15-01-2025 - INFO - Processando aba: Outubro-2026
+[10:20:23] - 15-01-2025 - INFO - Linhas duplicadas removidas da aba: Outubro-2026
+[10:20:23] - 15-01-2025 - INFO - Processando aba: Novembro-2026
+[10:20:23] - 15-01-2025 - INFO - Linhas duplicadas removidas da aba: Novembro-2026
+[10:20:23] - 15-01-2025 - INFO - Processando aba: Dezembro-2026
+[10:20:23] - 15-01-2025 - INFO - Linhas duplicadas removidas da aba: Dezembro-2026
+[10:20:23] - 15-01-2025 - INFO - Processando aba: Janeiro-2027
+[10:20:23] - 15-01-2025 - INFO - Linhas duplicadas removidas da aba: Janeiro-2027
+[10:20:23] - 15-01-2025 - INFO - Processando aba: Fevereiro-2027
+[10:20:23] - 15-01-2025 - INFO - Linhas duplicadas removidas da aba: Fevereiro-2027
+[10:20:23] - 15-01-2025 - INFO - Processando aba: Marco-2027
+[10:20:23] - 15-01-2025 - INFO - Linhas duplicadas removidas da aba: Marco-2027
+[10:20:23] - 15-01-2025 - INFO - Processando aba: Abril-2027
+[10:20:23] - 15-01-2025 - INFO - Linhas duplicadas removidas da aba: Abril-2027
+[10:20:23] - 15-01-2025 - INFO - Processando aba: Maio-2027
+[10:20:23] - 15-01-2025 - INFO - Linhas duplicadas removidas da aba: Maio-2027
+[10:20:23] - 15-01-2025 - INFO - Processando aba: Junho-2027
+[10:20:23] - 15-01-2025 - INFO - Linhas duplicadas removidas da aba: Junho-2027
+[10:20:23] - 15-01-2025 - INFO - Processando aba: Julho-2027
+[10:20:23] - 15-01-2025 - INFO - Linhas duplicadas removidas da aba: Julho-2027
+[10:20:23] - 15-01-2025 - INFO - Processando aba: Agosto-2027
+[10:20:23] - 15-01-2025 - INFO - Linhas duplicadas removidas da aba: Agosto-2027
+[10:20:23] - 15-01-2025 - INFO - Processando aba: Setembro-2027
+[10:20:23] - 15-01-2025 - INFO - Linhas duplicadas removidas da aba: Setembro-2027
+[10:20:23] - 15-01-2025 - INFO - Processando aba: Outubro-2027
+[10:20:23] - 15-01-2025 - INFO - Linhas duplicadas removidas da aba: Outubro-2027
+[10:20:23] - 15-01-2025 - INFO - Processando aba: Novembro-2027
+[10:20:23] - 15-01-2025 - INFO - Linhas duplicadas removidas da aba: Novembro-2027
+[10:20:23] - 15-01-2025 - INFO - Processando aba: Dezembro-2027
+[10:20:23] - 15-01-2025 - INFO - Linhas duplicadas removidas da aba: Dezembro-2027
+[10:20:23] - 15-01-2025 - INFO - Processando aba: Janeiro-2028
+[10:20:23] - 15-01-2025 - INFO - Linhas duplicadas removidas da aba: Janeiro-2028
+[10:20:23] - 15-01-2025 - INFO - Processando aba: Fevereiro-2028
+[10:20:23] - 15-01-2025 - INFO - Linhas duplicadas removidas da aba: Fevereiro-2028
+[10:20:23] - 15-01-2025 - INFO - Processando aba: Marco-2028
+[10:20:23] - 15-01-2025 - INFO - Linhas duplicadas removidas da aba: Marco-2028
+[10:20:23] - 15-01-2025 - INFO - Processando aba: Abril-2028
+[10:20:23] - 15-01-2025 - INFO - Linhas duplicadas removidas da aba: Abril-2028
+[10:20:23] - 15-01-2025 - INFO - Processando aba: Maio-2028
+[10:20:23] - 15-01-2025 - INFO - Linhas duplicadas removidas da aba: Maio-2028
+[10:20:23] - 15-01-2025 - INFO - Processando aba: Junho-2028
+[10:20:23] - 15-01-2025 - INFO - Linhas duplicadas removidas da aba: Junho-2028
+[10:20:23] - 15-01-2025 - INFO - Processando aba: Julho-2028
+[10:20:23] - 15-01-2025 - INFO - Linhas duplicadas removidas da aba: Julho-2028
+[10:20:23] - 15-01-2025 - INFO - Processando aba: Agosto-2028
+[10:20:23] - 15-01-2025 - INFO - Linhas duplicadas removidas da aba: Agosto-2028
+[10:20:23] - 15-01-2025 - INFO - Processando aba: Setembro-2028
+[10:20:23] - 15-01-2025 - INFO - Linhas duplicadas removidas da aba: Setembro-2028
+[10:20:23] - 15-01-2025 - INFO - Processando aba: Outubro-2028
+[10:20:23] - 15-01-2025 - INFO - Linhas duplicadas removidas da aba: Outubro-2028
+[10:20:23] - 15-01-2025 - INFO - Processando aba: Novembro-2028
+[10:20:23] - 15-01-2025 - INFO - Linhas duplicadas removidas da aba: Novembro-2028
+[10:20:23] - 15-01-2025 - INFO - Processando aba: Dezembro-2028
+[10:20:23] - 15-01-2025 - INFO - Linhas duplicadas removidas da aba: Dezembro-2028
+[10:20:23] - 15-01-2025 - INFO - Processando aba: Janeiro-2029
+[10:20:23] - 15-01-2025 - INFO - Linhas duplicadas removidas da aba: Janeiro-2029
+[10:20:23] - 15-01-2025 - INFO - Processando aba: Fevereiro-2029
+[10:20:23] - 15-01-2025 - INFO - Linhas duplicadas removidas da aba: Fevereiro-2029
+[10:20:23] - 15-01-2025 - INFO - Processando aba: Marco-2029
+[10:20:23] - 15-01-2025 - INFO - Linhas duplicadas removidas da aba: Marco-2029
+[10:20:23] - 15-01-2025 - INFO - Processando aba: Abril-2029
+[10:20:23] - 15-01-2025 - INFO - Linhas duplicadas removidas da aba: Abril-2029
+[10:20:23] - 15-01-2025 - INFO - Processando aba: Maio-2029
+[10:20:23] - 15-01-2025 - INFO - Linhas duplicadas removidas da aba: Maio-2029
+[10:20:23] - 15-01-2025 - INFO - Processando aba: Junho-2029
+[10:20:23] - 15-01-2025 - INFO - Linhas duplicadas removidas da aba: Junho-2029
+[10:20:23] - 15-01-2025 - INFO - Processando aba: Julho-2029
+[10:20:23] - 15-01-2025 - INFO - Linhas duplicadas removidas da aba: Julho-2029
+[10:20:23] - 15-01-2025 - INFO - Processando aba: Agosto-2029
+[10:20:23] - 15-01-2025 - INFO - Linhas duplicadas removidas da aba: Agosto-2029
+[10:20:23] - 15-01-2025 - INFO - Processando aba: Setembro-2029
+[10:20:23] - 15-01-2025 - INFO - Linhas duplicadas removidas da aba: Setembro-2029
+[10:20:23] - 15-01-2025 - INFO - Processando aba: Outubro-2029
+[10:20:23] - 15-01-2025 - INFO - Linhas duplicadas removidas da aba: Outubro-2029
+[10:20:23] - 15-01-2025 - INFO - Processando aba: Novembro-2029
+[10:20:23] - 15-01-2025 - INFO - Linhas duplicadas removidas da aba: Novembro-2029
+[10:20:23] - 15-01-2025 - INFO - Processando aba: Dezembro-2029
+[10:20:23] - 15-01-2025 - INFO - Linhas duplicadas removidas da aba: Dezembro-2029
+[10:20:23] - 15-01-2025 - INFO - Processando aba: Janeiro-2030
+[10:20:23] - 15-01-2025 - INFO - Linhas duplicadas removidas da aba: Janeiro-2030
+[10:20:23] - 15-01-2025 - INFO - Processando aba: Fevereiro-2030
+[10:20:23] - 15-01-2025 - INFO - Linhas duplicadas removidas da aba: Fevereiro-2030
+[10:20:24] - 15-01-2025 - INFO - Processamento concluído. Linhas duplicadas removidas com base na chave única | lokan
+[10:20:26] - 15-01-2025 - INFO - Processo concluído! As datas foram separadas em todas as abas | lokan
+[10:20:26] - 15-01-2025 - INFO - ETAPA FORMATAÇÃO FINAL - INICIADA
+[10:20:33] - 15-01-2025 - INFO - Formatação aplicada com sucesso às colunas G e H | lokan
+[10:20:37] - 15-01-2025 - INFO - Bordas aplicadas com sucesso em todas as abas | lokan
+[10:20:37] - 15-01-2025 - INFO - ETAPA FORMATAÇÃO FINAL - FINALIZADA
+[10:20:38] - 15-01-2025 - INFO - Aba 'Sheet' não existe. Nenhuma ação foi realizada | lokan
+[10:20:38] - 15-01-2025 - INFO - planilha pagamentos formatada com sucesso | lokanfacil
+[10:20:38] - 15-01-2025 - INFO - ETAPA FORMATAR PLANILHA PAGAMENTOS CAR PG - FINALIZADA
+[10:20:38] - 15-01-2025 - ERROR - Erro ao processar empresa: lokanfacil a planilha notas créditos pagos para formatação: 
+Passed header=[11], len of 1, but only 10 lines in file (sheet: 0)
+[10:20:38] - 15-01-2025 - INFO - ETAPA FORMATAR PLANILHA NOTAS DEBITOS - INICIADA
+[10:20:38] - 15-01-2025 - INFO - Planilha notas débitos formatada e ordenada com sucesso | lokanfacil
+[10:20:38] - 15-01-2025 - INFO - ETAPA FORMATAR PLANILHA NOTAS DEBITOS - FINALIZADA
+[10:20:38] - 15-01-2025 - INFO - ETAPA FORMATAR PLANILHA NOTAS DEBITOS CANCELADAS - INICIADA
+[10:20:38] - 15-01-2025 - INFO - Planilha notas_canceladas_formatada | lokanfacil
+[10:20:38] - 15-01-2025 - INFO - ETAPA FORMATAR PLANILHA NOTAS DEBITOS CANCELADAS - FINALIZADA
+[10:20:38] - 15-01-2025 - INFO - Num de cabeçalho encontrados 11
+[10:20:38] - 15-01-2025 - INFO - Planilha notas créditos formatada e ordenada com sucesso | lokanfacil
+[10:20:38] - 15-01-2025 - INFO - ETAPA FORMATAR PLANILHA NOTAS CRÉDITOS EM ABERTO - FINALIZADA
+[10:20:38] - 15-01-2025 - INFO - já existe planilha principal para empresa  lokanfacil
+[10:20:38] - 15-01-2025 - INFO - ETAPA LIMPAR BOLETOS E EXCLUIR CABEÇALHOS - INICIADA | lokanfacil
+[10:20:39] - 15-01-2025 - INFO - ETAPA LIMPAR BOLETOS E EXCLUIR CABEÇALHOS - FINALIZADA | lokanfacil
+[10:20:39] - 15-01-2025 - INFO - Boletos e cabeçalhos foram processados com sucesso. | lokanfacil
+[10:20:39] - 15-01-2025 - INFO - Processo concluído! Dados copiados de notas_debitos para planilha_principal_lokan | lokanfacil
+[10:20:39] - 15-01-2025 - INFO - Processo concluído! Dados copiados de notas_creditos_em_aberto para lokanfacil.
+[10:20:39] - 15-01-2025 - INFO - Processo concluído! Dados copiados de notas_canceladas para lokanfacil.
+[10:20:39] - 15-01-2025 - INFO - ETAPA DE ORDENAÇÃO DAS ABAS PELA COLUNA VENCTO - INICIADA
+[10:20:40] - 15-01-2025 - INFO - ETAPA DE ORDENAÇÃO DAS ABAS PELA COLUNA VENCTO PARA EMPRESA lokanfacil- FINALIZADA COM SUCESSO
+[10:20:41] - 15-01-2025 - INFO - Planilha empresa lokanfacil ordenada CREDITO e DEBITO
+[10:20:41] - 15-01-2025 - INFO - Abas ordenadas por ano e mês da empresa 'lokanfacil'.
+[10:20:41] - 15-01-2025 - INFO - ETAPA VERIFICAR STATUS PG NA PLANILHA PRINCIPAL - INICIADA
+[10:20:42] - 15-01-2025 - INFO - Valores de PG, CREDITO e RECBO atualizados com sucesso em todas as abas | lokanfacil
+[10:20:42] - 15-01-2025 - INFO - ETAPA VERIFICAR STATUS PG NA PLANILHA PRINCIPAL - FINALIZADA
+[10:20:42] - 15-01-2025 - INFO - ETAPA VERIFICAR STATUS PG NA PLANILHA PRINCIPAL NOTAS CREDITOS - INICIADA
+[10:20:42] - 15-01-2025 - ERROR - Erro ao processar a planilha pagamentos_creditos na data ('08-01-2025', '15-01-2025') para empresa lokanfacil: 
+[Errno 2] No such file or directory: 'C:\\Users\\lokan\\OneDrive\\Documentos\\projeto_auto_Lokan -V2\\app\\Planilhas\\Notas_creditos/notas_creditos_08-01-2025_15-01-2025_pagos_lokanfacil.xlsx'
+[10:20:42] - 15-01-2025 - INFO - ETAPA VERIFICAR STATUS PG NA PLANILHA PRINCIPAL NOTAS CREDITOS - FINALIZADA
+[10:20:42] - 15-01-2025 - INFO - Processando aba: Dezembro-2024
+[10:20:42] - 15-01-2025 - INFO - Linhas duplicadas removidas da aba: Dezembro-2024
+[10:20:42] - 15-01-2025 - INFO - Processando aba: Janeiro-2025
+[10:20:42] - 15-01-2025 - INFO - Linhas duplicadas removidas da aba: Janeiro-2025
+[10:20:42] - 15-01-2025 - INFO - Processando aba: Fevereiro-2025
+[10:20:42] - 15-01-2025 - INFO - Linhas duplicadas removidas da aba: Fevereiro-2025
+[10:20:42] - 15-01-2025 - INFO - Processando aba: Marco-2025
+[10:20:42] - 15-01-2025 - INFO - Linhas duplicadas removidas da aba: Marco-2025
+[10:20:42] - 15-01-2025 - INFO - Processando aba: Abril-2025
+[10:20:42] - 15-01-2025 - INFO - Linhas duplicadas removidas da aba: Abril-2025
+[10:20:42] - 15-01-2025 - INFO - Processando aba: Maio-2025
+[10:20:42] - 15-01-2025 - INFO - Linhas duplicadas removidas da aba: Maio-2025
+[10:20:42] - 15-01-2025 - INFO - Processando aba: Junho-2025
+[10:20:42] - 15-01-2025 - INFO - Linhas duplicadas removidas da aba: Junho-2025
+[10:20:42] - 15-01-2025 - INFO - Processando aba: Julho-2025
+[10:20:42] - 15-01-2025 - INFO - Linhas duplicadas removidas da aba: Julho-2025
+[10:20:42] - 15-01-2025 - INFO - Processando aba: Agosto-2025
+[10:20:42] - 15-01-2025 - INFO - Linhas duplicadas removidas da aba: Agosto-2025
+[10:20:42] - 15-01-2025 - INFO - Processando aba: Setembro-2025
+[10:20:42] - 15-01-2025 - INFO - Linhas duplicadas removidas da aba: Setembro-2025
+[10:20:42] - 15-01-2025 - INFO - Processando aba: Outubro-2025
+[10:20:42] - 15-01-2025 - INFO - Linhas duplicadas removidas da aba: Outubro-2025
+[10:20:42] - 15-01-2025 - INFO - Processando aba: Novembro-2025
+[10:20:42] - 15-01-2025 - INFO - Linhas duplicadas removidas da aba: Novembro-2025
+[10:20:42] - 15-01-2025 - INFO - Processando aba: Dezembro-2025
+[10:20:42] - 15-01-2025 - INFO - Linhas duplicadas removidas da aba: Dezembro-2025
+[10:20:42] - 15-01-2025 - INFO - Processando aba: Janeiro-2026
+[10:20:42] - 15-01-2025 - INFO - Linhas duplicadas removidas da aba: Janeiro-2026
+[10:20:42] - 15-01-2025 - INFO - Processando aba: Fevereiro-2026
+[10:20:42] - 15-01-2025 - INFO - Linhas duplicadas removidas da aba: Fevereiro-2026
+[10:20:42] - 15-01-2025 - INFO - Processando aba: Marco-2026
+[10:20:42] - 15-01-2025 - INFO - Linhas duplicadas removidas da aba: Marco-2026
+[10:20:42] - 15-01-2025 - INFO - Processando aba: Abril-2026
+[10:20:42] - 15-01-2025 - INFO - Linhas duplicadas removidas da aba: Abril-2026
+[10:20:42] - 15-01-2025 - INFO - Processando aba: Maio-2026
+[10:20:42] - 15-01-2025 - INFO - Linhas duplicadas removidas da aba: Maio-2026
+[10:20:42] - 15-01-2025 - INFO - Processando aba: Junho-2026
+[10:20:42] - 15-01-2025 - INFO - Linhas duplicadas removidas da aba: Junho-2026
+[10:20:42] - 15-01-2025 - INFO - Processando aba: Julho-2026
+[10:20:42] - 15-01-2025 - INFO - Linhas duplicadas removidas da aba: Julho-2026
+[10:20:42] - 15-01-2025 - INFO - Processando aba: Agosto-2026
+[10:20:42] - 15-01-2025 - INFO - Linhas duplicadas removidas da aba: Agosto-2026
+[10:20:42] - 15-01-2025 - INFO - Processando aba: Setembro-2026
+[10:20:42] - 15-01-2025 - INFO - Linhas duplicadas removidas da aba: Setembro-2026
+[10:20:42] - 15-01-2025 - INFO - Processando aba: Outubro-2026
+[10:20:42] - 15-01-2025 - INFO - Linhas duplicadas removidas da aba: Outubro-2026
+[10:20:42] - 15-01-2025 - INFO - Processando aba: Novembro-2026
+[10:20:42] - 15-01-2025 - INFO - Linhas duplicadas removidas da aba: Novembro-2026
+[10:20:42] - 15-01-2025 - INFO - Processando aba: Dezembro-2026
+[10:20:42] - 15-01-2025 - INFO - Linhas duplicadas removidas da aba: Dezembro-2026
+[10:20:42] - 15-01-2025 - INFO - Processando aba: Janeiro-2027
+[10:20:42] - 15-01-2025 - INFO - Linhas duplicadas removidas da aba: Janeiro-2027
+[10:20:42] - 15-01-2025 - INFO - Processando aba: Fevereiro-2027
+[10:20:42] - 15-01-2025 - INFO - Linhas duplicadas removidas da aba: Fevereiro-2027
+[10:20:42] - 15-01-2025 - INFO - Processando aba: Marco-2027
+[10:20:42] - 15-01-2025 - INFO - Linhas duplicadas removidas da aba: Marco-2027
+[10:20:42] - 15-01-2025 - INFO - Processando aba: Abril-2027
+[10:20:42] - 15-01-2025 - INFO - Linhas duplicadas removidas da aba: Abril-2027
+[10:20:42] - 15-01-2025 - INFO - Processando aba: Maio-2027
+[10:20:42] - 15-01-2025 - INFO - Linhas duplicadas removidas da aba: Maio-2027
+[10:20:42] - 15-01-2025 - INFO - Processando aba: Junho-2027
+[10:20:42] - 15-01-2025 - INFO - Linhas duplicadas removidas da aba: Junho-2027
+[10:20:42] - 15-01-2025 - INFO - Processando aba: Julho-2027
+[10:20:42] - 15-01-2025 - INFO - Linhas duplicadas removidas da aba: Julho-2027
+[10:20:42] - 15-01-2025 - INFO - Processando aba: Agosto-2027
+[10:20:42] - 15-01-2025 - INFO - Linhas duplicadas removidas da aba: Agosto-2027
+[10:20:42] - 15-01-2025 - INFO - Processando aba: Setembro-2027
+[10:20:42] - 15-01-2025 - INFO - Linhas duplicadas removidas da aba: Setembro-2027
+[10:20:42] - 15-01-2025 - INFO - Processando aba: Outubro-2027
+[10:20:42] - 15-01-2025 - INFO - Linhas duplicadas removidas da aba: Outubro-2027
+[10:20:42] - 15-01-2025 - INFO - Processando aba: Novembro-2027
+[10:20:42] - 15-01-2025 - INFO - Linhas duplicadas removidas da aba: Novembro-2027
+[10:20:42] - 15-01-2025 - INFO - Processando aba: Dezembro-2027
+[10:20:42] - 15-01-2025 - INFO - Linhas duplicadas removidas da aba: Dezembro-2027
+[10:20:42] - 15-01-2025 - INFO - Processamento concluído. Linhas duplicadas removidas com base na chave única | lokanfacil
+[10:20:42] - 15-01-2025 - INFO - Processo concluído! As datas foram separadas em todas as abas | lokanfacil
+[10:20:42] - 15-01-2025 - INFO - ETAPA FORMATAÇÃO FINAL - INICIADA
+[10:20:43] - 15-01-2025 - INFO - Formatação aplicada com sucesso às colunas G e H | lokanfacil
+[10:20:44] - 15-01-2025 - INFO - Bordas aplicadas com sucesso em todas as abas | lokanfacil
+[10:20:44] - 15-01-2025 - INFO - ETAPA FORMATAÇÃO FINAL - FINALIZADA
+[10:20:44] - 15-01-2025 - INFO - Aba 'Sheet' não existe. Nenhuma ação foi realizada | lokanfacil
