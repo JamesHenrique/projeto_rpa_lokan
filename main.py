@@ -20,7 +20,6 @@ while True:
     if esc == 's':
         print(f'Formatando planilhas do periodo {carregar_datas()}')
         excluir_arquivos_xls()
-
         formatacao_planilha_final()
         ms.showinfo("FINALIZADO RPA","Formatação finalizada com sucesso")
         break
@@ -45,7 +44,6 @@ while True:
         py.press('esc',presses=10,interval=0.5)
 
 
-
         fechar_sisloc()
 
 
@@ -54,13 +52,10 @@ while True:
 
 
         excluir_arquivos_xls()
-
+        
 
         ms.showinfo("FINALIZADO RPA","Automação finalizada com sucesso")
         break
-
-
     else:
         print('Escolha uma das opções para seguir | "S" para sim ou "N" para nao\n')
         continue
-

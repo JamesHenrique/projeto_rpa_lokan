@@ -152,8 +152,6 @@ def verifica_icone_relatorio():
 
 
 
-
-
 def entrada_usuario():
     time.sleep(3)  # Aguarda 1 segundo antes de iniciar
 
@@ -197,7 +195,7 @@ def is_excel_open():
     return False
 
 def verifica_icone_excel_superior():
-    time.sleep(1)
+    time.sleep(15)
 
     excel_pids = is_excel_open()
     
@@ -326,7 +324,7 @@ def icon_salvar():
             print('botão nao localizado - icon_salvar')
         time.sleep(5)  # Espera 5 segundo antes de tentar novamente
   
-        
+      
 
 def bnt_muda_empresa():
 
@@ -748,7 +746,6 @@ def verifica_btn_iniciar():
             print('tentando localizar - btn_iniciar')
             
         time.sleep(3)  #Espera 3 segundo antes de tentar novamente
-
 
 
 def verifica_btn_Ok():

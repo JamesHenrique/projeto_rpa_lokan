@@ -690,11 +690,6 @@ def formatacaoFinal(empresa):
        
 
 
-
-
-
-
-
         
 def verifica_pgs_notas_debitos(empresa):
     datas = carregar_datas()
@@ -703,11 +698,9 @@ def verifica_pgs_notas_debitos(empresa):
 
     try:
         arquivo_destino = rf'{CAMINHO_DESTINO}\planilha_principal_{empresa}.xlsx'
-
         planilha_principal = pd.ExcelFile(arquivo_destino)
         abas_principais = planilha_principal.sheet_names
 
-        # Verificar o período e construir o nome da planilha secundária
         if isinstance(datas, tuple):
             periodo = f'{datas[0]}_{datas[1]}'
             planilhaxlsx = f"pagamentos_{periodo}_{empresa}.xlsx"
@@ -716,57 +709,83 @@ def verifica_pgs_notas_debitos(empresa):
 
         planilha_secundaria = pd.read_excel(f"{CAMINHO_NOTAS_PAGAMENTOS}/{planilhaxlsx}")
 
-        # Definir colunas usadas nas planilhas
-        coluna_documento = 'NFISCAL'
-        coluna_pg = 'PGs'
-        coluna_liquidado = 'LIQUIDADO EM'
+        # Colunas
+        coluna_nf_pagamento = 'NFISCAL'
+        coluna_venc_pagamento = 'vencimento'
         coluna_valor = 'valor'
+        coluna_liquidado = 'LIQUIDADO EM'
+
+        coluna_nf_principal = 'NFISCAL'
+        coluna_venc_principal = 'VENCTO'
+        coluna_pg = 'PGs'
         coluna_credito = 'CREDITO'
         coluna_recbo = 'RECBO'
 
-        # Verificar e tratar duplicatas antes de criar o dicionário
-        duplicatas = planilha_secundaria[coluna_documento][planilha_secundaria[coluna_documento].duplicated()]
-        if not duplicatas.empty:
-            infoLogs().info(f"Existem valores duplicados na coluna '{coluna_documento}':\n{duplicatas}")
-            planilha_secundaria = planilha_secundaria.drop_duplicates(subset=[coluna_documento])
-
-        # Função para limpar valores
         def limpar_valor(valor):
             if isinstance(valor, str):
                 return valor.strip().replace('\n', '').replace('\r', '')
-            else:
-                return str(valor).strip()
+            return str(valor).strip()
 
-        # Criar dicionário de dados secundários
-        planilha_secundaria[coluna_documento] = planilha_secundaria[coluna_documento].apply(limpar_valor)
-        dados_secundarios = planilha_secundaria.set_index(coluna_documento).to_dict(orient='index')
+        # Padroniza data
+        planilha_secundaria[coluna_venc_pagamento] = pd.to_datetime(planilha_secundaria[coluna_venc_pagamento], format='%d/%m/%y')
+        planilha_secundaria[coluna_venc_pagamento] = planilha_secundaria[coluna_venc_pagamento].dt.strftime('%d/%m/%Y')
+        planilha_secundaria[coluna_nf_pagamento] = planilha_secundaria[coluna_nf_pagamento].apply(limpar_valor)
+        planilha_secundaria['CHAVE_UNICA'] = (
+            planilha_secundaria[coluna_venc_pagamento] + planilha_secundaria[coluna_nf_pagamento]
+        )
+        planilha_secundaria['CHAVE_UNICA'] = planilha_secundaria['CHAVE_UNICA'].apply(limpar_valor)
 
-        # Função para atualizar colunas
-        def atualizar_colunas(row):
-            if row[coluna_pg] in ['PG', 'BX']:
-                return row[coluna_pg], row[coluna_credito], row[coluna_recbo]
+        filtro_planilha_secu = planilha_secundaria.loc[planilha_secundaria['CHAVE_UNICA']== '27/04/202584461']
 
-            if pd.isna(row[coluna_credito]) or row[coluna_credito] == '':
-                return row[coluna_pg], row[coluna_credito], row[coluna_recbo]
+        # Remove duplicatas
+        duplicatas = planilha_secundaria['CHAVE_UNICA'][planilha_secundaria['CHAVE_UNICA'].duplicated()]
+        if not duplicatas.empty:
+            
+            planilha_secundaria = planilha_secundaria.drop_duplicates(subset=['CHAVE_UNICA'])
 
-            nfiscal_principal = limpar_valor(str(row[coluna_documento]))
-
-            if nfiscal_principal in dados_secundarios:
-                valor_value = dados_secundarios[nfiscal_principal].get(coluna_valor, row[coluna_credito])
-                recbo_value = dados_secundarios[nfiscal_principal].get(coluna_liquidado, row[coluna_recbo])
-                return 'PG', valor_value, recbo_value
-            else:
-                return 'AB', row[coluna_credito], row[coluna_recbo]
-
-        # Iterar pelas abas da planilha principal
+        dados_secundarios = planilha_secundaria.set_index('CHAVE_UNICA').to_dict(orient='index')
+      
         with pd.ExcelWriter(arquivo_destino, engine='openpyxl', mode='a', if_sheet_exists='replace') as writer:
             for aba in abas_principais:
                 planilha_atual = pd.read_excel(arquivo_destino, sheet_name=aba)
 
-                if all(col in planilha_atual.columns for col in [coluna_documento, coluna_pg, coluna_credito, coluna_recbo]):
+                if all(col in planilha_atual.columns for col in [coluna_nf_principal, coluna_venc_principal, coluna_pg, coluna_credito, coluna_recbo]):
+                    planilha_atual[coluna_venc_principal] = pd.to_datetime(planilha_atual[coluna_venc_principal], format='%d/%m/%Y')
+                    planilha_atual[coluna_venc_principal] = planilha_atual[coluna_venc_principal].dt.strftime('%d/%m/%Y')
+                    planilha_atual[coluna_nf_principal] = planilha_atual[coluna_nf_principal].apply(limpar_valor)
+
+                    planilha_atual['CHAVE_UNICA'] = (
+                        planilha_atual[coluna_venc_principal] + planilha_atual[coluna_nf_principal]
+                    )
+                    planilha_atual['CHAVE_UNICA'] = planilha_atual['CHAVE_UNICA'].apply(limpar_valor)
+                    
+                    filtro_planilha = planilha_atual.loc[planilha_atual['CHAVE_UNICA']== '27/04/202584461']
+              
+                    # Contagem de coincidências
+                    total_chaves_principal = len(planilha_atual)
+                    chaves_comuns = planilha_atual['CHAVE_UNICA'].isin(dados_secundarios.keys()).sum()
+  
+                    def atualizar_colunas(row):
+                        if row[coluna_pg] in ['PG', 'BX']:
+                            return row[coluna_pg], row[coluna_credito], row[coluna_recbo]
+
+                        if pd.isna(row[coluna_credito]) or row[coluna_credito] == '':
+                            return row[coluna_pg], row[coluna_credito], row[coluna_recbo]
+
+                        chave = row['CHAVE_UNICA']
+                        if chave in dados_secundarios:
+                            valor = dados_secundarios[chave].get(coluna_valor, row[coluna_credito])
+                            recbo = dados_secundarios[chave].get(coluna_liquidado, row[coluna_recbo])
+                            return 'PG', valor, recbo
+                        else:
+                            
+                            return 'AB', row[coluna_credito], row[coluna_recbo]
+
                     planilha_atual[[coluna_pg, coluna_credito, coluna_recbo]] = planilha_atual.apply(
                         atualizar_colunas, axis=1, result_type='expand'
                     )
+
+                    planilha_atual.drop(columns=['CHAVE_UNICA'], inplace=True)
 
                 planilha_atual.to_excel(writer, sheet_name=aba, index=False)
 
@@ -776,6 +795,8 @@ def verifica_pgs_notas_debitos(empresa):
         infoLogs().error(f"Erro ao processar a planilha pagamentos na data {datas} para empresa {empresa}: \n{e}")
 
     infoLogs().info("ETAPA VERIFICAR STATUS PG NA PLANILHA PRINCIPAL - FINALIZADA")
+
+
 
 
     
@@ -926,7 +947,20 @@ def formatar_planilha_nota_debitos(empresa):
         
         # Filtrando as colunas específicas e fazendo a leitura do arquivo
         colunas_especificas = ['Vencto', 'Emissão', 'N. Fiscal', 'Cliente', 'Vl. bruto ']
-        df = pd.read_excel(f'{caminho}\\{nome_xls}', engine='xlrd', header=7, usecols=colunas_especificas)
+
+        count_headers = 7
+        while True:
+            
+            try:
+                df = pd.read_excel(f'{caminho}\\{nome_xls}', engine='xlrd', header=count_headers, usecols=colunas_especificas)
+                break
+            except:
+                infoLogs().info("Cabeçalho nao encontrado para planilha Debitos - Adicionando 1 para encontrar")
+                count_headers = count_headers + 1
+            if count_headers > 10:
+                infoLogs().info(f"Cabeçalho nota debitos da empresa {empresa} não encontrado")
+                break
+
 
         # Tirando todos os valores NaN do arquivo
         df = df.dropna(subset=['Vencto']).copy()
@@ -970,14 +1004,11 @@ def formatar_planilha_nota_debitos(empresa):
         df.to_excel(f'{caminho}\\{nome_novo}', index=False)
         infoLogs().info(f"Planilha notas débitos formatada e ordenada com sucesso | {empresa}")
     except Exception as e:
-        infoLogs().info(f"Erro ao processar arquivo empresa {empresa} notas débitos para formataçaõ: \n{e}")
+        infoLogs().info(f"Erro ao processar arquivo empresa {empresa} notas débitos para formatação: \n{e}")
 
     infoLogs().info("ETAPA FORMATAR PLANILHA NOTAS DEBITOS - FINALIZADA")
 
 
-
-
-    
 
 
 def formatar_planilha_notas_credito_aberta(empresa):
@@ -1265,14 +1296,15 @@ def formatarPlanilhaPagamentos(empresa):
         df = df.dropna(subset=['NFISCAL'])
 
         
-        # Removendo o texto 'ND 0'
-        df['NFISCAL'] = df['NFISCAL'].str.replace('ND 0', '', regex=False)
+        #Removendo o texto 'ND 0'
+        # df['NFISCAL'] = df['NFISCAL'].str.replace('ND 0', '', regex=False)
 
-        # Removendo todos os zeros à esquerda
-        df['NFISCAL'] = df['NFISCAL'].str.lstrip('0')
-        
+        #remove zero a esquerda e todos os caracteres
+        df['NFISCAL'] = df['NFISCAL'].str.extract(r'(\d+)', expand=False).str.lstrip('0')
 
 
+        #Removendo todos os zeros à esquerda
+        # df['NFISCAL'] = df['NFISCAL'].str.lstrip('0')
         
 
         if isinstance(datas, tuple):
@@ -1323,50 +1355,51 @@ def formatar_datas_notas(empresa):
     wb.save(caminho_arquivo)
 
 
+
 def remover_duplicados_chave_unica(colunas_chave, empresa):
     """
     Remove linhas duplicadas em todas as abas de uma planilha com base em uma chave única composta por múltiplas colunas.
 
     Args:
-        colunas_chave (list): Lista das letras das colunas que compõem a chave única (NFISCAL e NOME).
+        colunas_chave (list): Lista com as letras das colunas que compõem a chave única (ex: ['A', 'E', 'F']).
+        empresa (str): Nome da empresa para identificar o arquivo Excel.
     """
     arquivo_excel = rf'{CAMINHO_DESTINO}\planilha_principal_{empresa}.xlsx'
 
     # Abre o arquivo Excel
     wb = openpyxl.load_workbook(arquivo_excel)
-    
-    for aba in wb.sheetnames:  # Itera por todas as abas
+
+    for aba in wb.sheetnames:
         ws = wb[aba]
         infoLogs().info(f"Processando aba: {aba}")
 
-        # Conjunto para armazenar as chaves únicas
         chaves_unicas = set()
         linhas_para_remover = []
 
-        # Percorre as linhas a partir da linha 2 (ignora cabeçalho)
         for linha in range(2, ws.max_row + 1):
-            # Construa a chave única concatenando as colunas 'NFISCAL' e 'NOME'
-            nfiscal = ws[f'F{linha}'].value  # Coluna NFISCAL (ajuste para o índice correto)
-            nome = ws[f'E{linha}'].value  # Coluna NOME (ajuste para o índice correto)
-            
-            # Garantir que os valores não sejam nulos ou vazios
-            if nfiscal and nome:
-                chave_unica = f"{str(nome).strip()}_{str(nfiscal).strip()}"  # Chave única sem espaços extras
-                
+            partes_chave = []
+            for col in colunas_chave:
+                valor = ws[f'{col}{linha}'].value
+                if valor is None:
+                    partes_chave = []  # Invalida essa chave
+                    break
+                partes_chave.append(str(valor).strip())
+
+            if partes_chave:
+                chave_unica = "_".join(partes_chave)
                 if chave_unica in chaves_unicas:
-                    linhas_para_remover.append(linha)  # Marca a linha para remoção se a chave for duplicada
+                    linhas_para_remover.append(linha)
                 else:
                     chaves_unicas.add(chave_unica)
 
-        # Remove as linhas duplicadas, começando pela última
         for linha in reversed(linhas_para_remover):
             ws.delete_rows(linha)
 
         infoLogs().info(f"Linhas duplicadas removidas da aba: {aba}")
 
-    # Salva as alterações no arquivo Excel
     wb.save(arquivo_excel)
     infoLogs().info(f"Processamento concluído. Linhas duplicadas removidas com base na chave única | {empresa}")
+
 
 
 def criar_planilha_principal(empresa):
@@ -1509,13 +1542,6 @@ def reordenar_por_ano_abas(empresa):
         infoLogs().info(f'Erro ao reordenar dados {empresa} - {e}')
 
 
-    
-
-
-
-
-
-
 
 def formatacao_planilha_final():
     
@@ -1547,8 +1573,6 @@ def formatacao_planilha_final():
 
         limpar_boletos_e_excluir_cabeçalhos(empresa)
 
-        
-
         copia_notas_debitos(empresa)
 
         copia_notas_creditos_em_aberto(empresa)
@@ -1561,14 +1585,13 @@ def formatacao_planilha_final():
 
         reordenar_por_ano_abas(empresa)
         
-
         verifica_pgs_notas_debitos(empresa)
 
         verifica_pgs_notas_creditos(empresa)
         
-        # Uso da função
-        colunas_chave=['F', 'E']
-        remover_duplicados_chave_unica(colunas_chave,empresa)  # Colunas: NFISCAL (E), NOME (F),))
+        # # # Uso da função
+        colunas_chave=['A', 'E','F']
+        remover_duplicados_chave_unica(colunas_chave,empresa)  
 
         reordenar_credito_debito(empresa)
 
@@ -1579,5 +1602,4 @@ def formatacao_planilha_final():
         formatacaoFinal(empresa)
         
         excluir_aba(empresa)
-
 

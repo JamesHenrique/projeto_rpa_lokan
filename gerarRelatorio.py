@@ -22,13 +22,18 @@ def reinicar_processo():
     py.press('ESC',interval=0.5,presses=10)
     py.hotkey('Alt','home')
 
-
+def verific_planilha(caminho):
+    if os.path.exists(caminho):
+        infoLogs().info(f'Planilha já existe na base de dados - {caminho}')
+        return False
+    else:
+        return True
 
 
 empresa = ''
 def fechar_relatorio():
     btn_fechar_aba()
-    py.press('esc',presses=2,interval=1)
+    py.press('esc',presses=5,interval=1)
     tm.sleep(5)
     btn_fechar_aba()
     
@@ -49,6 +54,9 @@ def novamente_NotasCanceladas():
 # Exemplo de uso para acessar as datas
 
 def gerarRelatorioNotasCanceladas(empresa):
+
+    fechar_relatorio()
+
     datas = carregar_datas()
 
     periodo = ""
@@ -83,7 +91,7 @@ def gerarRelatorioNotasCanceladas(empresa):
             break
         else:
             tent = tent + 1
-            print(f"Ainda não localizado verifica_icone_relatorio, tentando novamente... | {empresa} |{tent}x")
+            infoLogs().info(f"Ainda não localizado verifica_icone_relatorio, tentando novamente... | {empresa} |{tent}x")
             
             if tent >= 3:
                 novamente_NotasCanceladas()
@@ -94,26 +102,16 @@ def gerarRelatorioNotasCanceladas(empresa):
  
     tm.sleep(1)
 
-    num_debito = ''
+    num_debito = 'Nota de Debito'
 
-    
-    match empresa:
-        case  'lokan':
-            num_debito = '14'#nº referente a nota debito cancelada lokan
-        case 'lokanestrutura':
-            num_debito = '20'
-        case 'lokanfacil':
-            num_debito = '30'
-        case 'lokanlondrina':
-            num_debito = '36'
  
     infoLogs().info(f'empresa em  notas canceladas {empresa} - {num_debito}')
 
-    py.write(num_debito)#nº referente a nota debito cancelada
-
+    py.write(num_debito,interval=0.1)#nº referente a nota debito cancelada
+    tm.sleep(2)
     py.press('enter')
     tm.sleep(1.5)
-    py.press('tab',presses=3)#antes2
+    py.press('tab',presses=4) #antes3
     tm.sleep(0.5)
     
     if isinstance(datas, tuple):
@@ -146,12 +144,12 @@ def gerarRelatorioNotasCanceladas(empresa):
         while True:
             relatori_notas_canceladas_vazio = verifica_texto_notas_canceladas()
             if 'sim' in relatori_notas_canceladas_vazio:
-                print("Não tem notas canceladas para o periodo informado...")
+                infoLogs().info("Não tem notas canceladas para o periodo informado...")
                 btn_fechar_aba()
                 infoLogs().info("ETAPA GERAR RELATORIO NOTAS DEBITOS CANCELADAS - FINALIZADA")
                 break
             elif 'nao' in relatori_notas_canceladas_vazio:
-                print("Tem notas canceladas...")
+                infoLogs().info("Tem notas canceladas...")
                 
                 tm.sleep(tempo)
                 icon_salvar()
@@ -171,31 +169,33 @@ def gerarRelatorioNotasCanceladas(empresa):
                 # Criar o caminho completo para o arquivo
                 caminho_completo = os.path.join(CAMINHO_NOTAS_CANCELADAS, nome_arquivo)
 
-                # Copiar o caminho completo para a área de transferência e colar (opcional)
-                pyperclip.copy(caminho_completo)
-        
-                py.write(pyperclip.paste())  # Cola o texto final
-        
-               
+                if verific_planilha(caminho_completo):
+                        
+                    # Copiar o caminho completo para a área de transferência e colar (opcional)
+                    pyperclip.copy(caminho_completo)
+            
+                    py.write(pyperclip.paste())  # Cola o texto final
+            
                 
-                tm.sleep(1.5)
-                py.press('enter')
-                
-                
-                while True:
-                    resultado = verifica_icone_excel_superior()  # Armazena o resultado da função
-                    if 'localizado' in resultado:
-                        break  # Sai do loop se 'localizado' for encontrado
-                    else:
-                        print("Ainda não localizado icone_excel_superior, tentando novamente...")
-                
-                tm.sleep(tempo)
-                py.keyDown('alt')
-                tm.sleep(tempo)
-                py.press('f4')
-                tm.sleep(tempo)
-                py.keyUp('alt')
-                tm.sleep(tempo)
+                    
+                    tm.sleep(1.5)
+                    py.press('enter')
+                    
+                    
+                    while True:
+                        resultado = verifica_icone_excel_superior()  # Armazena o resultado da função
+                        if 'localizado' in resultado:
+                            break  # Sai do loop se 'localizado' for encontrado
+                        else:
+                            infoLogs().info("Ainda não localizado icone_excel_superior, tentando novamente...")
+                    
+                    tm.sleep(tempo)
+                    py.keyDown('alt')
+                    tm.sleep(tempo)
+                    py.press('f4')
+                    tm.sleep(tempo)
+                    py.keyUp('alt')
+                    tm.sleep(tempo)
                 btn_fechar_aba()
                 infoLogs().info(f"ETAPA GERAR RELATORIO NOTAS DEBITOS CANCELADAS  {empresa} - FINALIZADA")
                 
@@ -212,6 +212,9 @@ def gerarRelatorioNotasCanceladas(empresa):
 
 
 def gerarRelatorioCAP(empresa):
+
+    fechar_relatorio()
+
     datas = carregar_datas()
 
     periodo = ""
@@ -247,7 +250,7 @@ def gerarRelatorioCAP(empresa):
         if 'localizado' in icone_relatorio_disponivel:
             break
         else:
-            print("Ainda não localizado verifica_icone_relatorio, tentando novamente...")
+            infoLogs().info("Ainda não localizado verifica_icone_relatorio, tentando novamente...")
             
     
     verifica_texto_titulos_relatorio()
@@ -282,7 +285,7 @@ def gerarRelatorioCAP(empresa):
         while True:
             relatori_notas_creditos_vazio = verifica_texto_notas_creditos()
             if 'sim' in relatori_notas_creditos_vazio:
-                print(f"Não tem notas creditos para o periodo informado... | {empresa}")
+                infoLogs().info(f"Não tem notas creditos para o periodo informado... | {empresa}")
                 btn_fechar_aba()
                 tm.sleep(1)
                 py.press('esc')
@@ -293,7 +296,7 @@ def gerarRelatorioCAP(empresa):
                 infoLogs().info(f"ETAPA GERAR RELATORIO CAP LOKAN {empresa} - FINALIZADA")
                 break
             elif 'nao' in relatori_notas_creditos_vazio:
-                print("Tem notas de creditos...")
+                infoLogs().info("Tem notas de creditos...")
                 
                 icon_salvar()
                 tm.sleep(tempo)
@@ -312,31 +315,34 @@ def gerarRelatorioCAP(empresa):
                 # Criar o caminho completo para o arquivo
                 caminho_completo = os.path.join(CAMINHO_NOTAS_CREDITOS, nome_arquivo)
 
-                # Copiar o caminho completo para a área de transferência e colar (opcional)
-                pyperclip.copy(caminho_completo)
-        
-                py.write(pyperclip.paste())  # Cola o texto final
+                if verific_planilha(caminho_completo):
+                        
+                    # Copiar o caminho completo para a área de transferência e colar (opcional)
+                    pyperclip.copy(caminho_completo)
+            
+                    py.write(pyperclip.paste())  # Cola o texto final
+                        
+                
                     
-               
-                
-                tm.sleep(1.5)
-                py.press('enter')
-                
-                
-                while True:
-                    resultado = verifica_icone_excel_superior()  # Armazena o resultado da função
-                    if 'localizado' in resultado:
-                        break  # Sai do loop se 'localizado' for encontrado
-                    else:
-                        print("Ainda não localizado icone_excel_superior, tentando novamente...")
+                    tm.sleep(1.5)
+                    py.press('enter')
+                    
+                    
+                    while True:
+                        resultado = verifica_icone_excel_superior()  # Armazena o resultado da função
+                        if 'localizado' in resultado:
+                            break  # Sai do loop se 'localizado' for encontrado
+                        else:
+                            infoLogs().info("Ainda não localizado icone_excel_superior, tentando novamente...")
 
-                tm.sleep(tempo)
-                py.keyDown('alt')
-                tm.sleep(tempo)
-                py.press('f4')
-                tm.sleep(tempo)
-                py.keyUp('alt')
-                tm.sleep(tempo)
+                    tm.sleep(tempo)
+                    py.keyDown('alt')
+                    tm.sleep(tempo)
+                    py.press('f4')
+                    tm.sleep(tempo)
+                    py.keyUp('alt')
+                    tm.sleep(tempo)
+
                 btn_fechar_aba()
                 
                 infoLogs().info(f"ETAPA GERAR RELATORIO CAP LOKAN {empresa} - FINALIZADA")
@@ -348,6 +354,9 @@ def gerarRelatorioCAP(empresa):
 
 
 def gerar_relatorio_cap_aberto(empresa):
+
+    fechar_relatorio()
+
     datas = carregar_datas()
 
     periodo = ""
@@ -390,7 +399,7 @@ def gerar_relatorio_cap_aberto(empresa):
         if 'localizado' in icone_relatorio_disponivel:
             break
         else:
-            print("Ainda não localizado verifica_icone_relatorio, tentando novamente...")
+            infoLogs().info("Ainda não localizado verifica_icone_relatorio, tentando novamente...")
             
     
     verifica_texto_titulos_relatorio_aberto()
@@ -429,7 +438,7 @@ def gerar_relatorio_cap_aberto(empresa):
         while True:
             relatori_notas_creditos_vazio = verifica_texto_notas_creditos()
             if 'sim' in relatori_notas_creditos_vazio:
-                print(f"Não tem notas creditos para o periodo informado... | {empresa}")
+                infoLogs().info(f"Não tem notas creditos para o periodo informado... | {empresa}")
                 btn_fechar_aba()
                 tm.sleep(1)
                 py.press('esc')
@@ -440,7 +449,7 @@ def gerar_relatorio_cap_aberto(empresa):
                 infoLogs().info(f"ETAPA GERAR RELATORIO CAP LOKAN {empresa} - FINALIZADA")
                 break
             elif 'nao' in relatori_notas_creditos_vazio:
-                print("Tem notas de creditos...")
+                infoLogs().info("Tem notas de creditos...")
                 
                 icon_salvar()
                 tm.sleep(tempo)
@@ -459,34 +468,37 @@ def gerar_relatorio_cap_aberto(empresa):
                 # Criar o caminho completo para o arquivo
                 caminho_completo = os.path.join(CAMINHO_NOTAS_CREDITOS, nome_arquivo)
 
-                # Copiar o caminho completo para a área de transferência e colar (opcional)
-                pyperclip.copy(caminho_completo)
-        
-                py.write(pyperclip.paste())  # Cola o texto final
-                    
-               
-                
-                tm.sleep(1.5)
-                py.press('enter')
-                
-                
-                while True:
-                    resultado = verifica_icone_excel_superior()  # Armazena o resultado da função
-                    if 'localizado' in resultado:
-                        break  # Sai do loop se 'localizado' for encontrado
-                    else:
-                        print("Ainda não localizado icone_excel_superior, tentando novamente...")
+                if verific_planilha(caminho_completo):
 
-                tm.sleep(tempo)
-                py.keyDown('alt')
-                tm.sleep(tempo)
-                py.press('f4')
-                tm.sleep(tempo)
-                py.keyUp('alt')
-                tm.sleep(tempo)
+                    # Copiar o caminho completo para a área de transferência e colar (opcional)
+                    pyperclip.copy(caminho_completo)
+            
+                    py.write(pyperclip.paste())  # Cola o texto final
+                        
+                
+                    
+                    tm.sleep(1.5)
+                    py.press('enter')
+                    
+                    
+                    while True:
+                        resultado = verifica_icone_excel_superior()  # Armazena o resultado da função
+                        if 'localizado' in resultado:
+                            break  # Sai do loop se 'localizado' for encontrado
+                        else:
+                            infoLogs().info("Ainda não localizado icone_excel_superior, tentando novamente...")
+
+                    tm.sleep(tempo)
+                    py.keyDown('alt')
+                    tm.sleep(tempo)
+                    py.press('f4')
+                    tm.sleep(tempo)
+                    py.keyUp('alt')
+                    tm.sleep(tempo)
+
                 btn_fechar_aba()
                 
-                infoLogs().info(f"ETAPA GERAR RELATORIO CAP LOKAN {empresa} - FINALIZADA")
+                infoLogs().info(f"ETAPA GERAR RELATORIO CAP {empresa} - FINALIZADA")
                 
             
                                 
@@ -528,6 +540,9 @@ def cliques_status_1366x768():
 
 
 def gerarRelatorioCarPG(empresa):
+
+    fechar_relatorio()
+
     # Exemplo de uso para acessar as datas
     datas = carregar_datas()
 
@@ -561,7 +576,7 @@ def gerarRelatorioCarPG(empresa):
             if 'localizado' in icone_relatorio_disponivel:
                 break
             else:
-                print("Ainda não localizado icone_relatorio, tentando novamente...")
+                infoLogs().info("Ainda não localizado icone_relatorio, tentando novamente...")
 
     # #tira a seleção dos status
     # tm.sleep(10)
@@ -634,7 +649,7 @@ def gerarRelatorioCarPG(empresa):
                         break  # Sai do loop se 'localizado' for encontrado
                     else:
                         icon_salvar()
-                        print("Ainda não localizado - salvar_relatorio, tentando novamente...")
+                        infoLogs().info("Ainda não localizado - salvar_relatorio, tentando novamente...")
                         
              
                 tm.sleep(tempo)
@@ -652,41 +667,41 @@ def gerarRelatorioCarPG(empresa):
                  # Criar o caminho completo para o arquivo
                 caminho_completo = os.path.join(CAMINHO_NOTAS_PAGAMENTOS, nome_arquivo)
 
-                # Copiar o caminho completo para a área de transferência e colar (opcional)
-                pyperclip.copy(caminho_completo)
-        
-                py.write(pyperclip.paste())  # Cola o texto final
-                
-                
-                
-                tm.sleep(tempo)
-                py.press('enter')
-                
-                
-                while True:
-                    resultado = verifica_icone_excel_superior()  # Armazena o resultado da função
-                    if 'localizado' in resultado:
-                        break  # Sai do loop se 'localizado' for encontrado
-                    else:
-                        print("Ainda não localizado icone_excel_superior, tentando novamente...")
-                
+                if verific_planilha(caminho_completo):
 
-                tm.sleep(tempo)
-                py.hotkey('alt','F4',interval=0.5)
-                # tm.sleep(tempo)
-                # py.press('f4')
-                # tm.sleep(tempo)
-                # py.keyUp('alt')
-                tm.sleep(tempo)
+                    # Copiar o caminho completo para a área de transferência e colar (opcional)
+                    pyperclip.copy(caminho_completo)
+            
+                    py.write(pyperclip.paste())  # Cola o texto final
+                    
+                    
+                    
+                    tm.sleep(tempo)
+                    py.press('enter')
+                    
+                    
+                    while True:
+                        resultado = verifica_icone_excel_superior()  # Armazena o resultado da função
+                        if 'localizado' in resultado:
+                            break  # Sai do loop se 'localizado' for encontrado
+                        else:
+                            infoLogs().info("Ainda não localizado icone_excel_superior, tentando novamente...")
+                    
 
-                verifica_bem_vindo_login()
+                    tm.sleep(tempo)
+                    py.keyDown('alt')
+                    tm.sleep(tempo)
+                    py.press('f4')
+                    tm.sleep(tempo)
+                    py.keyUp('alt')
+                    tm.sleep(tempo)
 
-
-                # py.press('esc',presses=2)
                 btn_fechar_aba()
+
                 infoLogs().info(f"ETAPA GERAR RELATORIO CAR PG {empresa}- FINALIZADA")
                 
                 break
+
 
 
 def gerarRelatorio():
@@ -717,16 +732,24 @@ def gerarRelatorio():
         tm.sleep(tempo)
 
         for i in EMPRESAS:
+            tm.sleep(15)
+
+            py.press('esc',presses=5,interval=3)
+
+            py.click(23,56) #posição home
+
+            py.hotkey('alt','home') #clica no botão iniciar e deixa as abas abertas
+
+            py.hotkey('alt','home') #clica no botão iniciar e deixa as abas abertas
+
+            tm.sleep(3)
 
             verifica_btn_mudar_empresa = bnt_muda_empresa()
 
             if 'nao' in verifica_btn_mudar_empresa:
-                print('Reiniciando o Sisloc...')
+                infoLogs().info('Reiniciando o Sisloc...')
                 fechar_sisloc()
-                fazer_login()
-
-            else:
-                pass  
+                fazer_login()  
             
             infoLogs().info(f'Numero da empresa consultada - {i}')
             py.press('down',presses=i) #-> antes  LOKAN
@@ -752,23 +775,34 @@ def gerarRelatorio():
             else:
                 infoLogs().info("Filtro para buscar notas de debito")
                 
-                py.press('tab',presses=7)#antes 2
+                py.press('tab',presses=8)#antes 7
 
                 tamanho_tela = verifica_tamanho_tela()
 
-                if '1920x1080' in tamanho_tela:
-                    py.click(989,569)#mudar 466
-                    tm.sleep(0.5)                           
+                py.press('down',presses=4)#informação Nota Debito
+                tm.sleep(0.5)
+                py.press('space')
+                tm.sleep(0.5)
+                py.press('down',presses=6)#incluindo informação RECIBO
+                tm.sleep(0.5)
+                py.press('space')
+                tm.sleep(0.5)
+
+                # if '1920x1080' in tamanho_tela:
+                #     # py.click(989,575)#mudar 466
+                #     py.press('down',presses=4)
+                #     tm.sleep(0.5)
+                #     py.press('space')
+                                            
                     
-                elif '1366x768' in tamanho_tela:
-                    py.click(705,462) #clique notas debitos
-                    tm.sleep(0.5)
+                # elif '1366x768' in tamanho_tela:
+                #     # py.click(705,462) #clique notas debitos
+                #     py.press('down',presses=4)
+                #     tm.sleep(0.5)
+                #     py.press('space')
 
-        
-                py.click(x=1100, y=238)
-
-            
-       
+                py.press('ESC')
+                tm.sleep(0.5)
                 py.press('tab')
 
                 #preenche campo de data
@@ -778,7 +812,7 @@ def gerarRelatorio():
                     py.write(datas[0])
                 elif datas:
                     py.write(datas)
-                
+
 
                 #Seleciona o 2ª campo de Data
                 tm.sleep(tempo)
@@ -786,7 +820,7 @@ def gerarRelatorio():
 
                 #preenche campo da 2ª data
                 tm.sleep(tempo)
-                
+
                 if isinstance(datas, tuple):
                     # Se forem duas datas, imprime as duas
                     py.write(datas[1])
@@ -795,6 +829,8 @@ def gerarRelatorio():
 
 
                 py.press('tab',presses=2)
+                # #Aperta 5x enter para gerar o relatorio
+
                 # #Aperta 5x enter para gerar o relatorio
                 tm.sleep(tempo)
                 py.press('enter',presses=5)
@@ -820,7 +856,7 @@ def gerarRelatorio():
                     while True:
                         tem_notas_debitos = verifica_vazio_notas_debitos()
                         if 'sim' in tem_notas_debitos:
-                            print(f"Não tem notas debitos para o periodo informado... | {empresa}")
+                            infoLogs().info(f"Não tem notas debitos para o periodo informado... | {empresa}")
                             btn_fechar_aba()
                             
                             infoLogs().info(f"ETAPA GERAR RELATORIO FATURAMENTO {empresa}- FINALIZADA")
@@ -841,6 +877,10 @@ def gerarRelatorio():
                             
                             fechar_relatorio()
                             
+                            tm.sleep(5)
+
+                            py.click(23,56) #posição home
+
                             py.hotkey('alt','home') #clica no botão iniciar e deixa as abas abertas
                             
                             break
@@ -853,7 +893,7 @@ def gerarRelatorio():
                                 if 'localizado' in resultado:
                                     break  # Sai do loop se 'localizado' for encontrado
                                 else:
-                                    print("Ainda não localizado - salvar_relatorio, tentando novamente...")
+                                    infoLogs().info("Ainda não localizado - salvar_relatorio, tentando novamente...")
                                     
                             
                             
@@ -871,31 +911,35 @@ def gerarRelatorio():
                             # Criar o caminho completo para o arquivo
                             caminho_completo = os.path.join(CAMINHO_NOTAS_DEBITOS, nome_arquivo)
 
-                            # Copiar o caminho completo para a área de transferência e colar (opcional)
-                            pyperclip.copy(caminho_completo)
-                    
-                            py.write(pyperclip.paste())  # Cola o texto final
                             
-                            
-                            tm.sleep(tempo)
-                            py.press('enter')
-                            
-                            
-                            while True:
-                                resultado = verifica_icone_excel_superior()  # Armazena o resultado da função
-                                if 'localizado' in resultado:
-                                    break  # Sai do loop se 'localizado' for encontrado
-                                else:
-                                    print("Ainda não localizado icone_excel_superior, tentando novamente...")
-                                    
+                            if verific_planilha(caminho_completo):
+                                
+                                # Copiar o caminho completo para a área de transferência e colar (opcional)
+                                pyperclip.copy(caminho_completo)
+                        
+                                py.write(pyperclip.paste())  # Cola o texto final
+                                
+                                
+                                tm.sleep(tempo)
+                                py.press('enter')
+                                
+                                
+                                while True:
+                                    resultado = verifica_icone_excel_superior()  # Armazena o resultado da função
+                                    if 'localizado' in resultado:
+                                        break  # Sai do loop se 'localizado' for encontrado
+                                    else:
+                                        infoLogs().info("Ainda não localizado icone_excel_superior, tentando novamente...")
+                                        
 
-                            tm.sleep(tempo)
-                            py.keyDown('alt')
-                            tm.sleep(tempo)
-                            py.press('f4')
-                            tm.sleep(tempo)
-                            py.keyUp('alt')
-                            tm.sleep(tempo)
+                                tm.sleep(tempo)
+                                py.keyDown('alt')
+                                tm.sleep(tempo)
+                                py.press('f4')
+                                tm.sleep(tempo)
+                                py.keyUp('alt')
+                                tm.sleep(tempo)
+                            
                 
                             btn_fechar_aba()
 
@@ -930,11 +974,11 @@ def gerarRelatorio():
                             fechar_relatorio()
 
                             py.press('enter',presses=5,interval=1)
+
+                            py.click(23,56) #posição home
                             
                             py.hotkey('alt','home') #clica no botão iniciar e deixa as abas abertas
                             
                             break
-
-
 
 

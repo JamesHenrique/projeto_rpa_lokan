@@ -18,16 +18,15 @@ def excluir_arquivos_xls():
     
     # Calcula o timestamp atual e a diferença de 3 dias
     agora = time.time()
-    tres_dias_segundos = 2 * 24 * 60 * 60  # 3 dias em segundos
+    tres_dias_segundos = 3 * 24 * 60 * 60  # 3 dias em segundos
     
     for pasta in pastas:
-        # Cria o padrão para arquivos .xls
-        padrao = os.path.join(pasta, '*.xls')
-        # Localiza todos os arquivos .xls na pasta
-        arquivos_xls = glob.glob(padrao)
+        # Padrões separados para .xls e .xlsx
+        arquivos_xls = glob.glob(os.path.join(pasta, '*.xls'))
+        arquivos_xlsx = glob.glob(os.path.join(pasta, '*.xlsx'))
+        arquivos = arquivos_xls + arquivos_xlsx
         
-        # Verifica a data de modificação e exclui os arquivos com mais de 3 dias
-        for arquivo in arquivos_xls:
+        for arquivo in arquivos:
             try:
                 ultima_modificacao = os.path.getmtime(arquivo)
                 if agora - ultima_modificacao > tres_dias_segundos:
@@ -35,13 +34,3 @@ def excluir_arquivos_xls():
                     infoLogs().info(f"Arquivo {arquivo} excluído com sucesso.")
             except Exception as e:
                 infoLogs().info(f"Erro ao excluir {arquivo}: {e}")
-
-
-
-
-
-
-
-
-
-excluir_arquivos_xls()

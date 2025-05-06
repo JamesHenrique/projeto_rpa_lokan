@@ -75,8 +75,3 @@ def fechar_sisloc():
             print("Sisloc foi fechado.")
             return
     print("Sisloc já estava fechado ou não foi encontrado.")
-
-
-
-
-
